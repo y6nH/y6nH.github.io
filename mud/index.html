@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#">
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="In which Hugo gets a new theme, dark in colour but light in weight.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="author" content="y6nH">
+  
+	
+        <meta property="og:site_name" content="y6nH&#39;s pages">
+        <meta property="og:title" content="y6nH&#39;s pages">
+        <meta property="og:url" content="https://y6nh.github.io/mud/">
+        <meta property="og:description" content="Creative coding for sound and the web.">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="y6nH" />
+        <meta property="og:article:published_time" content="2016-10-10T00:00:00Z" />
+    
+        <meta name="generator" content="Hugo 0.15" />
+
+        <title>Mud &middot; y6nH&#39;s pages</title>
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type="text/css" href="https://y6nh.github.io/css/main.css"/>
+    </head>
+
+<body>
+    <header id="site-header">
+        <div class="container">
+            <a href="https://y6nh.github.io/" alt="y6nH&#39;s pages"><span class="blog-title heading">y6nH&#39;s pages</span></a>
+        </div>
+    </header>
+
+<main class="content" role="main">
+	<div class="container">
+		<article class="page">
+	<header class="post-header">
+        <h1 class="p-post-title">Mud</h1>
+    </header>
+
+    <section class="post-content">
+        
+
+<p>Introducing my theme for Hugo, the static site generator: <strong>Mud</strong>. That&rsquo;s what it&rsquo;s called for the moment, at least. Because it&rsquo;s brown and not very clever. Let&rsquo;s see whether it sticks.</p>
+
+<h2 id="lightweight:82bf9e7933452a9744f75a2060f3c403">Lightweight</h2>
+
+<p>The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&rsquo;re somehow stuck in the 90s.</p>
+
+<h2 id="modern:82bf9e7933452a9744f75a2060f3c403">Modern</h2>
+
+<p>Mud uses HTML5 semantic elements for article, section, header, footer and so on, as you&rsquo;d expect from a Hugo site. It also includes shortcodes for asides and <a href="#footnotes">footnotes</a> in your content, allowing you to use Markdown syntax inside them - without them, you have to write all block elements in plain HTML.</p>
+
+<aside class="hide-box">
+  <label for="hb_click-me">Click me</label>
+  <input id="hb_click-me" type="checkbox" checked />
+  <div><p>This is a hidden message, achieved with Mud&rsquo;s <code>hidebox</code> shortcode. It&rsquo;s fully CSS driven, and so works without JavaScript.</p>
+</div>
+</aside>
+
+
+<p>Mud does code highlighting with Pygments, so that no JavaScript is necessary, and you can take advantage of Pygments&rsquo; extensive library of languages.</p>
+
+<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span></span><span class="c1">// Here are some of the colours from the stylesheet:</span>
+<span class="nv">$color_background</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">190</span><span class="o">,</span> <span class="mi">5</span><span class="kt">%</span><span class="o">,</span> <span class="mi">16</span><span class="kt">%</span><span class="p">);</span>
+<span class="nv">$color_background_under</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">73</span><span class="o">,</span> <span class="mi">10</span><span class="kt">%</span><span class="o">,</span> <span class="mi">11</span><span class="kt">%</span><span class="p">);</span>
+<span class="nv">$color_background_over</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">43</span><span class="o">,</span> <span class="mi">5</span><span class="kt">%</span><span class="o">,</span> <span class="mi">23</span><span class="kt">%</span><span class="p">);</span>
+
+<span class="nv">$color_text</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">43</span><span class="o">,</span> <span class="mi">20</span><span class="kt">%</span><span class="o">,</span> <span class="mi">90</span><span class="kt">%</span><span class="p">);</span>
+<span class="nv">$color_text_dim1</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">43</span><span class="o">,</span> <span class="mi">25</span><span class="kt">%</span><span class="o">,</span> <span class="mi">85</span><span class="kt">%</span><span class="p">);</span>
+<span class="nv">$color_text_dim2</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">43</span><span class="o">,</span> <span class="mi">21</span><span class="kt">%</span><span class="o">,</span> <span class="mi">79</span><span class="kt">%</span><span class="p">);</span>
+<span class="nv">$color_text_dim3</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">43</span><span class="o">,</span> <span class="mi">17</span><span class="kt">%</span><span class="o">,</span> <span class="mi">71</span><span class="kt">%</span><span class="p">);</span>
+<span class="nv">$color_text_bright</span><span class="o">:</span> <span class="mh">#fff</span><span class="p">;</span>
+</code></pre></div>
+
+
+<p><div class="highlight"><pre><code class="language-rust" data-lang="rust"><span></span><span class="c1">// Or, for example, Hello World in Rust</span>
+<span class="n">io</span><span class="o">::</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">);</span><span class="w"></span>
+</code></pre></div>
+</p>
+
+<h2 id="dark:82bf9e7933452a9744f75a2060f3c403">Dark</h2>
+
+<p>Minimal doesn&rsquo;t always mean white. White&rsquo;s all very well, but we geeks and night owls appreciate the gloom of a nice dark theme. Nothing&rsquo;s quite black, all the dirty greys and muted pastels are chromatically based on a small, harmonious set of hues.</p>
+
+<p><aside id="footnotes" class="footnote"><p>This is a footnote. Notice how it gets highlighted when you click the link in the text?</p>
+</aside></p>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            <span class="author">
+                y6nH
+            </span>
+            
+
+            <span class="f-post-time"><time datetime="2016-10-10T00:00:00Z">10 October 2016</time></span>
+        </section>
+
+        <section class="f-2">
+            
+        </section>
+                
+
+    </footer>
+</article>
+
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <span>Made with <a href="http://gohugo.io/">Hugo</a> by <a href="https://y6nh.github.io/">y6nH</a>.</span>
+            <span>&copy; 2016. You are free to reuse this content under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons BY-SA 4.0</a> licence.</span>
+            <span><a href="https://y6nh.github.io/index.xml" title="RSS feed">RSS</a>.</span>
+        </div>
+    </footer>
+
+
+</body>
+</html>

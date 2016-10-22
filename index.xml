@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/</link>
+    <description>Recent content on y6nH&#39;s pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>You are free to reuse this content under the &lt;a href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <lastBuildDate>Mon, 10 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://y6nh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mud</title>
+      <link>https://y6nh.github.io/mud/</link>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/mud/</guid>
+      <description>
+
+&lt;p&gt;Introducing my theme for Hugo, the static site generator: &lt;strong&gt;Mud&lt;/strong&gt;. That&amp;rsquo;s what it&amp;rsquo;s called for the moment, at least. Because it&amp;rsquo;s brown and not very clever. Let&amp;rsquo;s see whether it sticks.&lt;/p&gt;
+
+&lt;h2 id=&#34;lightweight:82bf9e7933452a9744f75a2060f3c403&#34;&gt;Lightweight&lt;/h2&gt;
+
+&lt;p&gt;The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&amp;rsquo;re somehow stuck in the 90s.&lt;/p&gt;
+
+&lt;h2 id=&#34;modern:82bf9e7933452a9744f75a2060f3c403&#34;&gt;Modern&lt;/h2&gt;
+
+&lt;p&gt;Mud uses HTML5 semantic elements for article, section, header, footer and so on, as you&amp;rsquo;d expect from a Hugo site. It also includes shortcodes for asides and &lt;a href=&#34;#footnotes&#34;&gt;footnotes&lt;/a&gt; in your content, allowing you to use Markdown syntax inside them - without them, you have to write all block elements in plain HTML.&lt;/p&gt;
+
+&lt;aside class=&#34;hide-box&#34;&gt;
+  &lt;label for=&#34;hb_click-me&#34;&gt;Click me&lt;/label&gt;
+  &lt;input id=&#34;hb_click-me&#34; type=&#34;checkbox&#34; checked /&gt;
+  &lt;div&gt;&lt;p&gt;This is a hidden message, achieved with Mud&amp;rsquo;s &lt;code&gt;hidebox&lt;/code&gt; shortcode. It&amp;rsquo;s fully CSS driven, and so works without JavaScript.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/aside&gt;
+
+
+&lt;p&gt;Mud does code highlighting with Pygments, so that no JavaScript is necessary, and you can take advantage of Pygments&amp;rsquo; extensive library of languages.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Here are some of the colours from the stylesheet:&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_background&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;190&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_background_under&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;73&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_background_over&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
+&lt;span class=&#34;nv&#34;&gt;$color_text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_dim1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;85&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_dim2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;79&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_dim3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;71&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_bright&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#fff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Or, for example, Hello World in Rust&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;dark:82bf9e7933452a9744f75a2060f3c403&#34;&gt;Dark&lt;/h2&gt;
+
+&lt;p&gt;Minimal doesn&amp;rsquo;t always mean white. White&amp;rsquo;s all very well, but we geeks and night owls appreciate the gloom of a nice dark theme. Nothing&amp;rsquo;s quite black, all the dirty greys and muted pastels are chromatically based on a small, harmonious set of hues.&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;footnotes&#34; class=&#34;footnote&#34;&gt;&lt;p&gt;This is a footnote. Notice how it gets highlighted when you click the link in the text?&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A first synth with Csound and Cabbage</title>
+      <link>https://y6nh.github.io/first-synth-with-csound-cabbage/</link>
+      <pubDate>Wed, 10 Aug 2016 00:07:50 +0100</pubDate>
+      
+      <guid>https://y6nh.github.io/first-synth-with-csound-cabbage/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-are-csound-and-cabbage:999164783295c2dd3e9b1b34ad45544f&#34;&gt;What are Csound and Cabbage?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/cabbage-transparent.svg&#34; alt=&#34;The Cabbage logo: a green cabbage wearing headphones.&#34; style=&#34;width:17rem;height:17rem;background:transparent&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://csound.github.io/&#34;&gt;Csound&lt;/a&gt; is a computer music composition system. It turns 30 this year (2016), which makes it a veteran in technology terms: 1986 was the year of the Nintendo Entertainment System, if that helps. It predates the 486 processor, the World Wide Web, Linux, SMS, Java, and mobile phones smaller than a brick. But Csound has continued to evolve, and is still in active development and use. Although it&amp;rsquo;s named after the C programming language, that&amp;rsquo;s because it&amp;rsquo;s made with C, not because it resembles C. You&amp;rsquo;ll be glad to hear it&amp;rsquo;s easier than C, too. Csound can be used on its own to generate pieces of music, or with other music software.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cabbageaudio.com/&#34;&gt;Cabbage&lt;/a&gt; is a friendly Csound editor which packages Csound instruments and effects into stand-alone programs or plugins. A plugin is what you need in order to use your synth (or effect) in a digital audio workstation (DAW) program, such as Cubase, Sonar, Ableton Live or (my favourite) &lt;a href=&#34;http://www.tracktion.com/&#34;&gt;Tracktion&lt;/a&gt;.&lt;/p&gt;
+
+&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;This audio file uses a synthesizer built according to the instructions in this tutorial, and no other instruments or effects. You can find the Tracktion files used to create it along with the source code.&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll show you how to use Cabbage to create a software synthesizer which sounds like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls&gt;
+&lt;source src=&#34;https://y6nh.github.io/audio/crubulator.mp3&#34;/&gt;
+&lt;source src=&#34;https://y6nh.github.io/audio/crubulator.ogg&#34;/&gt;
+&lt;a href=&#34;https://y6nh.github.io/audio/crubulator.mp3&#34;&gt;Download the mp3 file, your browser is too rubbish to play it.&lt;/a&gt;
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;first-steps:999164783295c2dd3e9b1b34ad45544f&#34;&gt;First steps&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cabbageaudio.com/download/&#34;&gt;Download and install Cabbage&lt;/a&gt;. For Windows, there are 32-bit and 64-bit versions, and which one to choose depends on the host where you want to use your instruments. If you run a 64-bit DAW, then choose Cabbage64 (with the black headphones on the logo). If you use 32-bit, which is more likely, then choose Cabbage32 (with the white headphones). You might want to install both. Go on, it&amp;rsquo;s free. It&amp;rsquo;s trivial to convert a plugin from one to the other, so choosing the wrong one doesn&amp;rsquo;t matter much.&lt;/p&gt;
+
+&lt;p&gt;For Mac, there&amp;rsquo;s only one version, and for Linux you may have to compile it yourself. These instructions are based on the Windows version, but should work on any of them.&lt;/p&gt;
+
+&lt;p&gt;Once it&amp;rsquo;s installed and started up, click the Options button, and choose New Cabbage&amp;hellip; Instrument. You&amp;rsquo;re prompted to give it a name. As you probably know, naming things is one of the hardest two problems in computer science. Choose the right names for a few things, and your program&amp;rsquo;s practically written itself. So call it BasicSynth, or call it FlyingBanana or Crubulator or &lt;a href=&#34;#poignant&#34;&gt;ChunkyBacon&lt;/a&gt; if you think that&amp;rsquo;s a better idea. But don&amp;rsquo;t say I didn&amp;rsquo;t warn you.&lt;/p&gt;
+
+&lt;p&gt;Cabbage doesn&amp;rsquo;t leave you staring at a blank page. You should see two windows appear: one with code, and a blue one with a keyboard on it. You&amp;rsquo;ve already clicked it, right? It buzzed! Yes, you&amp;rsquo;ve already made a synth just by naming a new project. Well done, tutorial over.&lt;/p&gt;
+
+&lt;h2 id=&#34;but-wait:999164783295c2dd3e9b1b34ad45544f&#34;&gt;But wait&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;OK, this synth is sort of weak. Let&amp;rsquo;s make it better.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re anything like me, the first thing you do with any new program is dive into the options and tweak the colours. In fact, I&amp;rsquo;m a little disappointed when a program looks really nice out of the box. I&amp;rsquo;ll leave you to play with the Cabbage editor styles on your own, but first let&amp;rsquo;s make this synth our own.&lt;/p&gt;
+
+&lt;aside class=&#34;side&#34;&gt;
+If ever the code window isn&#39;t visible, you can show it by selecting &#34;View Source Editor&#34; in the Options button menu. Lots of other good stuff in there too (and, for reasons which elude me, &#34;Cabbage Dance&#34;), so that&#39;s the first place to look if you&#39;re stuck.
+&lt;/aside&gt;
+
+&lt;p&gt;At the top of the code window is the special &lt;code&gt;&amp;lt;Cabbage&amp;gt;&lt;/code&gt; section. Update the bit that says &lt;code&gt;form caption(&amp;quot;Untitled&amp;quot;)&lt;/code&gt; to a more inspiring name, like &lt;code&gt;form caption(&amp;quot;The Crubulator&amp;quot;)&lt;/code&gt;. There&amp;rsquo;s also &lt;code&gt;pluginID(&amp;quot;def1&amp;quot;)&lt;/code&gt; - change &amp;ldquo;def1&amp;rdquo; to something else, but keep it four characters long. It has to be four, &lt;a href=&#34;#plugin-id&#34;&gt;for some reason&lt;/a&gt;. Then you have &lt;code&gt;size(400, 300)&lt;/code&gt;, which will do for now, and &lt;code&gt;colour(58, 110, 182)&lt;/code&gt;, which certainly will not. It&amp;rsquo;s refreshing for us British English speakers that there&amp;rsquo;s a &lt;strong&gt;u&lt;/strong&gt; in &lt;code&gt;colour&lt;/code&gt;, but the system is the same as everywhere else: three numbers from 0 to 255, representing the proportion of red, green and blue you want. I&amp;rsquo;ve gone for a deep red, &lt;code&gt;colour(80, 10, 0)&lt;/code&gt;. Press &lt;code&gt;ctrl+s&lt;/code&gt; to save, and you&amp;rsquo;ll see the synth window update.
+&lt;img src=&#34;https://y6nh.github.io/img/crubulator1.png&#34; alt=&#34;Screenshot of the Cabbage synth window, showing a keyboard on a deep red background&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;guts:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Guts&lt;/h2&gt;
+
+&lt;p&gt;I think you&amp;rsquo;ll agree that it sounds better already. But let&amp;rsquo;s get to the actual sound-generating guts of it and really make this baby crubulate. Further down the code window, find the comment (a line starting with a semicolon) &lt;code&gt;;instrument will be triggered by keyboard widget&lt;/code&gt;. Under that, between &lt;code&gt;instr 1&lt;/code&gt; and &lt;code&gt;endin&lt;/code&gt;, is the definition of the instrument.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;instr&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;1&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;madsr&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.4&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;vco2&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p4&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;outs&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;endin&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;These are the underdeveloped guts of our nascent crubulator. All we have here is an ADSR envelope, &lt;code&gt;madsr&lt;/code&gt;, controlling the volume of an oscillator, &lt;code&gt;vco2&lt;/code&gt;, which is routed to the two output channels, &lt;code&gt;outs&lt;/code&gt;. Those three keywords show up in blue (or whatever colour you&amp;rsquo;ve tweaked them to), because they&amp;rsquo;re &lt;em&gt;opcodes&lt;/em&gt;. Opcodes are the building blocks of Csound. If you&amp;rsquo;re a programmer, they&amp;rsquo;re like functions. If you&amp;rsquo;re a musician, they&amp;rsquo;re like basic synth modules and effects that you can plug together.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s take a closer look at the first one. It starts with &lt;code&gt;kEnv&lt;/code&gt;, which is a new variable to accept the output of the rest of the line. (If you use guitar effects pedals, you&amp;rsquo;ll know that the output jack is conventionally on the left, like this. &lt;code&gt;kEnv&lt;/code&gt; is your patch cable plugged into the output.). Then the opcode, &lt;code&gt;madsr&lt;/code&gt;, and then four numbers, the parameters, which are the four knobs on your pedal. There&amp;rsquo;s no input jack on this one, since it just outputs a control signal. To find out what an opcode does, click on it and press &lt;code&gt;f1&lt;/code&gt;. The official Csound documentation is rather dry, but honest. The page for &lt;code&gt;madsr&lt;/code&gt; contains the heartening phrase &amp;lsquo;not yet properly tested&amp;rsquo;, which should probably be on most pages of most software manuals. It also tells you that, as you might expect if you&amp;rsquo;ve ever used a synth before, the four numbers after the opcode control the &lt;strong&gt;a&lt;/strong&gt;ttack time, &lt;strong&gt;d&lt;/strong&gt;ecay time, &lt;strong&gt;s&lt;/strong&gt;ustain level and &lt;strong&gt;r&lt;/strong&gt;elease time of the envelope. (The &lt;strong&gt;m&lt;/strong&gt; is for MIDI compatible.)&lt;/p&gt;
+
+&lt;p&gt;The next line starts with &lt;code&gt;aOut&lt;/code&gt;, which is the output again. This one starts with &lt;strong&gt;a&lt;/strong&gt; because it&amp;rsquo;s an &lt;strong&gt;audio&lt;/strong&gt; signal, whereas &lt;code&gt;kEnv&lt;/code&gt; starts with &lt;strong&gt;k&lt;/strong&gt; because it&amp;rsquo;s a &lt;strong&gt;control&lt;/strong&gt; (Kontrol) signal. &lt;a href=&#34;#variables&#34;&gt;This is actually important&lt;/a&gt; - unlike most sane programming languages, you can&amp;rsquo;t name variables however you want in Csound, because the first letter of a variable&amp;rsquo;s name defines its type. Then the opcode, &lt;code&gt;vco2&lt;/code&gt;. The term VCO will be familiar to synth players, though knowing it stands for &amp;lsquo;Voltage Controlled Oscillator&amp;rsquo; won&amp;rsquo;t help you much. It generates a raw tone. This time, instead of actual numbers controlling it, we have &lt;code&gt;p4&lt;/code&gt; and &lt;code&gt;p5&lt;/code&gt;. These beauties are the keyboard input. If you look near the top of the file, at the &lt;code&gt;&amp;lt;CsOptions&amp;gt;&lt;/code&gt; section that you&amp;rsquo;re glad you didn&amp;rsquo;t have to write, you can see the frequency and amplitude being wired up to the numbers 4 and 5: &lt;code&gt;--midi-key-cps=4 --midi-velocity-amp=5&lt;/code&gt;. (By the way, the note velocity / amplitude on the Cabbage keyboard is controlled by the vertical position of your click.)&lt;/p&gt;
+
+&lt;p&gt;The third and final line of the guts starts with the opcode &lt;code&gt;outs&lt;/code&gt;, which has no output (it &lt;em&gt;is&lt;/em&gt; the output), and two inputs, both of which are &lt;code&gt;aOut*kEnv&lt;/code&gt; - the raw tone output of the oscillator &amp;lsquo;multiplied by&amp;rsquo; the control signal from the envelope. It may seem weird to change the volume of a sound using the multiplication operator, but music is math, man. Or music are maths. Or something. The oscillator is producing a signal that varies quickly between -1 and 1 (say 440 times a second, if you hit the middle A on the keyboard), and the envelope is producing a signal that varies slowly between 0 and 1, and at each point in time the output requires a new value (44100 times a second, depending on your audio settings) it does the multiplication, and sends that number to the left and right channels. (And eventually that number gets converted to an actual analogue voltage and sent to your speakers or headphones.)&lt;/p&gt;
+
+&lt;h2 id=&#34;knobs:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Knobs&lt;/h2&gt;
+
+&lt;p&gt;Every good synth deserves knobs. Let&amp;rsquo;s add one.&lt;/p&gt;
+
+&lt;p&gt;Add two parameters to the &lt;code&gt;vco2&lt;/code&gt; line. Remembering to put commas between them, add &lt;code&gt;2&lt;/code&gt; and &lt;code&gt;kPulsewidth&lt;/code&gt;. So now you should have &lt;code&gt;aOut vco2 p5, p4, 2, kPulsewidth&lt;/code&gt;. Save the file and try the synth again&amp;hellip; oh no, we&amp;rsquo;ve broken it! Actually, we&amp;rsquo;ve changed the oscillator from the default sawtooth wave to a pulse wave, and added a controller for the pulse width. The control signal &lt;code&gt;kPulsewidth&lt;/code&gt; isn&amp;rsquo;t defined yet, but that&amp;rsquo;s where the knob comes in.
+&lt;img src=&#34;https://y6nh.github.io/img/crubulator2.png&#34; alt=&#34;Screenshot of the Cabbage synth window, in which we&#39;re showing the menu to add a knob.&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;On the synth interface that we&amp;rsquo;ve so lovingly coloured in, click the Options button, and choose &amp;ldquo;Edit-mode&amp;rdquo;. Now right-click somewhere above the keyboard that looks like a good place for a knob, and choose &amp;ldquo;Indigenous &amp;gt; rslider&amp;rdquo;. (Knobs are called rsliders, as if there&amp;rsquo;s not a perfectly good name for them.) Now click on the knob that appears, and you&amp;rsquo;ll see a long list of properties for it. Change the &amp;ldquo;channel&amp;rdquo; property from &amp;ldquo;rslider&amp;rdquo; to &amp;ldquo;pulsewidth&amp;rdquo;. Make the &amp;ldquo;text&amp;rdquo; say &amp;ldquo;Pulsewidth&amp;rdquo; too. Change the &amp;ldquo;value&amp;rdquo; property from 0 to 0.5. Maybe change the max and min so that they&amp;rsquo;re a bit less than 1 and a bit more than 0 - the ends of the range aren&amp;rsquo;t very useful. And I know how much you like tweaking colours, so go ahead and make it pretty. Press Esc to apply the changes. Maybe make the knob a bit bigger, so that you can read the whole of the label - you can either drag the corner of the sizing box around the knob, or change the numbers in the properties list. Turn off &amp;ldquo;Edit-mode&amp;rdquo; in the menu to return to a playable state.&lt;/p&gt;
+
+&lt;p&gt;So now we have a knob, but it&amp;rsquo;s not wired up. At the start of the instrument, under &lt;code&gt;instr 1&lt;/code&gt;, add a new line: &lt;code&gt;kPulsewidth chnget &amp;quot;pulsewidth&amp;quot;&lt;/code&gt;. The name &amp;ldquo;pulsewidth&amp;rdquo; matches the &amp;ldquo;channel&amp;rdquo; property of the knob, which you may have spotted has appeared as a line of code at the top of the file. The &lt;code&gt;chnget&lt;/code&gt; opcode converts the knob&amp;rsquo;s position to a control signal (which, as you know, has to begin with &amp;ldquo;k&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;Save that now and try playing some notes again. Move the knob and hear how the sound changes.&lt;/p&gt;
+
+&lt;h2 id=&#34;push-the-envelope:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Push the envelope&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/crubulator3.png&#34; alt=&#34;Our synth so far, with a Pulsewidth knob and ADSR sliders.&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;How about some sliders for that &lt;code&gt;madsr&lt;/code&gt;? Put the synth interface back into Edit-mode and right click to add a vertical slider - that&amp;rsquo;s &amp;ldquo;Indigenous &amp;gt; vslider&amp;rdquo;. Set the text to &amp;ldquo;A&amp;rdquo;, the channel to &amp;ldquo;attack&amp;rdquo;, and the size and colours as you think best. The value is in seconds, so you could set the max to something greater than 1; I went for 5. According to the documentation for &lt;code&gt;madsr&lt;/code&gt;, &lt;em&gt;the minimum value is not allowed to be 0&lt;/em&gt;, but it can be a very small number like 0.000001.&lt;/p&gt;
+
+&lt;p&gt;Instead of setting up another slider from scratch, you can right-click and duplicate the A slider. Do this three times and arrange the new sliders neatly. Now set their channels to &amp;ldquo;decay&amp;rdquo;, &amp;ldquo;sustain&amp;rdquo; and &amp;ldquo;release&amp;rdquo;, and their text to &amp;ldquo;D&amp;rdquo;, &amp;ldquo;S&amp;rdquo; and &amp;ldquo;R&amp;rdquo;. The sustain value needs to be between 0 and 1, so make sure the max for the &amp;ldquo;S&amp;rdquo; slider is 1, and the value (the starting position) is something civilised like 0.6. The A, D and R sliders are all times in seconds, so they can go on beyond 1. But remember, they&amp;rsquo;re not allowed to go right down to 0.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s wire those sliders up. In the code editor, add some more &lt;code&gt;chnget&lt;/code&gt; lines:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;attack&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Decay&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;decay&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sustain&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sustain&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Release&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;release&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And plug those into the &lt;code&gt;madsr&lt;/code&gt; envelope generator:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;madsr&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Decay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sustain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Release&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+Unlike the k-rate pulsewidth controller, these are i-rate variables. That means that they&amp;rsquo;re only read once per note, and so can&amp;rsquo;t change after the note has started.&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s the instrument section:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;; instrument will be triggered by keyboard widget&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;instr&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;1&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;; get the control signals from the knobs and sliders&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Pulsewidth&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;pulsewidth&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;attack&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Decay&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;decay&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sustain&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sustain&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Release&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;release&amp;quot;&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;; ADSR envelope&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;madsr&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Decay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sustain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Release&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;; Pulsewidth oscillator&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;vco2&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Pulsewidth&lt;/span&gt;
+
+&lt;span class=&#34;nb&#34;&gt;outs&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;endin&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+You can add as many comments (starting with &amp;ldquo;;&amp;rdquo;) and blank lines as you want, to make it more legible.&lt;/p&gt;
+
+&lt;h2 id=&#34;squelch:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Squelch&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;ve added some knobs to the default guts of the thing, but now let&amp;rsquo;s add something new. The voltage-controlled trinity of VCO (oscillator), VCA (amplifier) and VCF (filter) needs to be completed.&lt;/p&gt;
+
+&lt;p&gt;Open &lt;a href=&#34;http://www.csounds.com/manual/html/index.html&#34;&gt;the Csound manual&lt;/a&gt; (you can get to it from the Help menu in Cabbage&amp;rsquo;s source editor window, or press f1). Scroll down to the Opcodes Overview section. What a lot of goodies. Hyper Vectorial Synthesis. Waveguide Physical Modeling. Convolution and Morphing. Non-standard Spectral Processing. And it&amp;rsquo;s all free for you to play with. If you find out what it all does, write me a tutorial. Anyway, drag your clicking finger away from the sexy stuff for the moment, and find &lt;a href=&#34;http://www.csounds.com/manual/html/SigmodStandard.html&#34;&gt;Standard Filters&lt;/a&gt;, under Signal Modifiers. In there, you have 18 types of resonant low-pass filter. If you don&amp;rsquo;t know what a resonant low-pass filter is, it&amp;rsquo;s the thing that&amp;rsquo;s responsible for exactly 84% of the cool bits in all electronic music. Let&amp;rsquo;s pick &amp;ldquo;moogladder&amp;rdquo;, more or less because it has &lt;a href=&#34;#moog&#34;&gt;a nice name&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, back to the code editor. Let&amp;rsquo;s put the filter after the VCO.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Osc&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;vco2&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Pulsewidth&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;moogladder&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Cutoff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Resonance&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You&amp;rsquo;re no fool. You noticed immediately that the output of vco2 is now going to a new variable called aOsc, and aOsc is going into our moogladder (from the right), and that&amp;rsquo;s going into the old aOut variable. Exactly like putting another guitar effect pedal on your board: you need another patch cable. What&amp;rsquo;s more, you&amp;rsquo;ve noticed those two new control variables, and you know what they need. More knobs.&lt;/p&gt;
+
+&lt;p&gt;On the synth interface, go into Edit-mode again, and duplicate the Pulsewidth knob twice. The Cutoff knob needs a channel of &amp;ldquo;cutoff&amp;rdquo;, naturally, and minimum and maximum values in the audible frequency range, roughly 20 to 20,000 Hz. I chose 40 and 10240, with a default of 5120. One extra on this - set the &amp;ldquo;sliderskew&amp;rdquo; to 0.3. If you leave it at 1, the knob will seem really sensitive at low values, and not at the top. That&amp;rsquo;s because each octave doubles the frequency: the first octave goes from 40 to 80 Hz, the second from 80 to 160, and so on, up to the last from 5120 to 10240. So the top octave takes up half the dial, and seven octaves are squeezed into the lower half. If we &amp;ldquo;skew&amp;rdquo; the slider, it reacts more intuitively.&lt;/p&gt;
+
+&lt;p&gt;The Resonance knob needs a channel of &amp;ldquo;resonance&amp;rdquo;, and values from 0 to 1. The documentation says that you can go higher than 1, warning that &amp;ldquo;Higher than 1 resonance values might cause aliasing&amp;rdquo;. I didn&amp;rsquo;t notice aliasing as such, but it certainly made a horrible noise when I tried it.&lt;/p&gt;
+
+&lt;p&gt;Back out of Edit-mode, and let&amp;rsquo;s finish the wiring. Add these two to the &lt;code&gt;chnget&lt;/code&gt;s:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Cutoff&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;cutoff&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Resonance&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;resonance&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Try it out.&lt;/p&gt;
+
+&lt;p&gt;If, like me, you got a bit too enthusiastic and tried to play all the notes at once, that&amp;rsquo;s good. Some call it &amp;ldquo;smoke testing&amp;rdquo;, from the practice of running an electrical prototype at higher and higher power until something starts to smoulder. Whatever smokes first is the weak link in the design. Don&amp;rsquo;t know about yours, but my little synth develops some horrible crackly &lt;a href=&#34;#distortion&#34;&gt;distortion&lt;/a&gt; if you push it, and that&amp;rsquo;s a whiff of smoke.&lt;/p&gt;
+
+&lt;p&gt;There are a few ways of avoiding hitting that distortion threshold. The boring one is to turn stuff down until it doesn&amp;rsquo;t distort - you could make your &lt;code&gt;outs aOut*kEnv*0.5, aOut*kEnv*0.5&lt;/code&gt; or so, but turning stuff down is for squares. Luckily, we have a &lt;a href=&#34;#compression&#34;&gt;compressor&lt;/a&gt; to hand, and compression is for cool people. So I&amp;rsquo;ve heard. In a nutshell, compression just makes the loud bits quieter, leaving the quiet bits alone. If we put it between the filter and the output, the envelope will still change the signal level as normal, so we won&amp;rsquo;t lose dynamic range.&lt;/p&gt;
+
+&lt;p&gt;This is a good starting point:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Filt&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;moogladder&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Cutoff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Resonance&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;; Compressor to stop nasty digital distortion&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;compress&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Filt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Filt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.0001&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;outs&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Do read the docs and tweak those numbers, or even add some knobs to control the compression parameters if you like.&lt;/p&gt;
+
+&lt;h2 id=&#34;export-strength:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Export strength&lt;/h2&gt;
+
+&lt;p&gt;To use your synth outside of Cabbage, you&amp;rsquo;ll need to export it. From the Options menu, choose &amp;ldquo;Export as&amp;hellip; Plugin Synth&amp;rdquo; and save it as a plugin to use in your &lt;abbr title=&#34;Digital Audio Workstation&#34;&gt;DAW&lt;/abbr&gt;.
+&lt;img src=&#34;https://y6nh.github.io/img/cabbage-export.png&#34; alt=&#34;Screenshot of the Cabbage export dialog box.&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, put both the dll file and the csd file for your synth somewhere your DAW can find it. If you don&amp;rsquo;t have a DAW, you can get &lt;a href=&#34;https://marketplace.tracktion.com/app/free-daw&#34;&gt;an excellent free version of Tracktion&lt;/a&gt; which will do nicely. Here&amp;rsquo;s our finished synth in action:
+&lt;img src=&#34;https://y6nh.github.io/img/crubulator-in-tracktion.png&#34; alt=&#34;Screenshot of the synth plugin in use with the Tracktion DAW&#34; class=&#34;fullwidth&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find out more about exporting from &lt;a href=&#34;http://cabbageaudio.com/docs/exporting/&#34;&gt;the Cabbage documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;exercises:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Exercises&lt;/h2&gt;
+
+&lt;p&gt;That&amp;rsquo;s just a start. Plenty more space for knobs on that little synth. If you&amp;rsquo;re looking for ideas of where to take it next, here are a few:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add another effect, for example &lt;code&gt;distort1&lt;/code&gt;, &lt;code&gt;flanger&lt;/code&gt; or &lt;code&gt;reverb&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add a control which applies varying amounts of the envelope signal to the filter cutoff&lt;/li&gt;
+&lt;li&gt;Add more controllers - knobs, sliders, or whatever - for the code you&amp;rsquo;ve already got&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;footnotes:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;p&gt;&lt;aside id=&#34;variables&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;csound-variables:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Csound variables&lt;/h3&gt;
+
+&lt;p&gt;Because Csound is a language dealing with signals over time, the variables behave differently to those in most other programming languages. It may be useful to think of them as &amp;ldquo;signal carriers&amp;rdquo; or &amp;ldquo;patch cables&amp;rdquo; or &amp;ldquo;pipes&amp;rdquo;, as opposed to the regular &amp;ldquo;slots&amp;rdquo; or &amp;ldquo;boxes&amp;rdquo;. The code receiving values from a variable will check it for a new value (take another slurp from the pipe, if you will) many times a second.&lt;/p&gt;
+
+&lt;p&gt;Every variable in Csound starts with a letter which specifies how often it changes. Part of the file boilerplate that Cabbage wrote for you, above the guts, says &lt;code&gt;sr = 44100&lt;/code&gt;, which sets the audio sample rate to that many per second, the same rate as a CD. So the variables starting with &lt;code&gt;a&lt;/code&gt; (audio) change at 44100 Hz. The next line, &lt;code&gt;ksmps = 32&lt;/code&gt;, says that the control variables, starting with &lt;code&gt;k&lt;/code&gt;, change every 32 samples. So that&amp;rsquo;s 44100 Hz / 32 = 1378.125 Hz. Still pretty fast. Variables starting with &lt;code&gt;i&lt;/code&gt; (initialization) or &lt;code&gt;p&lt;/code&gt; (performance) are only read every time a note starts, and stay the same during the note.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;plugin-id&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;plugin-ids:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Plugin IDs&lt;/h3&gt;
+
+&lt;p&gt;In theory, every VST plugin has a unique four-character ID. Steinberg, who invented the system, keep a database of the IDs, and if you want to distribute a plugin you&amp;rsquo;ve made, you should &lt;a href=&#34;http://service.steinberg.de/databases/plugin.nsf/plugIn?openForm&#34; target=&#34;Steinberg&#34;&gt;register its ID&lt;/a&gt; there.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;rounding&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;rounding-error:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Rounding error&lt;/h3&gt;
+
+&lt;p&gt;You may notice that the numbers you set in the controller&amp;rsquo;s properties change to long, random-looking decimals, like 0.010000000000000000208 or 1.0000000000000000818e-005. That&amp;rsquo;s nothing to worry about, it&amp;rsquo;s a side effect of the way computers store numbers, called rounding error. They only have a certain number of bits to store each number, and with an infinite range of possible numbers to represent (even between 0 and 1), they have to round what you type in to the nearest number that fits into the storage system. It may seem weird, but (with this particular scheme) the program actually can&amp;rsquo;t represent 0.01 exactly.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;moog&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;moog:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Moog&lt;/h3&gt;
+
+&lt;p&gt;Moog is possibly the most famous synthesizer brand in the world. Csound has not only two different implementations of the Moog ladder filter used in this article, but also &lt;a href=&#34;http://www.csounds.com/manual/html/moog.html&#34; target=&#34;themanual&#34;&gt;an opcode just called &lt;code&gt;moog&lt;/code&gt;&lt;/a&gt;, which emulates an entire Minimoog synthesizer. They love it.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested, Bob Moog himself explains what a low-pass filter does in &lt;a href=&#34;https://www.moogmusic.com/legacy/bob-moog-synthesizers-low-pass-filters-mayjune-1976&#34; target=&#34;bob&#34;&gt;this vintage article&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;distortion&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;digital-distortion:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Digital distortion&lt;/h3&gt;
+
+&lt;p&gt;You may be thinking &amp;ldquo;&amp;hellip;but I &lt;em&gt;like&lt;/em&gt; distortion&amp;rdquo;, but the sad fact is that digital audio doesn&amp;rsquo;t distort prettily. With a guitar amplifier or a tape recorder, you can push the volume into the red and it starts to sound interesting as the tops of the waveforms get squashed. With a digital signal, all that happens is the tops get lopped off in a straight line, and it sounds rubbish.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;compression&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;compression:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Compression&lt;/h3&gt;
+
+&lt;p&gt;Compression is an enormous and controversial subject in audio engineering, and it would be foolhardy for me to try to explain it here. So I won&amp;rsquo;t go through what the options do on that &lt;code&gt;compress&lt;/code&gt; opcode; take it as a starting point, and read up if you&amp;rsquo;re interested.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;aside id=&#34;poignant&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;chunky-bacon:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Chunky Bacon&lt;/h3&gt;
+
+&lt;p&gt;If Csound had a programming guide one tenth as wonderful as &lt;a href=&#34;http://poignant.guide/&#34; target=&#34;smotchkkiss&#34;&gt;Why&amp;rsquo;s (Poignant) Guide to Ruby&lt;/a&gt;, it would be wildly popular. But, for now, you&amp;rsquo;ll have to imagine the foxes yourself. Or go and learn Ruby instead.&lt;/p&gt;
+&lt;/aside&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
