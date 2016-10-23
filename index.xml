@@ -81,7 +81,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://cabbageaudio.com/&#34;&gt;Cabbage&lt;/a&gt; is a friendly Csound editor which packages Csound instruments and effects into stand-alone programs or plugins. A plugin is what you need in order to use your synth (or effect) in a digital audio workstation (DAW) program, such as Cubase, Sonar, Ableton Live or (my favourite) &lt;a href=&#34;http://www.tracktion.com/&#34;&gt;Tracktion&lt;/a&gt;.&lt;/p&gt;
 
-&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;This audio file uses a synthesizer built according to the instructions in this tutorial, and no other instruments or effects. You can find the Tracktion files used to create it along with the source code.&lt;/p&gt;
+&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;This audio file uses a synthesizer built according to the instructions in this tutorial, and no other instruments or effects. You can find the Tracktion files used to create it along with &lt;a href=&#34;https://github.com/y6nH/crubulator&#34;&gt;the source code&lt;/a&gt;.&lt;/p&gt;
 &lt;/aside&gt;
 
 
@@ -244,6 +244,10 @@ You can add as many comments (starting with &amp;ldquo;;&amp;rdquo;) and blank l
 &lt;img src=&#34;https://y6nh.github.io/img/crubulator-in-tracktion.png&#34; alt=&#34;Screenshot of the synth plugin in use with the Tracktion DAW&#34; class=&#34;fullwidth&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;You can find out more about exporting from &lt;a href=&#34;http://cabbageaudio.com/docs/exporting/&#34;&gt;the Cabbage documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;done:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Done.&lt;/h2&gt;
+
+&lt;p&gt;If you want to compare your version with mine, or if you just can&amp;rsquo;t be bothered with all that typing in the first place, just go and &lt;a href=&#34;https://github.com/y6nH/crubulator&#34;&gt;fork it on GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;exercises:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Exercises&lt;/h2&gt;
 
