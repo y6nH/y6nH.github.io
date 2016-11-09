@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>You are free to reuse this content under the &lt;a href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
-    <lastBuildDate>Mon, 10 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://y6nh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Csound on Stack Exchange</title>
+      <link>https://y6nh.github.io/csound-on-stack-exchange/</link>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/csound-on-stack-exchange/</guid>
+      <description>
+
+&lt;h2 id=&#34;wouldn-t-it-be-nice:96160158612e48eefe0826d7e2f20ca5&#34;&gt;Wouldn&amp;rsquo;t it be nice&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;if there were an equivalent of &lt;a href=&#34;http://stackoverflow.com&#34;&gt;Stack Overflow&lt;/a&gt;, the popular and tremendously useful programming question-and-answer site, for Csound?&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s what &lt;a href=&#34;http://area51.stackexchange.com/proposals/104202/csound/&#34;&gt;these guys&lt;/a&gt; are proposing. I&amp;rsquo;ve put my name to it (the 7th supporter - never let it be said I&amp;rsquo;m not an early adopter), but I&amp;rsquo;m not convinced it&amp;rsquo;s got the momentum to take off. After all, there is already &lt;a href=&#34;https://stackoverflow.com/questions/tagged/csound&#34;&gt;Stack Overflow&lt;/a&gt; itself, which has all of 19 questions tagged &amp;ldquo;csound&amp;rdquo;. It has over a million questions tagged &amp;ldquo;javascript&amp;rdquo; or &amp;ldquo;java&amp;rdquo; or &amp;ldquo;c#&amp;rdquo;, and nearly a million tagged &amp;ldquo;php&amp;rdquo; &lt;em&gt;(the horror!)&lt;/em&gt;, but they don&amp;rsquo;t get their own sites.&lt;/p&gt;
+
+&lt;p&gt;So good luck; I&amp;rsquo;ll join in if it actually happens. But it&amp;rsquo;s a big &lt;em&gt;if&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mud</title>
