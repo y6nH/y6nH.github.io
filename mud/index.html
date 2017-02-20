@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Mud · y6nH&#39;s pages</title>
+        <link rel="stylesheet" href="https://y6nh.github.io/css/main.css"/>
+        <link rel="alternate" type="application/rss+xml" href=""/>
                 <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="In which Hugo gets a new theme, dark in colour but light in weight.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="author" content="y6nH">
   
 	
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@https://twitter.com/y6nH">
+        <meta name="twitter:creator" content="@https://twitter.com/y6nH">
+        <meta name="twitter:domain" content="https://y6nh.github.io/">
+	
         <meta property="og:site_name" content="y6nH&#39;s pages">
         <meta property="og:title" content="y6nH&#39;s pages">
-        <meta property="og:url" content="https://y6nh.github.io/mud/">
+        <meta property="og:url" content="https://y6nh.github.io/Mud/">
         <meta property="og:description" content="Creative coding for sound and the web.">
     
         <meta property="og:type" content="article" />
         <meta property="og:article:author" content="y6nH" />
         <meta property="og:article:published_time" content="2016-10-10T00:00:00Z" />
     
-        <meta name="generator" content="Hugo 0.15" />
-
-        <title>Mud &middot; y6nH&#39;s pages</title>
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
-        <link rel="stylesheet" type="text/css" href="https://y6nh.github.io/css/main.css"/>
+        <meta name="generator" content="Hugo 0.18.1" />
     </head>
 
 <body>
     <header id="site-header">
         <div class="container">
-            <a href="https://y6nh.github.io/" alt="y6nH&#39;s pages"><span class="blog-title heading">y6nH&#39;s pages</span></a>
+            <a href="https://y6nh.github.io/" class="blog-title heading">y6nH&#39;s pages</a>
         </div>
     </header>
-
 <main class="content" role="main">
 	<div class="container">
 		<article class="page">
@@ -41,27 +44,33 @@
     <section class="post-content">
         
 
-<p>Introducing my theme for Hugo, the static site generator: <strong>Mud</strong>. That&rsquo;s what it&rsquo;s called for the moment, at least. Because it&rsquo;s brown and not very clever. Let&rsquo;s see whether it sticks.</p>
+<p>Introducing my theme for <a href="https://gohugo.io/">Hugo</a>, the static site generator: <strong>Mud</strong>. That&rsquo;s what it&rsquo;s called for the moment, at least. Because it&rsquo;s brown and not very clever. Let&rsquo;s see whether it sticks.</p>
 
-<h2 id="lightweight:82bf9e7933452a9744f75a2060f3c403">Lightweight</h2>
+<h2 id="lightweight">Lightweight</h2>
 
-<p>The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&rsquo;re somehow stuck in the 90s.</p>
+<p>The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like, just by filling in your account details in the configuration). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&rsquo;re somehow stuck in the 90s.</p>
 
-<h2 id="modern:82bf9e7933452a9744f75a2060f3c403">Modern</h2>
+<h2 id="modern">Modern</h2>
+
+<aside class="side"><p>If you want to use Markdown inside shortcodes, the syntax looks like <code>&#123;&#123;%aside%}} &hellip; &#123;&#123;%/aside%}}</code>.</p>
+
+<p>If you want to disable Markdown (for code blocks, for example), use angle brackets instead of percent signs: <code>&#123;&#123;&lt;highlight python&gt;}} &hellip; &#123;&#123;&lt;/highlight&gt;}}</code></p>
+</aside>
 
 <p>Mud uses HTML5 semantic elements for article, section, header, footer and so on, as you&rsquo;d expect from a Hugo site. It also includes shortcodes for asides and <a href="#footnotes">footnotes</a> in your content, allowing you to use Markdown syntax inside them - without them, you have to write all block elements in plain HTML.</p>
 
+<p>Hugo shortcodes are templated expansions for Markdown. Hugo includes the <code>highlight</code> shortcode, and Mud includes shortcodes for <code>aside</code>, <code>footnote</code>, and <code>hidebox</code>.</p>
+
 <aside class="hide-box">
-  <label for="hb_click-me">Click me</label>
-  <input id="hb_click-me" type="checkbox" checked />
+  <label for="hb_Click this box">Click this box</label>
+  <input id="hb_Click this box" checked="" type="checkbox"/>
   <div><p>This is a hidden message, achieved with Mud&rsquo;s <code>hidebox</code> shortcode. It&rsquo;s fully CSS driven, and so works without JavaScript.</p>
 </div>
 </aside>
 
-
 <p>Mud does code highlighting with Pygments, so that no JavaScript is necessary, and you can take advantage of Pygments&rsquo; extensive library of languages.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span></span><span class="c1">// Here are some of the colours from the stylesheet:</span>
+<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span></span><span class="c1">// Here are some of the colours from the scss stylesheet:</span>
 <span class="nv">$color_background</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">190</span><span class="o">,</span> <span class="mi">5</span><span class="kt">%</span><span class="o">,</span> <span class="mi">16</span><span class="kt">%</span><span class="p">);</span>
 <span class="nv">$color_background_under</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">73</span><span class="o">,</span> <span class="mi">10</span><span class="kt">%</span><span class="o">,</span> <span class="mi">11</span><span class="kt">%</span><span class="p">);</span>
 <span class="nv">$color_background_over</span><span class="o">:</span> <span class="nf">hsl</span><span class="p">(</span><span class="mi">43</span><span class="o">,</span> <span class="mi">5</span><span class="kt">%</span><span class="o">,</span> <span class="mi">23</span><span class="kt">%</span><span class="p">);</span>
@@ -74,17 +83,26 @@
 </code></pre></div>
 
 
-<p><div class="highlight"><pre><code class="language-rust" data-lang="rust"><span></span><span class="c1">// Or, for example, Hello World in Rust</span>
-<span class="n">io</span><span class="o">::</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">);</span><span class="w"></span>
+<p><div class="highlight"><pre><code class="language-rust" data-lang="rust"><span></span><span class="c1">// Or, because Pygments supports all the cool languages, Hello World in Rust:</span>
+<span class="n">io</span>::<span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 </p>
 
-<h2 id="dark:82bf9e7933452a9744f75a2060f3c403">Dark</h2>
+<p>To get the code highlighting to work, you need <a href="https://www.python.org/downloads/">Python</a> (version 2 or 3). If you have a Mac, it&rsquo;s already there by default. Then it&rsquo;s a quick one-liner to install Pygments:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>pip install pygments
+</code></pre></div>
+
+
+<p>Hugo calls Pygments automatically during page creation, so once it&rsquo;s installed you don&rsquo;t have to think about it ever again.</p>
+
+<h2 id="dark">Dark</h2>
 
 <p>Minimal doesn&rsquo;t always mean white. White&rsquo;s all very well, but we geeks and night owls appreciate the gloom of a nice dark theme. Nothing&rsquo;s quite black, all the dirty greys and muted pastels are chromatically based on a small, harmonious set of hues.</p>
 
-<p><aside id="footnotes" class="footnote"><p>This is a footnote. Notice how it gets highlighted when you click the link in the text?</p>
-</aside></p>
+<aside id="footnotes" class="footnote"><p>This is a footnote. Notice how it gets highlighted when you click the link in the text?</p>
+</aside>
+
 
     </section>
 
@@ -93,32 +111,49 @@
     <footer class="post-footer">
         <section class="f-1">
             
-            <span class="author">
-                y6nH
-            </span>
+            <section class="author">
+                <p>By y6nH</p>
+            </section>
             
-
-            <span class="f-post-time"><time datetime="2016-10-10T00:00:00Z">10 October 2016</time></span>
+            
+            <p class="f-post-time"><time datetime="2016-10-10T00:00:00Z">10 October 2016</time></p>
         </section>
-
+                        
         <section class="f-2">
+
             
         </section>
                 
-
+        <section id="comments">
+            <div id="disqus_thread" class="post-comments"></div>
+            <script>
+              if (window.location.hostname != "localhost") {
+                var disqus_shortname = 'y6nH';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              }
+            </script>
+            <noscript>
+              Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+        </section>
+                
     </footer>
 </article>
-
 	</div>
 </main>
     <footer id="site-footer">
         <div class="container">
-            <span>Made with <a href="http://gohugo.io/">Hugo</a> by y6nH.</span>
-            <span>&copy; 2016. You are free to reuse this content under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons BY-SA 4.0</a> licence.</span>
-            <span><a href="https://y6nh.github.io/index.xml" title="RSS feed">RSS</a>.</span>
+			<section class="footer-credits">Made with <a href="http://gohugo.io/">Hugo</a> by y6nH.</section>
+            <section class="footer-copyright">&copy; 2016. You are free to reuse this content under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license">Creative Commons BY-SA 4.0</a> licence.</section>
+            <section class="footer-rss"><a href="https://y6nh.github.io/index.xml" title="RSS feed">RSS</a></section>
         </div>
     </footer>
-
 
 </body>
 </html>

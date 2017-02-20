@@ -2,61 +2,465 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>y6nH&#39;s pages</title>
-    <link>https://y6nh.github.io/</link>
+    <link>https://y6nh.github.io/index.xml</link>
     <description>Recent content on y6nH&#39;s pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <copyright>You are free to reuse this content under the &lt;a href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
-    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <lastBuildDate>Sat, 18 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://y6nh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Csound on Stack Exchange</title>
-      <link>https://y6nh.github.io/csound-on-stack-exchange/</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      <title>No Man&#39;s Bleep</title>
+      <link>https://y6nh.github.io/NoMansBleep/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://y6nh.github.io/csound-on-stack-exchange/</guid>
+      <guid>https://y6nh.github.io/NoMansBleep/</guid>
       <description>
 
-&lt;h2 id=&#34;wouldn-t-it-be-nice:96160158612e48eefe0826d7e2f20ca5&#34;&gt;Wouldn&amp;rsquo;t it be nice&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&lt;svg id=&#34;terminal&#34; width=&#34;100%&#34; viewBox=&#34;0 240 1000 580&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34;&gt;
+  &lt;defs&gt;
+     &lt;radialGradient id=&#34;metal&#34; cx=42% cy=30% r=2 &gt;
+        &lt;stop offset=0 stop-color=#fff /&gt;
+        &lt;stop offset=5% stop-color=#eeebe8 /&gt;
+        &lt;stop offset=40% stop-color=#889 /&gt;
+        &lt;stop offset=100% stop-color=#335 /&gt;
+     &lt;/radialGradient&gt;
+     &lt;radialGradient id=&#34;glass&#34; cx=42% cy=30% r=2 &gt;
+        &lt;stop offset=0 stop-color=#fff /&gt;
+        &lt;stop offset=4% stop-color=#fff /&gt;
+        &lt;stop offset=6% stop-color=#000 /&gt;
+        &lt;stop offset=30% stop-color=#335 /&gt;
+        &lt;stop offset=100% stop-color=#558 /&gt;
+     &lt;/radialGradient&gt;
+     &lt;radialGradient id=&#34;reflection&#34; cx=42% cy=30% r=2 &gt;
+        &lt;stop offset=0 stop-color=#fff /&gt;
+        &lt;stop offset=4% stop-color=rgba(255,255,255,0.8) /&gt;
+        &lt;stop offset=6% stop-color=rgba(255,255,100,0) /&gt;
+     &lt;/radialGradient&gt;
+     &lt;path id=iris d=&#34;M500,480q20,0,20,20q0,20,-20,20q-20,0,-20,-20q0,-20,20,-20&#34; /&gt;
+  &lt;/defs&gt;
+  &lt;circle cx=500 cy=500 r=200 fill=url(#metal) style=&#34;filter:drop-shadow(5px 8px 8px #000)&#34; /&gt;
+  &lt;g id=&#34;eye&#34;&gt;
+     &lt;circle cx=500 cy=500 r=100 fill=url(#metal) style=&#34;transform:rotate(180deg);transform-origin:500px 500px;&#34; /&gt;
+     &lt;circle cx=500 cy=500 r=60 fill=url(#glass) /&gt;
+     &lt;text id=&#34;iristext&#34; font-size=&#34;10&#34; stroke=&#34;#8e0&#34;&gt;
+        &lt;textPath xlink:href=&#34;#iris&#34;&gt;
+        ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ∫ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ
+        &lt;/textPath&gt;
+     &lt;/text&gt;
+     &lt;circle cx=500 cy=500 r=60 fill=url(#reflection) /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;hellip;if there were an equivalent of &lt;a href=&#34;http://stackoverflow.com&#34;&gt;Stack Overflow&lt;/a&gt;, the popular and tremendously useful programming question-and-answer site, for Csound?&lt;/p&gt;
+&lt;p&gt;Just about the most anticipated computer game of last year, &lt;em&gt;No Man&amp;rsquo;s Sky&lt;/em&gt; was notable for the algorithmically-generated galaxy in which it&amp;rsquo;s set - trillions of planets, all unique. It&amp;rsquo;s awe-inspiring. Unique creatures roam among unique plants and rocks on unique landforms, but when you land your nearly-unique starship at a rather familiar-looking trading station, the trading terminal is exactly the same as all the others. (I&amp;rsquo;ve picked one example here; there are many other objects which are exactly the same all over the galaxy, and which could benefit from some randomisation.)&lt;/p&gt;
 
-&lt;p&gt;That&amp;rsquo;s what &lt;a href=&#34;http://area51.stackexchange.com/proposals/104202/csound/&#34;&gt;these guys&lt;/a&gt; are proposing. I&amp;rsquo;ve put my name to it (the 7th supporter - never let it be said I&amp;rsquo;m not an early adopter), but I&amp;rsquo;m not convinced it&amp;rsquo;s got the momentum to take off. After all, there is already &lt;a href=&#34;https://stackoverflow.com/questions/tagged/csound&#34;&gt;Stack Overflow&lt;/a&gt; itself, which has all of 19 questions tagged &amp;ldquo;csound&amp;rdquo;. It has over a million questions tagged &amp;ldquo;javascript&amp;rdquo; or &amp;ldquo;java&amp;rdquo; or &amp;ldquo;c#&amp;rdquo;, and nearly a million tagged &amp;ldquo;php&amp;rdquo; &lt;em&gt;(the horror!)&lt;/em&gt;, but they don&amp;rsquo;t get their own sites.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s the sound I particularly want to write about. Each terminal emits the same bleeps and bloops. It would have been easy to make them all different, right? So that&amp;rsquo;s what I&amp;rsquo;ve mocked up here. I&amp;rsquo;ve taken the opportunity to try out the web audio API, so this demo works in the browser (unless your browser is rubbish, of course). Click the trading terminal (that eye thing) above to hear examples.&lt;/p&gt;
 
-&lt;p&gt;So good luck; I&amp;rsquo;ll join in if it actually happens. But it&amp;rsquo;s a big &lt;em&gt;if&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In the game, I assume the parameters used to generate each object are derived from its co-ordinates in space. I&amp;rsquo;m using the standard random number generator, but it would be easy to feed it with a seed value based on the location of the terminal, so that each one had its own unique noise.&lt;/p&gt;
+
+&lt;h2 id=&#34;make-some-noise&#34;&gt;Make some noise&lt;/h2&gt;
+
+&lt;p&gt;The web audio API is pretty basic compared with CSound, but it provides us with the parts we need: oscillators, filters and amplifiers. Here&amp;rsquo;s the plan:&lt;/p&gt;
+
+&lt;p&gt;&lt;svg id=&#34;schematic&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:svg=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;36 0 640 200&#34; width=&#34;100%&#34;&gt;
+ &lt;!-- Created with SVG-edit - http://svg-edit.googlecode.com/ - and hand-tweaked by @y6nH --&gt;
+ &lt;style&gt;
+    #schematic rect,#schematic polyline{stroke:#bce52a;fill:none;stroke-width:3px;}
+    #schematic path{fill:#bce52a;}
+    #schematic text{fill:#ebe8e0;font-family:sans-serif;font-size:23px;}
+    #schematic .medium{font-size:15px;}
+    #schematic .small{font-size:13px;}
+ &lt;/style&gt;
+ &lt;defs&gt;
+  &lt;marker id=&#34;arrowhead&#34; markerUnits=&#34;strokeWidth&#34; orient=&#34;auto&#34; viewBox=&#34;0 0 100 100&#34; markerWidth=&#34;5&#34; markerHeight=&#34;5&#34; refX=&#34;50&#34; refY=&#34;50&#34;&gt;
+   &lt;path d=&#34;m0,50l100,40l-30,-40l30,-40l-100,40z&#34;/&gt;
+  &lt;/marker&gt;
+ &lt;/defs&gt;
+ &lt;g&gt;
+  &lt;title&gt;Bleepy synth schematic&lt;/title&gt;
+  &lt;g id=&#34;osc&#34;&gt;
+   &lt;rect class=&#34;box&#34; x=&#34;102.39999&#34; y=&#34;102.950002&#34; width=&#34;107&#34; height=&#34;50&#34;/&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;135.950002&#34; x=&#34;155.43332&#34;&gt;Oscillator&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g id=&#34;fil&#34;&gt;
+   &lt;rect class=&#34;box&#34; x=&#34;259.69999&#34; y=&#34;102.950008&#34; width=&#34;107&#34; height=&#34;50&#34;/&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;135.950008&#34; x=&#34;312.73333&#34;&gt;Filter&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g id=&#34;amp&#34;&gt;
+   &lt;rect class=&#34;box&#34; x=&#34;418.200021&#34; y=&#34;102.950008&#34; width=&#34;107&#34; height=&#34;50&#34;/&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;135.950008&#34; x=&#34;471.233361&#34;&gt;Amplifier&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g id=&#34;lfo&#34;&gt;
+      &lt;rect x=&#34;418.199995&#34; y=&#34;18.887489&#34; width=&#34;107&#34; height=&#34;34.812501&#34;/&gt;
+      &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;44.39374&#34; x=&#34;471.699948&#34;&gt;LFO&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;polyline points=&#34;471.92401123046875,90.19999694824219 471.70001220703125,73.20000457763672 471.47601318359375,56.20001220703125 &#34; marker-start=&#34;url(#arrowhead)&#34;/&gt;
+  &lt;polyline points=&#34;228.42401123046875,145.51251220703125 228.20001220703125,128.51250457763672 227.97601318359375,111.51250457763672 &#34; marker-start=&#34;url(#arrowhead)&#34; transform=&#34;rotate(-90, 228.2, 128.512)&#34;/&gt;
+  &lt;polyline points=&#34;386.42401123046875,144.95001220703125 386.20001220703125,127.94999694824219 385.97601318359375,110.94999694824219 &#34; marker-start=&#34;url(#arrowhead)&#34; transform=&#34;rotate(-90, 386.2, 127.95)&#34; /&gt;
+  &lt;text x=&#34;493&#34; y=&#34;95&#34; class=&#34;small&#34; text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34; &gt;gain&lt;/text&gt;
+  &lt;text x=&#34;137.399994&#34; y=&#34;31.200012&#34;  text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34;/&gt;
+  &lt;g &gt;
+   &lt;rect x=&#34;102.700025&#34; y=&#34;18.19999&#34; width=&#34;107&#34; height=&#34;34.999999&#34; /&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; class=&#34;medium&#34; y=&#34;42&#34; x=&#34;157&#34;&gt;Random curve&lt;/text&gt;
+   &lt;polyline points=&#34;156.42404174804688,89.70001220703125 156.20004272460938,72.70001220703125 155.97604370117188,55.70001220703125 &#34; marker-start=&#34;url(#arrowhead)&#34; /&gt;
+  &lt;/g&gt;
+  &lt;g &gt;
+   &lt;rect x=&#34;259.699995&#34; y=&#34;18.82499&#34; width=&#34;107&#34; height=&#34;34.999999&#34; /&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; class=&#34;medium&#34; y=&#34;42&#34; x=&#34;312&#34;&gt;Random curve&lt;/text&gt;
+   &lt;polyline points=&#34;313.42401123046875,90.32501220703125 313.20001220703125,73.32501220703125 312.97601318359375,56.32501220703125 &#34; marker-start=&#34;url(#arrowhead)&#34;/&gt;
+  &lt;/g&gt;
+  &lt;text x=&#34;192&#34; y=&#34;95&#34; class=&#34;small&#34; text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34; &gt;frequency&lt;/text&gt;
+  &lt;text x=&#34;350&#34; y=&#34;95&#34; class=&#34;small&#34; text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34;&gt;frequency&lt;/text&gt;
+  &lt;polyline points=&#34;544.3989868164062,145.4562530517578 544.1749877929688,128.4562530517578 543.9509887695312,111.45624542236328 &#34; marker-start=&#34;url(#arrowhead)&#34; transform=&#34;rotate(-90, 544.174, 128.456)&#34; /&gt;
+  &lt;text x=&#34;596.262466&#34; y=&#34;136.500015&#34;  text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34;&gt;Out&lt;/text&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also a random curve going to the LFO rate, and random choices of oscillator waveform and filter type.&lt;/p&gt;
+
+&lt;p&gt;First, we have to create an &lt;code&gt;AudioContext&lt;/code&gt;, which is our way into the API. The AudioContext creates our oscillators and other nodes, co-ordinates timing, handles routing, and sends the sound to the speakers. So it&amp;rsquo;s pretty clever, and it&amp;rsquo;s the central object you&amp;rsquo;ll work with in Web Audio. (In Safari, it&amp;rsquo;s a &lt;code&gt;webkitAudioContext&lt;/code&gt; instead, though it works in the same way.) So this is how we get hold of it:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;AudioContext&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;webkitAudioContext&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And this is how we use it to create audio nodes:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createBiquadFilter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createGain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Connecting them up is easy too. Just use the source audio node&amp;rsquo;s &lt;code&gt;connect&lt;/code&gt; function to plug it into the next one. The final node connects to &lt;code&gt;context.destination&lt;/code&gt;, which is the main output:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;destination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We choose the waveforms for the oscillator and LFO randomly from the four predefined types: sine, square, sawtooth and triangle. Likewise, we choose the filter type from lowpass, highpass, bandpass and allpass. The filter Q is also random, between 10 and 42. I chose thse bounds by trial and error - although the Q can go up to 1000, anything higher leads to self-oscillation, and it drowns out the actual oscillator. Anything lower than 10 just isn&amp;rsquo;t so much fun.&lt;/p&gt;
+
+&lt;p&gt;Here are the random generator functions I used for those:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Random number between min and max&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Returns the name of one of the four standard oscillator waveforms&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomOscType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;sine&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;square&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.75&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;sawtooth&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;triangle&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Returns the name of one of the four standard filter types&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFilterType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;lowpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;highpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.75&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;bandpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;allpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There are three &lt;code&gt;Float32Array&lt;/code&gt;s of frequencies: one for the oscillator frequency, one for the filter cutoff, and one for the amplifier LFO frequency. These audio nodes are picky; they won&amp;rsquo;t &lt;a href=&#34;#duck-type&#34;&gt;duck-type&lt;/a&gt; ordinary arrays of numbers into these exotic typed structures. We choose random lengths for the arrays (within appropriate limits), and fill them with random frequencies. For the LFO, the &lt;code&gt;randomBetween&lt;/code&gt; function we used for the array lengths and note length will do just fine for the frequency generation. But for the audio frequencies of the oscillator and filter, we need something extra. Because an octave is a doubling in frequency, each successive semitone interval is a bigger leap in terms of Hz. This means that if we just pick random numbers in the audio range (I chose a comfortable 80 to 3200 Hz), they will tend to be many more high notes than low. To get around that, I raise 2 to the power of the raw random number (which is between 0 and 1). That gives a number between 1 and 2, but tending towards the lower end of the range. Take away 1 and stretch it up to the range we want, and it gives a nice even spread of pitches.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Random audio frequency between 80 and 3200&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFrequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;c1&#34;&gt;// Weighted random number for audio taper&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3120&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;80&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;These Float32Arrays get interpolated into &lt;a href=&#34;#a-rate&#34;&gt;a-rate&lt;/a&gt; curves when we pass them into &lt;code&gt;setValueCurveAtTime&lt;/code&gt; on the frequency property of an oscillator or filter.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the &lt;code&gt;play()&lt;/code&gt; function, which sets up the note and plays it.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;play&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;c1&#34;&gt;// length of sound in seconds&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; 
+	
+	&lt;span class=&#34;c1&#34;&gt;// Set up the audio nodes we need&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createBiquadFilter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createGain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomOscType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomOscType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFilterType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Q is an a-rate param, so to set it to a constant level use Q.value.&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Wire them up&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;destination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// List of 2 to 8 frequencies. An ordinary array won&amp;#39;t work.&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Float32Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFrequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Sweep the oscillator to each frequency in turn&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;frequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setValueCurveAtTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Same for the amplitude LFO, but lower&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Float32Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+	
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;frequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setValueCurveAtTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;gain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// And the filter frequency&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Float32Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+	
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFrequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;frequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setValueCurveAtTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
+	&lt;span class=&#34;c1&#34;&gt;// Start the oscillators&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Set them to stop when we&amp;#39;re finished&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;aside class=&#34;side&#34;&gt;&lt;h2 id=&#34;aside-chemical-bothers&#34;&gt;Aside: Chemical bothers&lt;/h2&gt;
+
+&lt;p&gt;What really annoys me most about No Man&amp;rsquo;s Sky is the chemistry. I have no problem with them tweaking the astrophysics so that planets hang around in conveniently tight clusters. I can live with the ubiquitous asteroid fields so dense that space should be effectively opaque in all directions, and with the way the vacuum is cloudy and conducts sound. I can forgive the gravity being the same on all planets and moons, and the lack of gas giants, and the homogeneous climate on each planet, and the abundance of large animals, and the way the intelligent aliens all have a humanoid body shape. They&amp;rsquo;re all gameplay optimisations. But there was absolutely no need to declare that iron, zinc and titanium are all &amp;ldquo;oxide elements&amp;rdquo;. OK, they all form oxides that you might find as ores, but then declaring platinum to be a &amp;ldquo;silicate&amp;rdquo;, plutonium and carbon to be &amp;ldquo;isotopes&amp;rdquo;, and gold and aluminium to be &amp;ldquo;neutral&amp;rdquo; in the same context makes absolutely no sense. All elements are neutral, all elements are isotopes. Many elements form both oxides and silicates. There are tenuous gameplay reasons for classifying elements into four made-up groups, but couldn&amp;rsquo;t they choose names that didn&amp;rsquo;t have a real meaning I&amp;rsquo;d have to grit my teeth and ignore?&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;sound-and-vision&#34;&gt;Sound and vision&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also added some randomisation to the visual, as you probably noticed. It&amp;rsquo;s an SVG image, so JavaScript can manipulate it as a document, just as it can the text on the page. When it&amp;rsquo;s clicked, as well as playing the sound, I change the colour and the text of the &amp;ldquo;iris&amp;rdquo; part of the terminal. To get an equally saturated colour each time, I use the &lt;code&gt;hsla()&lt;/code&gt; notation, rather than the more familiar &lt;code&gt;#BADA55&lt;/code&gt; RGB type. Keeping the &lt;abbr title=&#34;saturation&#34;&gt;s&lt;/abbr&gt;, &lt;abbr title=&#34;lightness&#34;&gt;l&lt;/abbr&gt; and &lt;abbr title=&#34;alpha (opacity)&#34;&gt;a&lt;/abbr&gt; the same, I insert a random hue, like &lt;code&gt;&#39;hsla(&#39; + hue + &#39;,99%,50%,1)&#39;&lt;/code&gt;. The text is picked from a collection of alien-looking but not-too-rare characters, which I hope show up on most systems. If the game designers did this, they&amp;rsquo;d be able to use some properly canon alien writing.&lt;/p&gt;
+
+&lt;p&gt;Just view the source of this page to see the whole script, with the sound and the visual tweaks together.&lt;/p&gt;
+
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;aside id=&#34;duck-type&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;duck-type&#34;&gt;Duck-type&lt;/h3&gt;
+
+&lt;p&gt;What&amp;rsquo;s your favourite duck type? A fancy Mandarin, a sporty Indian Runner, or a plain vanilla Mallard? I like them all. If it looks like a duck and quacks like a duck, it&amp;rsquo;s as good as any other duck. That&amp;rsquo;s one of the principles of JavaScript: that if you want a duck, and you get something that&amp;rsquo;s kind of like a duck, it&amp;rsquo;s good enough. So &lt;code&gt;2 * &#39;2&#39;&lt;/code&gt; is 4, because &lt;code&gt;*&lt;/code&gt; expects numbers, but &lt;code&gt;2 + &#39;2&#39;&lt;/code&gt; is 22, because &lt;code&gt;+&lt;/code&gt; prefers strings. In strongly-typed languages, where a number is just a number and a string is just a string, the right answer to those expressions would be an error message.&lt;/p&gt;
+
+&lt;p&gt;(If you said &amp;ldquo;crispy&amp;rdquo;, you&amp;rsquo;re a heartless bounder.)&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;aside id=&#34;a-rate&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;a-rate-and-k-rate&#34;&gt;A-rate and K-rate&lt;/h3&gt;
+
+&lt;p&gt;These two types of audio parameters are distinguished by the speed at which they change. A-rate is audio-rate, i.e. fast enough to carry a high-quality sound. K-rate is slower, but fast enough to control an audio generator or effect smoothly. The Web Audio API borrows these terms from Csound. See &lt;a href=&#34;https://y6nh.github.io/first-synth-with-csound-cabbage/#variables&#34;&gt;my Csound tutorial&lt;/a&gt; for a fuller explanation of variable types.&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;p&gt;&lt;small&gt;Image credit: my own screenshot of No Man&amp;rsquo;s Sky.&lt;/small&gt;&lt;/p&gt;
+
+&lt;style&gt;
+    main {background: url(/img/nms-planet.jpg) no-repeat 0 2em; background-size: contain;}
+    article.page { background: hsla(195, 4.9%, 16.1%, 0.5) }
+&lt;/style&gt;
+
+&lt;script&gt;
+/*
+ * HERE IS THE SCRIPT YOU ARE LOOKING FOR.
+*/
+
+var context = new (window.AudioContext || window.webkitAudioContext)();
+
+/**
+Random number between min and max
+*/
+function randomBetween(min, max) {
+    min = min || 0;
+    max = max || 1;
+    return Math.random() * (max - min) + min;
+}
+
+/**
+Returns the name of one of the four standard oscillator waveforms
+*/
+function randomOscType() {
+    var rnd = Math.random();
+    if (rnd &lt; 0.25) return &#39;sine&#39;;
+    if (rnd &lt; 0.5) return &#39;square&#39;;
+    if (rnd &lt; 0.75) return &#39;sawtooth&#39;;
+    return &#39;triangle&#39;;
+}
+
+/**
+Returns the name of one of the four standard filter types
+*/
+function randomFilterType() {
+    var rnd = Math.random();
+    if (rnd &lt; 0.25) return &#39;lowpass&#39;;
+    if (rnd &lt; 0.5) return &#39;highpass&#39;;
+    if (rnd &lt; 0.75) return &#39;bandpass&#39;;
+    return &#39;allpass&#39;;
+}
+
+/**
+Random audio frequency between 80 and 3200
+*/
+function randomFrequency() {
+    // Weighted random number for audio taper
+    var rnd = Math.pow(2, Math.random())-1;
+    return 3120 * rnd + 80;
+}
+
+function play() {
+    // length of sound in seconds
+    var length = randomBetween(0.5, 1.5); 
+    
+    // Set up the audio nodes we need
+    var osc = context.createOscillator();
+    var lfo = context.createOscillator();
+    var fil = context.createBiquadFilter();
+    var amp = context.createGain();
+    
+    osc.type = randomOscType();
+    lfo.type = randomOscType();
+    fil.type = randomFilterType();
+    
+    // Q is an a-rate param, so to set it to a constant level use Q.value.
+    // The range is 0.0001 to 1000, but values over 42 are prone to self-oscillation.
+    fil.Q.value = randomBetween(10, 42);
+    
+    // Wire them up
+    osc.connect(fil);
+    fil.connect(amp);
+    amp.connect(context.destination);
+    
+    // List of 2 to 8 frequencies. An ordinary array won&#39;t work.
+    var freqArray = new Float32Array(Math.floor(randomBetween(2, 9)));
+
+    for (var i = 0; i &lt; freqArray.length; i++) {
+        freqArray[i] = randomFrequency();
+    }
+    
+    // Sweep the oscillator to each frequency in turn
+    osc.frequency.setValueCurveAtTime(freqArray, context.currentTime, length);
+    
+    // Same for the amplitude LFO, but lower
+    var lfArray = new Float32Array(Math.floor(randomBetween(1, 4)));
+    
+    for (var i = 0; i &lt; lfArray.length; i++) {
+        lfArray[i] = randomBetween(0, 20);
+    }
+    
+    lfo.frequency.setValueCurveAtTime(lfArray, context.currentTime, length);
+    lfo.connect(amp.gain);
+    
+    // And the filter frequency
+    var lfArray2 = new Float32Array(Math.floor(randomBetween(1, 8)));
+    
+    for (var i = 0; i &lt; lfArray2.length; i++) {
+        lfArray2[i] = randomFrequency();
+    }
+    
+    fil.frequency.setValueCurveAtTime(lfArray2, context.currentTime, length);
+
+    // Start the oscillators
+    osc.start();
+    lfo.start();
+    
+    // Set them to stop when we&#39;re finished
+    osc.stop(context.currentTime + length);
+    lfo.stop(context.currentTime + length);
+}
+
+function writeAlien(length) {
+    length = length || 24;
+    // This is definitely the Gek alphabet. Any resemblance to the basic multilingual plane is coincidental.
+    let chars = &#39;ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ∫ƢʊʬʯȶϿϡϞӶՃ₰-////&#39;;
+    let result = &#39;&#39;;
+    for (let i = 0; i &lt; length; i++) {
+        let c = Math.floor(randomBetween(0, chars.length));
+        result += chars[c];
+    }
+    return result;
+}
+   
+function changeIris() {
+    let iris = document.getElementById(&#39;iristext&#39;);
+    let hue = Math.floor(Math.random() * 360);
+    iris.style.stroke = &#39;hsla(&#39; + hue + &#39;,99%,50%,1)&#39;;
+    iris.children[0].innerHTML = writeAlien();
+}
+
+
+document.getElementById(&#39;terminal&#39;).onclick = (() =&gt; {play(); changeIris()});
+
+&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>Mud</title>
-      <link>https://y6nh.github.io/mud/</link>
+      <link>https://y6nh.github.io/Mud/</link>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://y6nh.github.io/mud/</guid>
+      <guid>https://y6nh.github.io/Mud/</guid>
       <description>
 
-&lt;p&gt;Introducing my theme for Hugo, the static site generator: &lt;strong&gt;Mud&lt;/strong&gt;. That&amp;rsquo;s what it&amp;rsquo;s called for the moment, at least. Because it&amp;rsquo;s brown and not very clever. Let&amp;rsquo;s see whether it sticks.&lt;/p&gt;
+&lt;p&gt;Introducing my theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, the static site generator: &lt;strong&gt;Mud&lt;/strong&gt;. That&amp;rsquo;s what it&amp;rsquo;s called for the moment, at least. Because it&amp;rsquo;s brown and not very clever. Let&amp;rsquo;s see whether it sticks.&lt;/p&gt;
 
-&lt;h2 id=&#34;lightweight:82bf9e7933452a9744f75a2060f3c403&#34;&gt;Lightweight&lt;/h2&gt;
+&lt;h2 id=&#34;lightweight&#34;&gt;Lightweight&lt;/h2&gt;
 
-&lt;p&gt;The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&amp;rsquo;re somehow stuck in the 90s.&lt;/p&gt;
+&lt;p&gt;The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like, just by filling in your account details in the configuration). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&amp;rsquo;re somehow stuck in the 90s.&lt;/p&gt;
 
-&lt;h2 id=&#34;modern:82bf9e7933452a9744f75a2060f3c403&#34;&gt;Modern&lt;/h2&gt;
+&lt;h2 id=&#34;modern&#34;&gt;Modern&lt;/h2&gt;
+
+&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;If you want to use Markdown inside shortcodes, the syntax looks like &lt;code&gt;&amp;#123;&amp;#123;%aside%}} &amp;hellip; &amp;#123;&amp;#123;%/aside%}}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to disable Markdown (for code blocks, for example), use angle brackets instead of percent signs: &lt;code&gt;&amp;#123;&amp;#123;&amp;lt;highlight python&amp;gt;}} &amp;hellip; &amp;#123;&amp;#123;&amp;lt;/highlight&amp;gt;}}&lt;/code&gt;&lt;/p&gt;
+&lt;/aside&gt;
 
 &lt;p&gt;Mud uses HTML5 semantic elements for article, section, header, footer and so on, as you&amp;rsquo;d expect from a Hugo site. It also includes shortcodes for asides and &lt;a href=&#34;#footnotes&#34;&gt;footnotes&lt;/a&gt; in your content, allowing you to use Markdown syntax inside them - without them, you have to write all block elements in plain HTML.&lt;/p&gt;
 
+&lt;p&gt;Hugo shortcodes are templated expansions for Markdown. Hugo includes the &lt;code&gt;highlight&lt;/code&gt; shortcode, and Mud includes shortcodes for &lt;code&gt;aside&lt;/code&gt;, &lt;code&gt;footnote&lt;/code&gt;, and &lt;code&gt;hidebox&lt;/code&gt;.&lt;/p&gt;
+
 &lt;aside class=&#34;hide-box&#34;&gt;
-  &lt;label for=&#34;hb_click-me&#34;&gt;Click me&lt;/label&gt;
-  &lt;input id=&#34;hb_click-me&#34; type=&#34;checkbox&#34; checked /&gt;
+  &lt;label for=&#34;hb_Click this box&#34;&gt;Click this box&lt;/label&gt;
+  &lt;input id=&#34;hb_Click this box&#34; checked=&#34;&#34; type=&#34;checkbox&#34;/&gt;
   &lt;div&gt;&lt;p&gt;This is a hidden message, achieved with Mud&amp;rsquo;s &lt;code&gt;hidebox&lt;/code&gt; shortcode. It&amp;rsquo;s fully CSS driven, and so works without JavaScript.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/aside&gt;
 
-
 &lt;p&gt;Mud does code highlighting with Pygments, so that no JavaScript is necessary, and you can take advantage of Pygments&amp;rsquo; extensive library of languages.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Here are some of the colours from the stylesheet:&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Here are some of the colours from the scss stylesheet:&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;$color_background&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;190&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;$color_background_under&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;73&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;$color_background_over&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -69,17 +473,26 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Or, for example, Hello World in Rust&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Or, because Pygments supports all the cool languages, Hello World in Rust:&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;::&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/p&gt;
 
-&lt;h2 id=&#34;dark:82bf9e7933452a9744f75a2060f3c403&#34;&gt;Dark&lt;/h2&gt;
+&lt;p&gt;To get the code highlighting to work, you need &lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;Python&lt;/a&gt; (version 2 or 3). If you have a Mac, it&amp;rsquo;s already there by default. Then it&amp;rsquo;s a quick one-liner to install Pygments:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;pip install pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Hugo calls Pygments automatically during page creation, so once it&amp;rsquo;s installed you don&amp;rsquo;t have to think about it ever again.&lt;/p&gt;
+
+&lt;h2 id=&#34;dark&#34;&gt;Dark&lt;/h2&gt;
 
 &lt;p&gt;Minimal doesn&amp;rsquo;t always mean white. White&amp;rsquo;s all very well, but we geeks and night owls appreciate the gloom of a nice dark theme. Nothing&amp;rsquo;s quite black, all the dirty greys and muted pastels are chromatically based on a small, harmonious set of hues.&lt;/p&gt;
 
-&lt;p&gt;&lt;aside id=&#34;footnotes&#34; class=&#34;footnote&#34;&gt;&lt;p&gt;This is a footnote. Notice how it gets highlighted when you click the link in the text?&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;aside id=&#34;footnotes&#34; class=&#34;footnote&#34;&gt;&lt;p&gt;This is a footnote. Notice how it gets highlighted when you click the link in the text?&lt;/p&gt;
+&lt;/aside&gt;
+
 </description>
     </item>
     
@@ -91,7 +504,7 @@
       <guid>https://y6nh.github.io/first-synth-with-csound-cabbage/</guid>
       <description>
 
-&lt;h2 id=&#34;what-are-csound-and-cabbage:999164783295c2dd3e9b1b34ad45544f&#34;&gt;What are Csound and Cabbage?&lt;/h2&gt;
+&lt;h2 id=&#34;what-are-csound-and-cabbage&#34;&gt;What are Csound and Cabbage?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/cabbage-transparent.svg&#34; alt=&#34;The Cabbage logo: a green cabbage wearing headphones.&#34; style=&#34;width:17rem;height:17rem;background:transparent&#34;/&gt;&lt;/p&gt;
 
@@ -102,43 +515,42 @@
 &lt;aside class=&#34;side&#34;&gt;&lt;p&gt;This audio file uses a synthesizer built according to the instructions in this tutorial, and no other instruments or effects. You can find the Tracktion files used to create it along with &lt;a href=&#34;https://github.com/y6nH/crubulator&#34;&gt;the source code&lt;/a&gt;.&lt;/p&gt;
 &lt;/aside&gt;
 
-
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll show you how to use Cabbage to create a software synthesizer which sounds like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;audio controls&gt;
-&lt;source src=&#34;https://y6nh.github.io/audio/crubulator.mp3&#34;/&gt;
-&lt;source src=&#34;https://y6nh.github.io/audio/crubulator.ogg&#34;/&gt;
-&lt;a href=&#34;https://y6nh.github.io/audio/crubulator.mp3&#34;&gt;Download the mp3 file, your browser is too rubbish to play it.&lt;/a&gt;
+    &lt;source src=&#34;https://y6nh.github.io/audio/crubulator.mp3&#34;&gt;
+    &lt;source src=&#34;https://y6nh.github.io/audio/crubulator.ogg&#34;&gt;
+    &lt;a href=&#34;https://y6nh.github.io/audio/crubulator.mp3&#34;&gt;(You&amp;rsquo;ll have to download the mp3 file; your browser is too rubbish to play it.)&lt;/a&gt;
 &lt;/audio&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;first-steps:999164783295c2dd3e9b1b34ad45544f&#34;&gt;First steps&lt;/h2&gt;
+&lt;h2 id=&#34;first-steps&#34;&gt;First steps&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://cabbageaudio.com/download/&#34;&gt;Download and install Cabbage&lt;/a&gt;. For Windows, there are 32-bit and 64-bit versions, and which one to choose depends on the host where you want to use your instruments. If you run a 64-bit DAW, then choose Cabbage64 (with the black headphones on the logo). If you use 32-bit, which is more likely, then choose Cabbage32 (with the white headphones). You might want to install both. Go on, it&amp;rsquo;s free. It&amp;rsquo;s trivial to convert a plugin from one to the other, so choosing the wrong one doesn&amp;rsquo;t matter much.&lt;/p&gt;
 
 &lt;p&gt;For Mac, there&amp;rsquo;s only one version, and for Linux you may have to compile it yourself. These instructions are based on the Windows version, but should work on any of them.&lt;/p&gt;
 
-&lt;p&gt;Once it&amp;rsquo;s installed and started up, click the Options button, and choose New Cabbage&amp;hellip; Instrument. You&amp;rsquo;re prompted to give it a name. As you probably know, naming things is one of the hardest two problems in computer science. Choose the right names for a few things, and your program&amp;rsquo;s practically written itself. So call it BasicSynth, or call it FlyingBanana or Crubulator or &lt;a href=&#34;#poignant&#34;&gt;ChunkyBacon&lt;/a&gt; if you think that&amp;rsquo;s a better idea. But don&amp;rsquo;t say I didn&amp;rsquo;t warn you.&lt;/p&gt;
+&lt;p&gt;Once it&amp;rsquo;s installed and started up, click the Options button, and choose New Cabbage&amp;hellip; Instrument. You&amp;rsquo;re prompted to give it a name. As you may know, &lt;a href=&#34;https://www.martinfowler.com/bliki/TwoHardThings.html&#34;&gt;naming things is one of the hardest two problems in computer science&lt;/a&gt;. Choose the right names for a few things, and your program&amp;rsquo;s practically written itself. So call it BasicSynth, or call it FlyingBanana or Crubulator or &lt;a href=&#34;#poignant&#34;&gt;ChunkyBacon&lt;/a&gt; if you think that&amp;rsquo;s a better idea. But don&amp;rsquo;t say I didn&amp;rsquo;t warn you.&lt;/p&gt;
 
 &lt;p&gt;Cabbage doesn&amp;rsquo;t leave you staring at a blank page. You should see two windows appear: one with code, and a blue one with a keyboard on it. You&amp;rsquo;ve already clicked it, right? It buzzed! Yes, you&amp;rsquo;ve already made a synth just by naming a new project. Well done, tutorial over.&lt;/p&gt;
 
-&lt;h2 id=&#34;but-wait:999164783295c2dd3e9b1b34ad45544f&#34;&gt;But wait&amp;hellip;&lt;/h2&gt;
+&lt;h2 id=&#34;but-wait&#34;&gt;But wait&amp;hellip;&lt;/h2&gt;
 
 &lt;p&gt;OK, this synth is sort of weak. Let&amp;rsquo;s make it better.&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re anything like me, the first thing you do with any new program is dive into the options and tweak the colours. In fact, I&amp;rsquo;m a little disappointed when a program looks really nice out of the box. I&amp;rsquo;ll leave you to play with the Cabbage editor styles on your own, but first let&amp;rsquo;s make this synth our own.&lt;/p&gt;
+&lt;p&gt;If you’re anything like me, the first thing you do with any new program is dive into the options and tweak the colours. In fact, I’m a little disappointed when a program looks really nice out of the box. I’ll leave you to play with the Cabbage editor styles on your own, but first let’s make this synth our own.&lt;/p&gt;
 
-&lt;aside class=&#34;side&#34;&gt;
-If ever the code window isn&#39;t visible, you can show it by selecting &#34;View Source Editor&#34; in the Options button menu. Lots of other good stuff in there too (and, for reasons which elude me, &#34;Cabbage Dance&#34;), so that&#39;s the first place to look if you&#39;re stuck.
+&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;If ever the code window isn&amp;rsquo;t visible, you can show it by selecting &amp;ldquo;View Source Editor&amp;rdquo; in the Options button menu. Lots of other good stuff in there too (and, for reasons which elude me, &amp;ldquo;Cabbage Dance&amp;rdquo;), so that&amp;rsquo;s the first place to look if you&amp;rsquo;re stuck.&lt;/p&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;At the top of the code window is the special &lt;code&gt;&amp;lt;Cabbage&amp;gt;&lt;/code&gt; section. Update the bit that says &lt;code&gt;form caption(&amp;quot;Untitled&amp;quot;)&lt;/code&gt; to a more inspiring name, like &lt;code&gt;form caption(&amp;quot;The Crubulator&amp;quot;)&lt;/code&gt;. There&amp;rsquo;s also &lt;code&gt;pluginID(&amp;quot;def1&amp;quot;)&lt;/code&gt; - change &amp;ldquo;def1&amp;rdquo; to something else, but keep it four characters long. It has to be four, &lt;a href=&#34;#plugin-id&#34;&gt;for some reason&lt;/a&gt;. Then you have &lt;code&gt;size(400, 300)&lt;/code&gt;, which will do for now, and &lt;code&gt;colour(58, 110, 182)&lt;/code&gt;, which certainly will not. It&amp;rsquo;s refreshing for us British English speakers that there&amp;rsquo;s a &lt;strong&gt;u&lt;/strong&gt; in &lt;code&gt;colour&lt;/code&gt;, but the system is the same as everywhere else: three numbers from 0 to 255, representing the proportion of red, green and blue you want. I&amp;rsquo;ve gone for a deep red, &lt;code&gt;colour(80, 10, 0)&lt;/code&gt;. Press &lt;code&gt;ctrl+s&lt;/code&gt; to save, and you&amp;rsquo;ll see the synth window update.
-&lt;img src=&#34;https://y6nh.github.io/img/crubulator1.png&#34; alt=&#34;Screenshot of the Cabbage synth window, showing a keyboard on a deep red background&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;At the top of the code window is the special &lt;code&gt;&amp;lt;Cabbage&amp;gt;&lt;/code&gt; section. Update the bit that says &lt;code&gt;form caption(&amp;quot;Untitled&amp;quot;)&lt;/code&gt; to a more inspiring name, like &lt;code&gt;form caption(&amp;quot;The Crubulator&amp;quot;)&lt;/code&gt;. There&amp;rsquo;s also &lt;code&gt;pluginID(&amp;quot;def1&amp;quot;)&lt;/code&gt; - change &amp;ldquo;def1&amp;rdquo; to something else, but keep it four characters long. It has to be four, &lt;a href=&#34;#plugin-id&#34;&gt;for some reason&lt;/a&gt;. Then you have &lt;code&gt;size(400, 300)&lt;/code&gt;, which will do for now, and &lt;code&gt;colour(58, 110, 182)&lt;/code&gt;, which certainly will not. It&amp;rsquo;s refreshing for us British English speakers that there&amp;rsquo;s a &lt;strong&gt;u&lt;/strong&gt; in &lt;code&gt;colour&lt;/code&gt;, but the system is the same as everywhere else: three numbers from 0 to 255, representing the proportion of red, green and blue you want. I&amp;rsquo;ve gone for a deep red, &lt;code&gt;colour(80, 10, 0)&lt;/code&gt;. Press &lt;code&gt;ctrl+s&lt;/code&gt; to save, and you&amp;rsquo;ll see the synth window update.&lt;/p&gt;
 
-&lt;h2 id=&#34;guts:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Guts&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/crubulator1.png&#34; alt=&#34;Screenshot of the Cabbage synth window, showing a keyboard on a deep red background. It&#39;s titled &#39;The Crubulator&#39;.&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;guts&#34;&gt;Guts&lt;/h2&gt;
 
 &lt;p&gt;I think you&amp;rsquo;ll agree that it sounds better already. But let&amp;rsquo;s get to the actual sound-generating guts of it and really make this baby crubulate. Further down the code window, find the comment (a line starting with a semicolon) &lt;code&gt;;instrument will be triggered by keyboard widget&lt;/code&gt;. Under that, between &lt;code&gt;instr 1&lt;/code&gt; and &lt;code&gt;endin&lt;/code&gt;, is the definition of the instrument.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;instr&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;1&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-csound&#34; data-lang=&#34;csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;instr&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;1&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;madsr&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;.4&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;vco2&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p4&lt;/span&gt;
 &lt;span class=&#34;nb&#34;&gt;outs&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;
@@ -146,20 +558,21 @@ If ever the code window isn&#39;t visible, you can show it by selecting &#34;Vie
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;These are the underdeveloped guts of our nascent crubulator. All we have here is an ADSR envelope, &lt;code&gt;madsr&lt;/code&gt;, controlling the volume of an oscillator, &lt;code&gt;vco2&lt;/code&gt;, which is routed to the two output channels, &lt;code&gt;outs&lt;/code&gt;. Those three keywords show up in blue (or whatever colour you&amp;rsquo;ve tweaked them to), because they&amp;rsquo;re &lt;em&gt;opcodes&lt;/em&gt;. Opcodes are the building blocks of Csound. If you&amp;rsquo;re a programmer, they&amp;rsquo;re like functions. If you&amp;rsquo;re a musician, they&amp;rsquo;re like basic synth modules and effects that you can plug together.&lt;/p&gt;
+&lt;p&gt;These are the underdeveloped guts of our nascent crubulator. All we have here is an &lt;a href=&#34;#adsr&#34;&gt;ADSR envelope&lt;/a&gt;, &lt;code&gt;madsr&lt;/code&gt;, controlling the volume of an oscillator, &lt;code&gt;vco2&lt;/code&gt;, which is routed to the two output channels, &lt;code&gt;outs&lt;/code&gt;. Those three keywords show up in blue (or whatever colour you&amp;rsquo;ve tweaked them to), because they&amp;rsquo;re &lt;em&gt;opcodes&lt;/em&gt;. Opcodes are the building blocks of Csound. If you&amp;rsquo;re a programmer, they&amp;rsquo;re like functions. If you&amp;rsquo;re a musician, they&amp;rsquo;re like basic synth modules and effects that you can plug together.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s take a closer look at the first one. It starts with &lt;code&gt;kEnv&lt;/code&gt;, which is a new variable to accept the output of the rest of the line. (If you use guitar effects pedals, you&amp;rsquo;ll know that the output jack is conventionally on the left, like this. &lt;code&gt;kEnv&lt;/code&gt; is your patch cable plugged into the output.). Then the opcode, &lt;code&gt;madsr&lt;/code&gt;, and then four numbers, the parameters, which are the four knobs on your pedal. There&amp;rsquo;s no input jack on this one, since it just outputs a control signal. To find out what an opcode does, click on it and press &lt;code&gt;f1&lt;/code&gt;. The official Csound documentation is rather dry, but honest. The page for &lt;code&gt;madsr&lt;/code&gt; contains the heartening phrase &amp;lsquo;not yet properly tested&amp;rsquo;, which should probably be on most pages of most software manuals. It also tells you that, as you might expect if you&amp;rsquo;ve ever used a synth before, the four numbers after the opcode control the &lt;strong&gt;a&lt;/strong&gt;ttack time, &lt;strong&gt;d&lt;/strong&gt;ecay time, &lt;strong&gt;s&lt;/strong&gt;ustain level and &lt;strong&gt;r&lt;/strong&gt;elease time of the envelope. (The &lt;strong&gt;m&lt;/strong&gt; is for MIDI compatible.)&lt;/p&gt;
 
-&lt;p&gt;The next line starts with &lt;code&gt;aOut&lt;/code&gt;, which is the output again. This one starts with &lt;strong&gt;a&lt;/strong&gt; because it&amp;rsquo;s an &lt;strong&gt;audio&lt;/strong&gt; signal, whereas &lt;code&gt;kEnv&lt;/code&gt; starts with &lt;strong&gt;k&lt;/strong&gt; because it&amp;rsquo;s a &lt;strong&gt;control&lt;/strong&gt; (Kontrol) signal. &lt;a href=&#34;#variables&#34;&gt;This is actually important&lt;/a&gt; - unlike most sane programming languages, you can&amp;rsquo;t name variables however you want in Csound, because the first letter of a variable&amp;rsquo;s name defines its type. Then the opcode, &lt;code&gt;vco2&lt;/code&gt;. The term VCO will be familiar to synth players, though knowing it stands for &amp;lsquo;Voltage Controlled Oscillator&amp;rsquo; won&amp;rsquo;t help you much. It generates a raw tone. This time, instead of actual numbers controlling it, we have &lt;code&gt;p4&lt;/code&gt; and &lt;code&gt;p5&lt;/code&gt;. These beauties are the keyboard input. If you look near the top of the file, at the &lt;code&gt;&amp;lt;CsOptions&amp;gt;&lt;/code&gt; section that you&amp;rsquo;re glad you didn&amp;rsquo;t have to write, you can see the frequency and amplitude being wired up to the numbers 4 and 5: &lt;code&gt;--midi-key-cps=4 --midi-velocity-amp=5&lt;/code&gt;. (By the way, the note velocity / amplitude on the Cabbage keyboard is controlled by the vertical position of your click.)&lt;/p&gt;
+&lt;p&gt;The next line starts with &lt;code&gt;aOut&lt;/code&gt;, which is the output again. This one starts with &lt;strong&gt;a&lt;/strong&gt; because it&amp;rsquo;s an &lt;strong&gt;audio&lt;/strong&gt; signal, whereas &lt;code&gt;kEnv&lt;/code&gt; starts with &lt;strong&gt;k&lt;/strong&gt; because it&amp;rsquo;s a &lt;strong&gt;control&lt;/strong&gt; (Kontrol) signal. This is actually important - unlike most sane programming languages, you can&amp;rsquo;t name variables however you want in Csound, because the first letter of a variable&amp;rsquo;s name defines its type. Then the opcode, &lt;code&gt;vco2&lt;/code&gt;. The term VCO will be familiar to synth players, though knowing it stands for &amp;lsquo;Voltage Controlled Oscillator&amp;rsquo; won&amp;rsquo;t help you much. It generates a raw tone. This time, instead of actual numbers controlling it, we have &lt;code&gt;p4&lt;/code&gt; and &lt;code&gt;p5&lt;/code&gt;. These beauties are the keyboard input. If you look near the top of the file, at the &lt;code&gt;&amp;lt;CsOptions&amp;gt;&lt;/code&gt; section that you&amp;rsquo;re glad you didn&amp;rsquo;t have to write, you can see the frequency and amplitude being wired up to the numbers 4 and 5: &lt;code&gt;--midi-key-cps=4 --midi-velocity-amp=5&lt;/code&gt;. (By the way, the note velocity / amplitude on the Cabbage keyboard is controlled by the vertical position of your click.)&lt;/p&gt;
 
 &lt;p&gt;The third and final line of the guts starts with the opcode &lt;code&gt;outs&lt;/code&gt;, which has no output (it &lt;em&gt;is&lt;/em&gt; the output), and two inputs, both of which are &lt;code&gt;aOut*kEnv&lt;/code&gt; - the raw tone output of the oscillator &amp;lsquo;multiplied by&amp;rsquo; the control signal from the envelope. It may seem weird to change the volume of a sound using the multiplication operator, but music is math, man. Or music are maths. Or something. The oscillator is producing a signal that varies quickly between -1 and 1 (say 440 times a second, if you hit the middle A on the keyboard), and the envelope is producing a signal that varies slowly between 0 and 1, and at each point in time the output requires a new value (44100 times a second, depending on your audio settings) it does the multiplication, and sends that number to the left and right channels. (And eventually that number gets converted to an actual analogue voltage and sent to your speakers or headphones.)&lt;/p&gt;
 
-&lt;h2 id=&#34;knobs:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Knobs&lt;/h2&gt;
+&lt;h2 id=&#34;knobs&#34;&gt;Knobs&lt;/h2&gt;
 
 &lt;p&gt;Every good synth deserves knobs. Let&amp;rsquo;s add one.&lt;/p&gt;
 
-&lt;p&gt;Add two parameters to the &lt;code&gt;vco2&lt;/code&gt; line. Remembering to put commas between them, add &lt;code&gt;2&lt;/code&gt; and &lt;code&gt;kPulsewidth&lt;/code&gt;. So now you should have &lt;code&gt;aOut vco2 p5, p4, 2, kPulsewidth&lt;/code&gt;. Save the file and try the synth again&amp;hellip; oh no, we&amp;rsquo;ve broken it! Actually, we&amp;rsquo;ve changed the oscillator from the default sawtooth wave to a pulse wave, and added a controller for the pulse width. The control signal &lt;code&gt;kPulsewidth&lt;/code&gt; isn&amp;rsquo;t defined yet, but that&amp;rsquo;s where the knob comes in.
-&lt;img src=&#34;https://y6nh.github.io/img/crubulator2.png&#34; alt=&#34;Screenshot of the Cabbage synth window, in which we&#39;re showing the menu to add a knob.&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Add two parameters to the &lt;code&gt;vco2&lt;/code&gt; line. Remembering to put commas between them, add &lt;code&gt;2&lt;/code&gt; and &lt;code&gt;kPulsewidth&lt;/code&gt;. So now you should have &lt;code&gt;aOut vco2 p5, p4, 2, kPulsewidth&lt;/code&gt;. Save the file and try the synth again&amp;hellip; oh no, we&amp;rsquo;ve broken it! Actually, we&amp;rsquo;ve changed the oscillator from the default sawtooth wave to a pulse wave, and added a controller for the pulse width. The control signal &lt;code&gt;kPulsewidth&lt;/code&gt; isn&amp;rsquo;t defined yet, but that&amp;rsquo;s where the knob comes in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/crubulator2.png&#34; alt=&#34;Screenshot of the Cabbage synth window, in which we&#39;re showing the menu to add a knob.&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;On the synth interface that we&amp;rsquo;ve so lovingly coloured in, click the Options button, and choose &amp;ldquo;Edit-mode&amp;rdquo;. Now right-click somewhere above the keyboard that looks like a good place for a knob, and choose &amp;ldquo;Indigenous &amp;gt; rslider&amp;rdquo;. (Knobs are called rsliders, as if there&amp;rsquo;s not a perfectly good name for them.) Now click on the knob that appears, and you&amp;rsquo;ll see a long list of properties for it. Change the &amp;ldquo;channel&amp;rdquo; property from &amp;ldquo;rslider&amp;rdquo; to &amp;ldquo;pulsewidth&amp;rdquo;. Make the &amp;ldquo;text&amp;rdquo; say &amp;ldquo;Pulsewidth&amp;rdquo; too. Change the &amp;ldquo;value&amp;rdquo; property from 0 to 0.5. Maybe change the max and min so that they&amp;rsquo;re a bit less than 1 and a bit more than 0 - the ends of the range aren&amp;rsquo;t very useful. And I know how much you like tweaking colours, so go ahead and make it pretty. Press Esc to apply the changes. Maybe make the knob a bit bigger, so that you can read the whole of the label - you can either drag the corner of the sizing box around the knob, or change the numbers in the properties list. Turn off &amp;ldquo;Edit-mode&amp;rdquo; in the menu to return to a playable state.&lt;/p&gt;
 
@@ -167,16 +580,16 @@ If ever the code window isn&#39;t visible, you can show it by selecting &#34;Vie
 
 &lt;p&gt;Save that now and try playing some notes again. Move the knob and hear how the sound changes.&lt;/p&gt;
 
-&lt;h2 id=&#34;push-the-envelope:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Push the envelope&lt;/h2&gt;
+&lt;h2 id=&#34;push-the-envelope&#34;&gt;Push the envelope&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/crubulator3.png&#34; alt=&#34;Our synth so far, with a Pulsewidth knob and ADSR sliders.&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/crubulator3.png&#34; alt=&#34;Our synth so far, with a Pulsewidth knob and ADSR sliders.&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;How about some sliders for that &lt;code&gt;madsr&lt;/code&gt;? Put the synth interface back into Edit-mode and right click to add a vertical slider - that&amp;rsquo;s &amp;ldquo;Indigenous &amp;gt; vslider&amp;rdquo;. Set the text to &amp;ldquo;A&amp;rdquo;, the channel to &amp;ldquo;attack&amp;rdquo;, and the size and colours as you think best. The value is in seconds, so you could set the max to something greater than 1; I went for 5. According to the documentation for &lt;code&gt;madsr&lt;/code&gt;, &lt;em&gt;the minimum value is not allowed to be 0&lt;/em&gt;, but it can be a very small number like 0.000001.&lt;/p&gt;
+&lt;p&gt;How about some sliders for that &lt;code&gt;madsr&lt;/code&gt;? Put the synth interface back into Edit-mode and right click to add a vertical slider - that&amp;rsquo;s &amp;ldquo;Indigenous &amp;gt; vslider&amp;rdquo;. Set the text to &amp;ldquo;A&amp;rdquo;, the channel to &amp;ldquo;attack&amp;rdquo;, and the size and colours as you think best. The value is in seconds, so you could set the max to something greater than 1; I went for 5. According to the documentation for &lt;code&gt;madsr&lt;/code&gt;, &lt;strong&gt;the minimum value is not allowed to be 0&lt;/strong&gt;, but it can be a very small number like 0.000001.&lt;/p&gt;
 
 &lt;p&gt;Instead of setting up another slider from scratch, you can right-click and duplicate the A slider. Do this three times and arrange the new sliders neatly. Now set their channels to &amp;ldquo;decay&amp;rdquo;, &amp;ldquo;sustain&amp;rdquo; and &amp;ldquo;release&amp;rdquo;, and their text to &amp;ldquo;D&amp;rdquo;, &amp;ldquo;S&amp;rdquo; and &amp;ldquo;R&amp;rdquo;. The sustain value needs to be between 0 and 1, so make sure the max for the &amp;ldquo;S&amp;rdquo; slider is 1, and the value (the starting position) is something civilised like 0.6. The A, D and R sliders are all times in seconds, so they can go on beyond 1. But remember, they&amp;rsquo;re not allowed to go right down to 0.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s wire those sliders up. In the code editor, add some more &lt;code&gt;chnget&lt;/code&gt; lines:
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-Csound&#34; data-lang=&#34;Csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;attack&amp;quot;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-csound&#34; data-lang=&#34;csound&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;attack&amp;quot;&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Decay&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;decay&amp;quot;&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sustain&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sustain&amp;quot;&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Release&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;chnget&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;release&amp;quot;&lt;/span&gt;
@@ -203,7 +616,7 @@ Unlike the k-rate pulsewidth controller, these are i-rate variables. That means 
 &lt;span class=&#34;c1&#34;&gt;; ADSR envelope&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;madsr&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Decay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sustain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Release&lt;/span&gt;
 
-&lt;span class=&#34;c1&#34;&gt;; Pulsewidth oscillator&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;; Pulsewidth oscillator &lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;vco2&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;p4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Pulsewidth&lt;/span&gt;
 
 &lt;span class=&#34;nb&#34;&gt;outs&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Env&lt;/span&gt;
@@ -212,11 +625,11 @@ Unlike the k-rate pulsewidth controller, these are i-rate variables. That means 
 
 You can add as many comments (starting with &amp;ldquo;;&amp;rdquo;) and blank lines as you want, to make it more legible.&lt;/p&gt;
 
-&lt;h2 id=&#34;squelch:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Squelch&lt;/h2&gt;
+&lt;h2 id=&#34;squelch&#34;&gt;Squelch&lt;/h2&gt;
 
 &lt;p&gt;We&amp;rsquo;ve added some knobs to the default guts of the thing, but now let&amp;rsquo;s add something new. The voltage-controlled trinity of VCO (oscillator), VCA (amplifier) and VCF (filter) needs to be completed.&lt;/p&gt;
 
-&lt;p&gt;Open &lt;a href=&#34;http://www.csounds.com/manual/html/index.html&#34;&gt;the Csound manual&lt;/a&gt; (you can get to it from the Help menu in Cabbage&amp;rsquo;s source editor window, or press f1). Scroll down to the Opcodes Overview section. What a lot of goodies. Hyper Vectorial Synthesis. Waveguide Physical Modeling. Convolution and Morphing. Non-standard Spectral Processing. And it&amp;rsquo;s all free for you to play with. If you find out what it all does, write me a tutorial. Anyway, drag your clicking finger away from the sexy stuff for the moment, and find &lt;a href=&#34;http://www.csounds.com/manual/html/SigmodStandard.html&#34;&gt;Standard Filters&lt;/a&gt;, under Signal Modifiers. In there, you have 18 types of resonant low-pass filter. If you don&amp;rsquo;t know what a resonant low-pass filter is, it&amp;rsquo;s the thing that&amp;rsquo;s responsible for exactly 84% of the cool bits in all electronic music. Let&amp;rsquo;s pick &amp;ldquo;moogladder&amp;rdquo;, more or less because it has &lt;a href=&#34;#moog&#34;&gt;a nice name&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Open &lt;a href=&#34;http://www.csounds.com/manual/html/index.html&#34;&gt;the Csound manual&lt;/a&gt; (you can get to it from the Help menu in Cabbage&amp;rsquo;s source editor window, or press &lt;kbd&gt;f1&lt;/kbd&gt;). Scroll down to the Opcodes Overview section. What a lot of goodies. Hyper Vectorial Synthesis. Waveguide Physical Modeling. Convolution and Morphing. Non-standard Spectral Processing. And it&amp;rsquo;s all free for you to play with. If you find out what it all does, write me a tutorial. Anyway, drag your clicking finger away from the sexy stuff for the moment, and find &lt;a href=&#34;http://www.csounds.com/manual/html/SigmodStandard.html&#34;&gt;Standard Filters&lt;/a&gt;, under Signal Modifiers. In there, you have 18 types of resonant low-pass filter. If you don&amp;rsquo;t know what a resonant low-pass filter is, it&amp;rsquo;s the thing that&amp;rsquo;s responsible for exactly 84% of the cool bits in all electronic music. Let&amp;rsquo;s pick &amp;ldquo;moogladder&amp;rdquo;, more or less because it has &lt;a href=&#34;#moog&#34;&gt;a nice name&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;So, back to the code editor. Let&amp;rsquo;s put the filter after the VCO.&lt;/p&gt;
 
@@ -253,70 +666,101 @@ You can add as many comments (starting with &amp;ldquo;;&amp;rdquo;) and blank l
 
 &lt;p&gt;Do read the docs and tweak those numbers, or even add some knobs to control the compression parameters if you like.&lt;/p&gt;
 
-&lt;h2 id=&#34;export-strength:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Export strength&lt;/h2&gt;
+&lt;h2 id=&#34;export-strength&#34;&gt;Export strength&lt;/h2&gt;
 
-&lt;p&gt;To use your synth outside of Cabbage, you&amp;rsquo;ll need to export it. From the Options menu, choose &amp;ldquo;Export as&amp;hellip; Plugin Synth&amp;rdquo; and save it as a plugin to use in your &lt;abbr title=&#34;Digital Audio Workstation&#34;&gt;DAW&lt;/abbr&gt;.
-&lt;img src=&#34;https://y6nh.github.io/img/cabbage-export.png&#34; alt=&#34;Screenshot of the Cabbage export dialog box.&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;To use your synth outside of Cabbage, you&amp;rsquo;ll need to export it. From the Options menu, choose &amp;ldquo;Export as&amp;hellip; Plugin Synth&amp;rdquo; and save it as a plugin to use in your &lt;abbr title=&#34;Digital Audio Workstation&#34;&gt;DAW&lt;/abbr&gt;.&lt;/p&gt;
 
-&lt;p&gt;Now, put both the dll file and the csd file for your synth somewhere your DAW can find it. If you don&amp;rsquo;t have a DAW, you can get &lt;a href=&#34;https://marketplace.tracktion.com/app/free-daw&#34;&gt;an excellent free version of Tracktion&lt;/a&gt; which will do nicely. Here&amp;rsquo;s our finished synth in action:
-&lt;img src=&#34;https://y6nh.github.io/img/crubulator-in-tracktion.png&#34; alt=&#34;Screenshot of the synth plugin in use with the Tracktion DAW&#34; class=&#34;fullwidth&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/cabbage-export.png&#34; alt=&#34;Screenshot of the Cabbage export dialog box.&#34; width=&#34;50%&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, put both the dll file and the csd file for your synth somewhere your DAW can find it. If you don&amp;rsquo;t have a DAW, you can get &lt;a href=&#34;https://marketplace.tracktion.com/app/free-daw&#34;&gt;an excellent free version of Tracktion&lt;/a&gt; which will do nicely. Here&amp;rsquo;s our finished synth in action:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://y6nh.github.io/img/crubulator-in-tracktion.png&#34; alt=&#34;Screenshot of the synth plugin in use with the Tracktion DAW&#34; class=&#34;fullwidth&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;You can find out more about exporting from &lt;a href=&#34;http://cabbageaudio.com/docs/exporting/&#34;&gt;the Cabbage documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;done:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Done.&lt;/h2&gt;
+&lt;h2 id=&#34;done&#34;&gt;Done.&lt;/h2&gt;
 
-&lt;p&gt;If you want to compare your version with mine, or if you just can&amp;rsquo;t be bothered with all that typing in the first place, just go and &lt;a href=&#34;https://github.com/y6nH/crubulator&#34;&gt;fork it on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to compare your version with mine, or if you just can’t be bothered with all that typing in the first place, just go and &lt;a href=&#34;https://github.com/y6nH/crubulator&#34;&gt;fork it on GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;exercises:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Exercises&lt;/h2&gt;
+&lt;h2 id=&#34;exercises&#34;&gt;Exercises&lt;/h2&gt;
 
 &lt;p&gt;That&amp;rsquo;s just a start. Plenty more space for knobs on that little synth. If you&amp;rsquo;re looking for ideas of where to take it next, here are a few:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Add another effect, for example &lt;code&gt;distort1&lt;/code&gt;, &lt;code&gt;flanger&lt;/code&gt; or &lt;code&gt;reverb&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Add a control which applies varying amounts of the envelope signal to the filter cutoff&lt;/li&gt;
-&lt;li&gt;Add more controllers - knobs, sliders, or whatever - for the code you&amp;rsquo;ve already got&lt;/li&gt;
+&lt;li&gt;Add more controllers - knobs, sliders, or whatever - for the spare variables in the code you&amp;rsquo;ve already got&lt;/li&gt;
+&lt;li&gt;Add a visualisation, or otherwise make it look prettier.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;footnotes:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Footnotes&lt;/h2&gt;
+&lt;p&gt;(Aside: how ADSR envelopes work)&lt;/p&gt;
 
-&lt;p&gt;&lt;aside id=&#34;variables&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;csound-variables:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Csound variables&lt;/h3&gt;
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;aside id=&#34;variables&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;csound-variables&#34;&gt;Csound variables&lt;/h3&gt;
 
 &lt;p&gt;Because Csound is a language dealing with signals over time, the variables behave differently to those in most other programming languages. It may be useful to think of them as &amp;ldquo;signal carriers&amp;rdquo; or &amp;ldquo;patch cables&amp;rdquo; or &amp;ldquo;pipes&amp;rdquo;, as opposed to the regular &amp;ldquo;slots&amp;rdquo; or &amp;ldquo;boxes&amp;rdquo;. The code receiving values from a variable will check it for a new value (take another slurp from the pipe, if you will) many times a second.&lt;/p&gt;
 
 &lt;p&gt;Every variable in Csound starts with a letter which specifies how often it changes. Part of the file boilerplate that Cabbage wrote for you, above the guts, says &lt;code&gt;sr = 44100&lt;/code&gt;, which sets the audio sample rate to that many per second, the same rate as a CD. So the variables starting with &lt;code&gt;a&lt;/code&gt; (audio) change at 44100 Hz. The next line, &lt;code&gt;ksmps = 32&lt;/code&gt;, says that the control variables, starting with &lt;code&gt;k&lt;/code&gt;, change every 32 samples. So that&amp;rsquo;s 44100 Hz / 32 = 1378.125 Hz. Still pretty fast. Variables starting with &lt;code&gt;i&lt;/code&gt; (initialization) or &lt;code&gt;p&lt;/code&gt; (performance) are only read every time a note starts, and stay the same during the note.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;/aside&gt;
 
-&lt;p&gt;&lt;aside id=&#34;plugin-id&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;plugin-ids:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Plugin IDs&lt;/h3&gt;
 
-&lt;p&gt;In theory, every VST plugin has a unique four-character ID. Steinberg, who invented the system, keep a database of the IDs, and if you want to distribute a plugin you&amp;rsquo;ve made, you should &lt;a href=&#34;http://service.steinberg.de/databases/plugin.nsf/plugIn?openForm&#34; target=&#34;Steinberg&#34;&gt;register its ID&lt;/a&gt; there.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;aside id=&#34;plugin-id&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;plugin-ids&#34;&gt;Plugin IDs&lt;/h3&gt;
 
-&lt;p&gt;&lt;aside id=&#34;rounding&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;rounding-error:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Rounding error&lt;/h3&gt;
+&lt;p&gt;In theory, every VST plugin has a unique four-character ID. Steinberg, who invented the system, keep a database of the IDs, and if you want to distribute a plugin you’ve made, you should &lt;a href=&#34;http://service.steinberg.de/databases/plugin.nsf/plugIn?openForm&#34;&gt;register its ID there&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;aside id=&#34;adsr&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;adsr-envelopes&#34;&gt;ADSR envelopes&lt;/h3&gt;
+
+&lt;p&gt;In synth terms, an envelope is the way a signal changes over time. One standard, fairly simple way to define that is using the &lt;em&gt;Attack, Decay, Sustain, Release&lt;/em&gt; model.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Attack&lt;/dt&gt;
+&lt;dd&gt;The time the level takes to get from nothing to full volume. A percussive sound will have a very short attack.&lt;/dd&gt;
+&lt;dt&gt;Decay&lt;/dt&gt;
+&lt;dd&gt;After the attack, the time the it takes to get to the level where it&amp;rsquo;ll stay while the key&amp;rsquo;s held down.&lt;/dd&gt;
+&lt;dt&gt;Sustain&lt;/dt&gt;
+&lt;dd&gt;The level it stays at while the key is held down.&lt;/dd&gt;
+&lt;dt&gt;Release&lt;/dt&gt;
+&lt;dd&gt;How long it takes to fade out to nothing again after you let go of that key.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;It makes some assumptions about the sound you&amp;rsquo;re after and how you&amp;rsquo;re controlling it, but in practice it&amp;rsquo;s a fairly flexible system. It&amp;rsquo;s most natural to think of an envelope controlling the loudness of a sound, but it can equally well control the pitch, filter cutoff, delay send, crubulence, or whatever you like.&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;aside id=&#34;rounding&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;rounding-error&#34;&gt;Rounding error&lt;/h3&gt;
 
 &lt;p&gt;You may notice that the numbers you set in the controller&amp;rsquo;s properties change to long, random-looking decimals, like 0.010000000000000000208 or 1.0000000000000000818e-005. That&amp;rsquo;s nothing to worry about, it&amp;rsquo;s a side effect of the way computers store numbers, called rounding error. They only have a certain number of bits to store each number, and with an infinite range of possible numbers to represent (even between 0 and 1), they have to round what you type in to the nearest number that fits into the storage system. It may seem weird, but (with this particular scheme) the program actually can&amp;rsquo;t represent 0.01 exactly.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;/aside&gt;
 
-&lt;p&gt;&lt;aside id=&#34;moog&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;moog:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Moog&lt;/h3&gt;
 
-&lt;p&gt;Moog is possibly the most famous synthesizer brand in the world. Csound has not only two different implementations of the Moog ladder filter used in this article, but also &lt;a href=&#34;http://www.csounds.com/manual/html/moog.html&#34; target=&#34;themanual&#34;&gt;an opcode just called &lt;code&gt;moog&lt;/code&gt;&lt;/a&gt;, which emulates an entire Minimoog synthesizer. They love it.&lt;/p&gt;
+&lt;aside id=&#34;moog&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;moog&#34;&gt;Moog&lt;/h3&gt;
 
-&lt;p&gt;If you&amp;rsquo;re interested, Bob Moog himself explains what a low-pass filter does in &lt;a href=&#34;https://www.moogmusic.com/legacy/bob-moog-synthesizers-low-pass-filters-mayjune-1976&#34; target=&#34;bob&#34;&gt;this vintage article&lt;/a&gt;.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;p&gt;Moog is possibly the most famous synthesizer brand in the world. Csound has not only the &lt;code&gt;moogladder&lt;/code&gt; filter used in this article, but also &lt;a href=&#34;http://www.csounds.com/manual/html/moog.html&#34;&gt;an opcode just called &lt;code&gt;moog&lt;/code&gt;&lt;/a&gt;, which emulates an entire Minimoog synthesizer. They love it.&lt;/p&gt;
 
-&lt;p&gt;&lt;aside id=&#34;distortion&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;digital-distortion:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Digital distortion&lt;/h3&gt;
+&lt;p&gt;Bob Moog himself explains what a low-pass filter does in &lt;a href=&#34;https://www.moogmusic.com/legacy/bob-moog-synthesizers-low-pass-filters-mayjune-1976&#34;&gt;this vintage article&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 
-&lt;p&gt;You may be thinking &amp;ldquo;&amp;hellip;but I &lt;em&gt;like&lt;/em&gt; distortion&amp;rdquo;, but the sad fact is that digital audio doesn&amp;rsquo;t distort prettily. With a guitar amplifier or a tape recorder, you can push the volume into the red and it starts to sound interesting as the tops of the waveforms get squashed. With a digital signal, all that happens is the tops get lopped off in a straight line, and it sounds rubbish.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;aside id=&#34;compression&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;compression:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Compression&lt;/h3&gt;
+&lt;aside id=&#34;distortion&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;digital-distortion&#34;&gt;Digital distortion&lt;/h3&gt;
+
+&lt;p&gt;You may be thinking &amp;ldquo;&amp;hellip;but I &lt;em&gt;like&lt;/em&gt; distortion&amp;rdquo; &lt;!-- &#34;...when I bar chord&#34; --&gt;, but the sad fact is that digital audio doesn&amp;rsquo;t distort prettily. With a guitar amplifier or a tape recorder, you can push the volume into the red and it starts to sound interesting as the tops of the waveforms get squashed. With a digital signal, all that happens is the tops get lopped off in a straight line, and it sounds rubbish.&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;aside id=&#34;compression&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;compression&#34;&gt;Compression&lt;/h3&gt;
 
 &lt;p&gt;Compression is an enormous and controversial subject in audio engineering, and it would be foolhardy for me to try to explain it here. So I won&amp;rsquo;t go through what the options do on that &lt;code&gt;compress&lt;/code&gt; opcode; take it as a starting point, and read up if you&amp;rsquo;re interested.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;/aside&gt;
 
-&lt;p&gt;&lt;aside id=&#34;poignant&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;chunky-bacon:999164783295c2dd3e9b1b34ad45544f&#34;&gt;Chunky Bacon&lt;/h3&gt;
 
-&lt;p&gt;If Csound had a programming guide one tenth as wonderful as &lt;a href=&#34;http://poignant.guide/&#34; target=&#34;smotchkkiss&#34;&gt;Why&amp;rsquo;s (Poignant) Guide to Ruby&lt;/a&gt;, it would be wildly popular. But, for now, you&amp;rsquo;ll have to imagine the foxes yourself. Or go and learn Ruby instead.&lt;/p&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;aside id=&#34;poignant&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;chunky-bacon&#34;&gt;Chunky Bacon&lt;/h3&gt;
+
+&lt;p&gt;If Csound had a programming guide one tenth as wonderful as &lt;a href=&#34;http://poignant.guide/&#34;&gt;Why&amp;rsquo;s (Poignant) Guide to Ruby&lt;/a&gt;, it would be wildly popular. But, for now, you&amp;rsquo;ll have to imagine the foxes yourself. Or go and learn Ruby instead.&lt;/p&gt;
+&lt;/aside&gt;
+
 </description>
     </item>
     

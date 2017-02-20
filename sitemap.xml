@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://y6nh.github.io/</loc>
-    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://y6nh.github.io/NoMansBleep/</loc>
+    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://y6nh.github.io/csound-on-stack-exchange/</loc>
-    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://y6nh.github.io/mud/</loc>
+    <loc>https://y6nh.github.io/Mud/</loc>
     <lastmod>2016-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://y6nh.github.io/first-synth-with-csound-cabbage/</loc>
     <lastmod>2016-08-10T00:07:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/</loc>
+    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
