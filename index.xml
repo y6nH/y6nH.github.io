@@ -450,10 +450,10 @@ document.getElementById(&#39;terminal&#39;).onclick = (() =&gt; {play(); changeI
     
     <item>
       <title>Mud</title>
-      <link>https://y6nh.github.io/Mud/</link>
+      <link>https://y6nh.github.io/mud/</link>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://y6nh.github.io/Mud/</guid>
+      <guid>https://y6nh.github.io/mud/</guid>
       <description>
 
 &lt;p&gt;Introducing my theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, the static site generator: &lt;strong&gt;Mud&lt;/strong&gt;. That&amp;rsquo;s what it&amp;rsquo;s called for the moment, at least. Because it&amp;rsquo;s brown and not very clever. Let&amp;rsquo;s see whether it sticks.&lt;/p&gt;
