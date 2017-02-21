@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>No Man&#39;s Bleep · y6nH&#39;s pages</title>
+        <link rel="stylesheet" href="https://y6nh.github.io/css/main.css"/>
+        <link rel="alternate" type="application/rss+xml" href=""/>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="In which I tell Hello Games what&#39;s what.">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="author" content="y6nH">
+  
+	
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@https://twitter.com/y6nH">
+        <meta name="twitter:creator" content="@https://twitter.com/y6nH">
+        <meta name="twitter:domain" content="https://y6nh.github.io/">
+	
+        <meta property="og:site_name" content="y6nH&#39;s pages">
+        <meta property="og:title" content="y6nH&#39;s pages">
+        <meta property="og:url" content="https://y6nh.github.io/NoMansBleep/">
+        <meta property="og:description" content="Creative coding for sound and the web.">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="y6nH" />
+        <meta property="og:article:published_time" content="2017-02-18T00:00:00Z" />
+    
+        <meta name="generator" content="Hugo 0.18.1" />
+    </head>
+
+<body>
+    <header id="site-header">
+        <div class="container">
+            <a href="https://y6nh.github.io/" class="blog-title heading">y6nH&#39;s pages</a>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="page">
+	<header class="post-header">
+        <h1 class="p-post-title">No Man&#39;s Bleep</h1>
+    </header>
+
+    <section class="post-content">
+        
+
+<p><svg id="terminal" width="100%" viewBox="0 240 1000 580" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+     <radialGradient id="metal" cx=42% cy=30% r=2 >
+        <stop offset=0 stop-color=#fff />
+        <stop offset=5% stop-color=#eeebe8 />
+        <stop offset=40% stop-color=#889 />
+        <stop offset=100% stop-color=#335 />
+     </radialGradient>
+     <radialGradient id="glass" cx=42% cy=30% r=2 >
+        <stop offset=0 stop-color=#fff />
+        <stop offset=4% stop-color=#fff />
+        <stop offset=6% stop-color=#000 />
+        <stop offset=30% stop-color=#335 />
+        <stop offset=100% stop-color=#558 />
+     </radialGradient>
+     <radialGradient id="reflection" cx=42% cy=30% r=2 >
+        <stop offset=0 stop-color=#fff />
+        <stop offset=4% stop-color=rgba(255,255,255,0.8) />
+        <stop offset=6% stop-color=rgba(255,255,100,0) />
+     </radialGradient>
+     <path id=iris d="M500,480q20,0,20,20q0,20,-20,20q-20,0,-20,-20q0,-20,20,-20" />
+  </defs>
+  <circle cx=500 cy=500 r=200 fill=url(#metal) style="filter:drop-shadow(5px 8px 8px #000)" />
+  <g id="eye">
+     <circle cx=500 cy=500 r=100 fill=url(#metal) style="transform:rotate(180deg);transform-origin:500px 500px;" />
+     <circle cx=500 cy=500 r=60 fill=url(#glass) />
+     <text id="iristext" font-size="10" stroke="#8e0">
+        <textPath xlink:href="#iris">
+        ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ∫ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ
+        </textPath>
+     </text>
+     <circle cx=500 cy=500 r=60 fill=url(#reflection) />
+  </g>
+</svg></p>
+
+<p>Just about the most anticipated computer game of last year, <em>No Man&rsquo;s Sky</em> was notable for the algorithmically-generated galaxy in which it&rsquo;s set - trillions of planets, all unique. It&rsquo;s awe-inspiring. Unique creatures roam among unique plants and rocks on unique landforms, but when you land your nearly-unique starship at a rather familiar-looking trading station, the trading terminal is exactly the same as all the others. (I&rsquo;ve picked one example here; there are many other objects which are exactly the same all over the galaxy, and which could benefit from some randomisation.)</p>
+
+<p>It&rsquo;s the sound I particularly want to write about. Each terminal emits the same bleeps and bloops. It would have been easy to make them all different, right? So that&rsquo;s what I&rsquo;ve mocked up here. I&rsquo;ve taken the opportunity to try out the web audio API, so this demo works in the browser (unless your browser is rubbish, of course). Click the trading terminal (that eye thing) above to hear examples.</p>
+
+<p>In the game, I assume the parameters used to generate each object are derived from its co-ordinates in space. I&rsquo;m using the standard random number generator, but it would be easy to feed it with a seed value based on the location of the terminal, so that each one had its own unique noise.</p>
+
+<h2 id="make-some-noise">Make some noise</h2>
+
+<p>The web audio API is pretty basic compared with CSound, but it provides us with the parts we need: oscillators, filters and amplifiers. Here&rsquo;s the plan:</p>
+
+<p><svg id="schematic" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="36 0 640 200" width="100%">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ - and hand-tweaked by @y6nH -->
+ <style>
+    #schematic rect,#schematic polyline{stroke:#bce52a;fill:none;stroke-width:3px;}
+    #schematic path{fill:#bce52a;}
+    #schematic text{fill:#ebe8e0;font-family:sans-serif;font-size:23px;}
+    #schematic .medium{font-size:15px;}
+    #schematic .small{font-size:13px;}
+ </style>
+ <defs>
+  <marker id="arrowhead" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+   <path d="m0,50l100,40l-30,-40l30,-40l-100,40z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Bleepy synth schematic</title>
+  <g id="osc">
+   <rect class="box" x="102.39999" y="102.950002" width="107" height="50"/>
+   <text xml:space="preserve" text-anchor="middle" y="135.950002" x="155.43332">Oscillator</text>
+  </g>
+  <g id="fil">
+   <rect class="box" x="259.69999" y="102.950008" width="107" height="50"/>
+   <text xml:space="preserve" text-anchor="middle" y="135.950008" x="312.73333">Filter</text>
+  </g>
+  <g id="amp">
+   <rect class="box" x="418.200021" y="102.950008" width="107" height="50"/>
+   <text xml:space="preserve" text-anchor="middle" y="135.950008" x="471.233361">Amplifier</text>
+  </g>
+  <g id="lfo">
+      <rect x="418.199995" y="18.887489" width="107" height="34.812501"/>
+      <text xml:space="preserve" text-anchor="middle" y="44.39374" x="471.699948">LFO</text>
+  </g>
+  <polyline points="471.92401123046875,90.19999694824219 471.70001220703125,73.20000457763672 471.47601318359375,56.20001220703125 " marker-start="url(#arrowhead)"/>
+  <polyline points="228.42401123046875,145.51251220703125 228.20001220703125,128.51250457763672 227.97601318359375,111.51250457763672 " marker-start="url(#arrowhead)" transform="rotate(-90, 228.2, 128.512)"/>
+  <polyline points="386.42401123046875,144.95001220703125 386.20001220703125,127.94999694824219 385.97601318359375,110.94999694824219 " marker-start="url(#arrowhead)" transform="rotate(-90, 386.2, 127.95)" />
+  <text x="493" y="95" class="small" text-anchor="middle" xml:space="preserve" >gain</text>
+  <text x="137.399994" y="31.200012"  text-anchor="middle" xml:space="preserve"/>
+  <g >
+   <rect x="102.700025" y="18.19999" width="107" height="34.999999" />
+   <text xml:space="preserve" text-anchor="middle" class="medium" y="42" x="157">Random curve</text>
+   <polyline points="156.42404174804688,89.70001220703125 156.20004272460938,72.70001220703125 155.97604370117188,55.70001220703125 " marker-start="url(#arrowhead)" />
+  </g>
+  <g >
+   <rect x="259.699995" y="18.82499" width="107" height="34.999999" />
+   <text xml:space="preserve" text-anchor="middle" class="medium" y="42" x="312">Random curve</text>
+   <polyline points="313.42401123046875,90.32501220703125 313.20001220703125,73.32501220703125 312.97601318359375,56.32501220703125 " marker-start="url(#arrowhead)"/>
+  </g>
+  <text x="192" y="95" class="small" text-anchor="middle" xml:space="preserve" >frequency</text>
+  <text x="350" y="95" class="small" text-anchor="middle" xml:space="preserve">frequency</text>
+  <polyline points="544.3989868164062,145.4562530517578 544.1749877929688,128.4562530517578 543.9509887695312,111.45624542236328 " marker-start="url(#arrowhead)" transform="rotate(-90, 544.174, 128.456)" />
+  <text x="596.262466" y="136.500015"  text-anchor="middle" xml:space="preserve">Out</text>
+ </g>
+</svg></p>
+
+<p>There&rsquo;s also a random curve going to the LFO rate, and random choices of oscillator waveform and filter type.</p>
+
+<p>First, we have to create an <code>AudioContext</code>, which is our way into the API. The AudioContext creates our oscillators and other nodes, co-ordinates timing, handles routing, and sends the sound to the speakers. So it&rsquo;s pretty clever, and it&rsquo;s the central object you&rsquo;ll work with in Web Audio. (In Safari, it&rsquo;s a <code>webkitAudioContext</code> instead, though it works in the same way.) So this is how we get hold of it:</p>
+
+<div class="highlight"><pre><code class="language-JavaScript" data-lang="JavaScript"><span></span><span class="kd">var</span> <span class="nx">context</span> <span class="o">=</span> <span class="k">new</span> <span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">AudioContext</span> <span class="o">||</span> <span class="nb">window</span><span class="p">.</span><span class="nx">webkitAudioContext</span><span class="p">)();</span>
+</code></pre></div>
+
+
+<p>And this is how we use it to create audio nodes:</p>
+
+<div class="highlight"><pre><code class="language-JavaScript" data-lang="JavaScript"><span></span><span class="kd">var</span> <span class="nx">osc</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createOscillator</span><span class="p">();</span>
+<span class="kd">var</span> <span class="nx">lfo</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createOscillator</span><span class="p">();</span>
+<span class="kd">var</span> <span class="nx">fil</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createBiquadFilter</span><span class="p">();</span>
+<span class="kd">var</span> <span class="nx">amp</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createGain</span><span class="p">();</span>
+</code></pre></div>
+
+
+<p>Connecting them up is easy too. Just use the source audio node&rsquo;s <code>connect</code> function to plug it into the next one. The final node connects to <code>context.destination</code>, which is the main output:</p>
+
+<div class="highlight"><pre><code class="language-JavaScript" data-lang="JavaScript"><span></span><span class="nx">osc</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">fil</span><span class="p">);</span>
+<span class="nx">fil</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">amp</span><span class="p">);</span>
+<span class="nx">amp</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">destination</span><span class="p">);</span>
+</code></pre></div>
+
+
+<p>We choose the waveforms for the oscillator and LFO randomly from the four predefined types: sine, square, sawtooth and triangle. Likewise, we choose the filter type from lowpass, highpass, bandpass and allpass. The filter Q is also random, between 10 and 42. I chose thse bounds by trial and error - although the Q can go up to 1000, anything higher leads to self-oscillation, and it drowns out the actual oscillator. Anything lower than 10 just isn&rsquo;t so much fun.</p>
+
+<p>Here are the random generator functions I used for those:</p>
+
+<div class="highlight"><pre><code class="language-JavaScript" data-lang="JavaScript"><span></span><span class="cm">/**</span>
+<span class="cm">Random number between min and max</span>
+<span class="cm">*/</span>
+<span class="kd">function</span> <span class="nx">randomBetween</span><span class="p">(</span><span class="nx">min</span><span class="p">,</span> <span class="nx">max</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">min</span> <span class="o">=</span> <span class="nx">min</span> <span class="o">||</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="nx">max</span> <span class="o">=</span> <span class="nx">max</span> <span class="o">||</span> <span class="mi">1</span><span class="p">;</span>
+	<span class="k">return</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="p">(</span><span class="nx">max</span> <span class="o">-</span> <span class="nx">min</span><span class="p">)</span> <span class="o">+</span> <span class="nx">min</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/**</span>
+<span class="cm">Returns the name of one of the four standard oscillator waveforms</span>
+<span class="cm">*/</span>
+<span class="kd">function</span> <span class="nx">randomOscType</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">rnd</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">();</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">rnd</span> <span class="o">&lt;</span> <span class="mf">0.25</span><span class="p">)</span> <span class="k">return</span> <span class="s1">&#39;sine&#39;</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">rnd</span> <span class="o">&lt;</span> <span class="mf">0.5</span><span class="p">)</span> <span class="k">return</span> <span class="s1">&#39;square&#39;</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">rnd</span> <span class="o">&lt;</span> <span class="mf">0.75</span><span class="p">)</span> <span class="k">return</span> <span class="s1">&#39;sawtooth&#39;</span><span class="p">;</span>
+	<span class="k">return</span> <span class="s1">&#39;triangle&#39;</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/**</span>
+<span class="cm">Returns the name of one of the four standard filter types</span>
+<span class="cm">*/</span>
+<span class="kd">function</span> <span class="nx">randomFilterType</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">rnd</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">();</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">rnd</span> <span class="o">&lt;</span> <span class="mf">0.25</span><span class="p">)</span> <span class="k">return</span> <span class="s1">&#39;lowpass&#39;</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">rnd</span> <span class="o">&lt;</span> <span class="mf">0.5</span><span class="p">)</span> <span class="k">return</span> <span class="s1">&#39;highpass&#39;</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">rnd</span> <span class="o">&lt;</span> <span class="mf">0.75</span><span class="p">)</span> <span class="k">return</span> <span class="s1">&#39;bandpass&#39;</span><span class="p">;</span>
+	<span class="k">return</span> <span class="s1">&#39;allpass&#39;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>There are three <code>Float32Array</code>s of frequencies: one for the oscillator frequency, one for the filter cutoff, and one for the amplifier LFO frequency. These audio nodes are picky; they won&rsquo;t <a href="#duck-type">duck-type</a> ordinary arrays of numbers into these exotic typed structures. We choose random lengths for the arrays (within appropriate limits), and fill them with random frequencies. For the LFO, the <code>randomBetween</code> function we used for the array lengths and note length will do just fine for the frequency generation. But for the audio frequencies of the oscillator and filter, we need something extra. Because an octave is a doubling in frequency, each successive semitone interval is a bigger leap in terms of Hz. This means that if we just pick random numbers in the audio range (I chose a comfortable 80 to 3200 Hz), they will tend to be many more high notes than low. To get around that, I raise 2 to the power of the raw random number (which is between 0 and 1). That gives a number between 1 and 2, but tending towards the lower end of the range. Take away 1 and stretch it up to the range we want, and it gives a nice even spread of pitches.</p>
+
+<div class="highlight"><pre><code class="language-JavaScript" data-lang="JavaScript"><span></span><span class="cm">/**</span>
+<span class="cm">Random audio frequency between 80 and 3200</span>
+<span class="cm">*/</span>
+<span class="kd">function</span> <span class="nx">randomFrequency</span><span class="p">()</span> <span class="p">{</span>
+	<span class="c1">// Weighted random number for audio taper</span>
+	<span class="kd">var</span> <span class="nx">rnd</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">())</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+	<span class="k">return</span> <span class="mi">3120</span> <span class="o">*</span> <span class="nx">rnd</span> <span class="o">+</span> <span class="mi">80</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>These Float32Arrays get interpolated into <a href="#a-rate">a-rate</a> curves when we pass them into <code>setValueCurveAtTime</code> on the frequency property of an oscillator or filter.</p>
+
+<p>Here&rsquo;s the <code>play()</code> function, which sets up the note and plays it.</p>
+
+<div class="highlight"><pre><code class="language-JavaScript" data-lang="JavaScript"><span></span><span class="kd">function</span> <span class="nx">play</span><span class="p">()</span> <span class="p">{</span>
+	<span class="c1">// length of sound in seconds</span>
+	<span class="kd">var</span> <span class="nx">length</span> <span class="o">=</span> <span class="nx">randomBetween</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">);</span> 
+	
+	<span class="c1">// Set up the audio nodes we need</span>
+	<span class="kd">var</span> <span class="nx">osc</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createOscillator</span><span class="p">();</span>
+	<span class="kd">var</span> <span class="nx">lfo</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createOscillator</span><span class="p">();</span>
+	<span class="kd">var</span> <span class="nx">fil</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createBiquadFilter</span><span class="p">();</span>
+	<span class="kd">var</span> <span class="nx">amp</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">createGain</span><span class="p">();</span>
+	
+	<span class="nx">osc</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="nx">randomOscType</span><span class="p">();</span>
+	<span class="nx">lfo</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="nx">randomOscType</span><span class="p">();</span>
+	<span class="nx">fil</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="nx">randomFilterType</span><span class="p">();</span>
+	
+	<span class="c1">// Q is an a-rate param, so to set it to a constant level use Q.value.</span>
+	<span class="nx">fil</span><span class="p">.</span><span class="nx">Q</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">randomBetween</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">42</span><span class="p">);</span>
+	
+	<span class="c1">// Wire them up</span>
+	<span class="nx">osc</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">fil</span><span class="p">);</span>
+	<span class="nx">fil</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">amp</span><span class="p">);</span>
+	<span class="nx">amp</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">destination</span><span class="p">);</span>
+	
+	<span class="c1">// List of 2 to 8 frequencies. An ordinary array won&#39;t work.</span>
+	<span class="kd">var</span> <span class="nx">freqArray</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Float32Array</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">randomBetween</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">9</span><span class="p">)));</span>
+
+	<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">freqArray</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">freqArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">randomFrequency</span><span class="p">();</span>
+	<span class="p">}</span>
+	
+	<span class="c1">// Sweep the oscillator to each frequency in turn</span>
+	<span class="nx">osc</span><span class="p">.</span><span class="nx">frequency</span><span class="p">.</span><span class="nx">setValueCurveAtTime</span><span class="p">(</span><span class="nx">freqArray</span><span class="p">,</span> <span class="nx">context</span><span class="p">.</span><span class="nx">currentTime</span><span class="p">,</span> <span class="nx">length</span><span class="p">);</span>
+	
+	<span class="c1">// Same for the amplitude LFO, but lower</span>
+	<span class="kd">var</span> <span class="nx">lfArray</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Float32Array</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">randomBetween</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">)));</span>
+	
+	<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">lfArray</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">lfArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">randomBetween</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span>
+	<span class="p">}</span>
+	
+	<span class="nx">lfo</span><span class="p">.</span><span class="nx">frequency</span><span class="p">.</span><span class="nx">setValueCurveAtTime</span><span class="p">(</span><span class="nx">lfArray</span><span class="p">,</span> <span class="nx">context</span><span class="p">.</span><span class="nx">currentTime</span><span class="p">,</span> <span class="nx">length</span><span class="p">);</span>
+	<span class="nx">lfo</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">amp</span><span class="p">.</span><span class="nx">gain</span><span class="p">);</span>
+	
+	<span class="c1">// And the filter frequency</span>
+	<span class="kd">var</span> <span class="nx">lfArray2</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Float32Array</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">randomBetween</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">)));</span>
+	
+	<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">lfArray2</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">lfArray2</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">randomFrequency</span><span class="p">();</span>
+	<span class="p">}</span>
+	
+	<span class="nx">fil</span><span class="p">.</span><span class="nx">frequency</span><span class="p">.</span><span class="nx">setValueCurveAtTime</span><span class="p">(</span><span class="nx">lfArray2</span><span class="p">,</span> <span class="nx">context</span><span class="p">.</span><span class="nx">currentTime</span><span class="p">,</span> <span class="nx">length</span><span class="p">);</span>
+
+	<span class="c1">// Start the oscillators</span>
+	<span class="nx">osc</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+	<span class="nx">lfo</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+	
+	<span class="c1">// Set them to stop when we&#39;re finished</span>
+	<span class="nx">osc</span><span class="p">.</span><span class="nx">stop</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">currentTime</span> <span class="o">+</span> <span class="nx">length</span><span class="p">);</span>
+	<span class="nx">lfo</span><span class="p">.</span><span class="nx">stop</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">currentTime</span> <span class="o">+</span> <span class="nx">length</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<aside class="side"><h2 id="aside-chemical-bothers">Aside: Chemical bothers</h2>
+
+<p>What really annoys me most about No Man&rsquo;s Sky is the chemistry. I have no problem with them tweaking the astrophysics so that planets hang around in conveniently tight clusters. I can live with the ubiquitous asteroid fields so dense that space should be effectively opaque in all directions, and with the way the vacuum is cloudy and conducts sound. I can forgive the gravity being the same on all planets and moons, and the lack of gas giants, and the homogeneous climate on each planet, and the abundance of large animals, and the way the intelligent aliens all have a humanoid body shape. They&rsquo;re all gameplay optimisations. But there was absolutely no need to declare that iron, zinc and titanium are all &ldquo;oxide elements&rdquo;. OK, they all form oxides that you might find as ores, but then declaring platinum to be a &ldquo;silicate&rdquo;, plutonium and carbon to be &ldquo;isotopes&rdquo;, and gold and aluminium to be &ldquo;neutral&rdquo; in the same context makes absolutely no sense. All elements are neutral, all elements are isotopes. Many elements form both oxides and silicates. There are tenuous gameplay reasons for classifying elements into four made-up groups, but couldn&rsquo;t they choose names that didn&rsquo;t have a real meaning I&rsquo;d have to grit my teeth and ignore?</p>
+</aside>
+
+<h2 id="sound-and-vision">Sound and vision</h2>
+
+<p>I&rsquo;ve also added some randomisation to the visual, as you probably noticed. It&rsquo;s an SVG image, so JavaScript can manipulate it as a document, just as it can the text on the page. When it&rsquo;s clicked, as well as playing the sound, I change the colour and the text of the &ldquo;iris&rdquo; part of the terminal. To get an equally saturated colour each time, I use the <code>hsla()</code> notation, rather than the more familiar <code>#BADA55</code> RGB type. Keeping the <abbr title="saturation">s</abbr>, <abbr title="lightness">l</abbr> and <abbr title="alpha (opacity)">a</abbr> the same, I insert a random hue, like <code>'hsla(' + hue + ',99%,50%,1)'</code>. The text is picked from a collection of alien-looking but not-too-rare characters, which I hope show up on most systems. If the game designers did this, they&rsquo;d be able to use some properly canon alien writing.</p>
+
+<p>Just view the source of this page to see the whole script, with the sound and the visual tweaks together.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<aside id="duck-type" class="footnote"><h3 id="duck-type">Duck-type</h3>
+
+<p>What&rsquo;s your favourite duck type? A fancy Mandarin, a sporty Indian Runner, or a plain vanilla Mallard? I like them all. If it looks like a duck and quacks like a duck, it&rsquo;s as good as any other duck. That&rsquo;s one of the principles of JavaScript: that if you want a duck, and you get something that&rsquo;s kind of like a duck, it&rsquo;s good enough. So <code>2 * '2'</code> is 4, because <code>*</code> expects numbers, but <code>2 + '2'</code> is 22, because <code>+</code> prefers strings. In strongly-typed languages, where a number is just a number and a string is just a string, the right answer to those expressions would be an error message.</p>
+
+<p>(If you said &ldquo;crispy&rdquo;, you&rsquo;re a heartless bounder.)</p>
+</aside>
+
+
+<aside id="a-rate" class="footnote"><h3 id="a-rate-and-k-rate">A-rate and K-rate</h3>
+
+<p>These two types of audio parameters are distinguished by the speed at which they change. A-rate is audio-rate, i.e. fast enough to carry a high-quality sound. K-rate is slower, but fast enough to control an audio generator or effect smoothly. The Web Audio API borrows these terms from Csound. See <a href="/first-synth-with-csound-cabbage/#variables">my Csound tutorial</a> for a fuller explanation of variable types.</p>
+</aside>
+
+
+<p><small>Image credit: my own screenshot of No Man&rsquo;s Sky.</small></p>
+
+<style>
+    main {background: url(/img/nms-planet.jpg) no-repeat 0 2em; background-size: contain;}
+    article.page { background: hsla(195, 4.9%, 16.1%, 0.5) }
+</style>
+
+<script>
+/*
+ * HERE IS THE SCRIPT YOU ARE LOOKING FOR.
+*/
+
+var context = new (window.AudioContext || window.webkitAudioContext)();
+
+/**
+Random number between min and max
+*/
+function randomBetween(min, max) {
+    min = min || 0;
+    max = max || 1;
+    return Math.random() * (max - min) + min;
+}
+
+/**
+Returns the name of one of the four standard oscillator waveforms
+*/
+function randomOscType() {
+    var rnd = Math.random();
+    if (rnd < 0.25) return 'sine';
+    if (rnd < 0.5) return 'square';
+    if (rnd < 0.75) return 'sawtooth';
+    return 'triangle';
+}
+
+/**
+Returns the name of one of the four standard filter types
+*/
+function randomFilterType() {
+    var rnd = Math.random();
+    if (rnd < 0.25) return 'lowpass';
+    if (rnd < 0.5) return 'highpass';
+    if (rnd < 0.75) return 'bandpass';
+    return 'allpass';
+}
+
+/**
+Random audio frequency between 80 and 3200
+*/
+function randomFrequency() {
+    // Weighted random number for audio taper
+    var rnd = Math.pow(2, Math.random())-1;
+    return 3120 * rnd + 80;
+}
+
+function play() {
+    // length of sound in seconds
+    var length = randomBetween(0.5, 1.5); 
+    
+    // Set up the audio nodes we need
+    var osc = context.createOscillator();
+    var lfo = context.createOscillator();
+    var fil = context.createBiquadFilter();
+    var amp = context.createGain();
+    
+    osc.type = randomOscType();
+    lfo.type = randomOscType();
+    fil.type = randomFilterType();
+    
+    // Q is an a-rate param, so to set it to a constant level use Q.value.
+    // The range is 0.0001 to 1000, but values over 42 are prone to self-oscillation.
+    fil.Q.value = randomBetween(10, 42);
+    
+    // Wire them up
+    osc.connect(fil);
+    fil.connect(amp);
+    amp.connect(context.destination);
+    
+    // List of 2 to 8 frequencies. An ordinary array won't work.
+    var freqArray = new Float32Array(Math.floor(randomBetween(2, 9)));
+
+    for (var i = 0; i < freqArray.length; i++) {
+        freqArray[i] = randomFrequency();
+    }
+    
+    // Sweep the oscillator to each frequency in turn
+    osc.frequency.setValueCurveAtTime(freqArray, context.currentTime, length);
+    
+    // Same for the amplitude LFO, but lower
+    var lfArray = new Float32Array(Math.floor(randomBetween(1, 4)));
+    
+    for (var i = 0; i < lfArray.length; i++) {
+        lfArray[i] = randomBetween(0, 20);
+    }
+    
+    lfo.frequency.setValueCurveAtTime(lfArray, context.currentTime, length);
+    lfo.connect(amp.gain);
+    
+    // And the filter frequency
+    var lfArray2 = new Float32Array(Math.floor(randomBetween(1, 8)));
+    
+    for (var i = 0; i < lfArray2.length; i++) {
+        lfArray2[i] = randomFrequency();
+    }
+    
+    fil.frequency.setValueCurveAtTime(lfArray2, context.currentTime, length);
+
+    // Start the oscillators
+    osc.start();
+    lfo.start();
+    
+    // Set them to stop when we're finished
+    osc.stop(context.currentTime + length);
+    lfo.stop(context.currentTime + length);
+}
+
+function writeAlien(length) {
+    length = length || 24;
+    // This is definitely the Gek alphabet. Any resemblance to the basic multilingual plane is coincidental.
+    let chars = 'ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ∫ƢʊʬʯȶϿϡϞӶՃ₰-////';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        let c = Math.floor(randomBetween(0, chars.length));
+        result += chars[c];
+    }
+    return result;
+}
+   
+function changeIris() {
+    let iris = document.getElementById('iristext');
+    let hue = Math.floor(Math.random() * 360);
+    iris.style.stroke = 'hsla(' + hue + ',99%,50%,1)';
+    iris.children[0].innerHTML = writeAlien();
+}
+
+
+document.getElementById('terminal').onclick = (() => {play(); changeIris()});
+
+</script>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            <section class="author">
+                <p>By y6nH</p>
+            </section>
+            
+            
+            <p class="f-post-time"><time datetime="2017-02-18T00:00:00Z">18 February 2017</time></p>
+        </section>
+                        
+        <section class="f-2">
+
+            
+        </section>
+        &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+<section id="comments">
+	<div id="disqus_thread" class="post-comments"></div>
+	<script>
+	if(window.location.hostname!="localhost"){
+	  (function(){
+		var d=document,s=d.createElement('script');
+		s.src='//y6nH.disqus.com/embed.js';
+		s.setAttribute('data-timestamp',+new Date());
+		(d.head||d.body).appendChild(s);
+	})()}
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+=======
+        
+        <section id="comments">
+            <div id="disqus_thread" class="post-comments"></div>
+            <script>
+              if (window.location.hostname != "localhost") {
+                var disqus_shortname = 'y6nH';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              }
+            </script>
+            <noscript>
+              Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+        </section>
+        
+>>>>>>> d7872a9a7ef55fe30edfe13510219c7aeea5541a
+        
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+			<section class="footer-credits">Made with <a href="http://gohugo.io/">Hugo</a> by y6nH.</section>
+            <section class="footer-copyright">&copy; 2017. You are free to reuse this content under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license">Creative Commons BY-SA 4.0</a> licence.</section>
+            <section class="footer-rss"><a href="https://y6nh.github.io/index.xml" title="RSS feed">RSS</a></section>
+        </div>
+    </footer>
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-87065815-1','auto');ga('send','pageview');</script>
+
+</body>
+</html>

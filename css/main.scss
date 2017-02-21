@@ -1,0 +1,421 @@
+// Colours
+$colour-white:          #fff;
+$colour-offwhite:       #ebe8e0;
+$colour-offwhite-dim-1: #e2ddcf;
+$colour-offwhite-dim-2: #d5cebe;
+$colour-offwhite-dim-3: #c2baa8;
+$colour-offblack:       #272a2b;
+$colour-offblack-dark:  #1e1f19;
+$colour-offblack-yellow:#3e3c38;
+
+$colour-shadow:         rgba(8,16,18,0.5);
+$colour-shadow-blue:    rgba(102,145,153,0.4);
+$colour-shadow-green:   rgba(153,139,102,0.4);
+
+$colour-red-pale:       #ffbeb8;
+$colour-red-dim:        #ff857a;
+$colour-red:            #c74438;
+$colour-yellow-pale:    #ffe5a3;
+$colour-yellow:         #ffcb47;
+$colour-yellow-dim:     #998b66;
+$colour-green-pale:     #e9ff99;
+$colour-green:          #bce52a;
+$colour-green-dim:      #8e9966;
+$colour-blue-pale:      #b8f3ff;
+$colour-blue:           #3bd8f7;
+$colour-blue-dim:       #669199;
+$colour-blue-dark:      #446c74;
+$colour-pink:           #e166b8;
+$colour-pink-dim:       #b34d91;
+
+// Other constants
+$transition-time: .2s;
+
+a, aside, div, span, a::after {
+   transition: all $transition-time;
+}
+
+html {
+   background: $colour-offblack;
+   color: $colour-offwhite;
+   font: 17px/1.706 "Open Sans", "Segoe UI", "Noto Sans", Roboto, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .blog-title.heading {
+   font-family: Georgia, serif;
+   font-weight: 400;
+   margin: 1em 0 0.5em;
+   color: $colour-offwhite-dim-3;
+}
+
+h1 {
+   font-size: 4rem;
+   line-height: 1.27;
+   color: $colour-offwhite-dim-1;
+}
+
+h2 {
+   font-size: 2rem;
+   color: $colour-offwhite-dim-2;
+}
+
+h3 {
+   font-size: 1.5rem;
+}
+
+.blog-title.heading {
+   font-size: 4rem;
+   line-height: 0.5;
+}
+
+.blog-description, 
+.post-excerpt-description, 
+.author {
+   font-family: Georgia, serif;
+   font-style: italic;
+   color: $colour-green;
+   clear: left;
+}
+
+.post-excerpt img {
+   max-width: 8rem;
+   max-height: 8rem;
+}
+
+a {
+   color: $colour-blue;
+   &:active {
+      color: $colour-red-pale;
+   }
+
+   &:hover, header & {
+      text-decoration: none;
+   }
+
+   &:visited {
+      color: $colour-pink;
+   }
+
+   &[href^="#"], &[href^="#"]:visited {
+      color: currentcolor;
+      text-decoration: none;
+   }
+}
+
+a[href^="#"]::after,
+.footnote::before {
+  content: '*';
+  font-weight: bold;
+  transform: translateX(-4px) scale(2, 2) rotate(10deg);
+  display: inline-block;
+  opacity: 0.5;
+  color: $colour-blue-pale;
+}
+
+.footnote::before {
+   float: left;
+   transform: translate(-21px, -8px) scale(5, 5) rotate(10deg);
+}
+
+.footnote:target::before {
+   opacity: 1;
+}
+
+a[href^="#"]:hover::after {
+   opacity: 1;
+}
+
+header, footer, article, hr {
+   max-width: 50rem;
+   margin: 3rem auto;
+}
+
+article {
+   padding: 0 1em;
+}
+
+.flex.container {
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+pre, header, footer {
+   clear: both;
+}
+
+pre, code, kbd, samp {
+   font-family: Consolas, Monaco, monospace;
+   box-shadow: inset 0 1px 4px 1px $colour-shadow;
+   background: $colour-offblack-dark;
+   white-space: pre-wrap;
+   -moz-tab-size: 3;
+   tab-size: 3;
+}
+
+pre code {
+   box-shadow: none;
+   white-space: pre;
+}
+
+pre, aside, blockquote, .hide-box {
+   padding: 1rem;
+   margin-top: 1rem;
+}
+
+aside, blockquote, .hide-box {
+   box-shadow: 0 1px 4px 1px $colour-shadow;
+   border-left: 0.5rem solid $colour-yellow-dim;
+   background: $colour-offblack-yellow;
+}
+
+aside pre, aside code, aside kbd, aside samp, blockquote pre, blockquote code, blockquote kbd, blockquote samp, .hide-box pre, .hide-box code, .hide-box kbd, .hide-box samp {
+   background: $colour-offblack;
+}
+
+aside:target {
+   border-color: $colour-yellow;
+}
+
+.footnote {
+   font-size: 88.24%;
+}
+
+.footnote h2, .footnote h3, .footnote h4, .footnote h5 {
+   margin: 0;
+}
+
+img, .side {
+   float: right;
+   font-family: Georgia, serif;
+   font-style: italic;
+   max-width: 38%;
+   margin: 0 -1em .5em 1em;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   background: linear-gradient(43deg, $colour-shadow-blue, $colour-shadow-green);
+}
+
+audio {
+   width: 26em;
+}
+
+mark {
+   background: $colour-blue-dark;
+   color: $colour-white;
+}
+
+.keyword {
+   color: $colour-yellow;
+}
+
+.string {
+   color: $colour-green;
+   fill: $colour-green;
+}
+
+mark .keyword {
+   color: $colour-yellow-pale;
+}
+
+mark .string {
+   color: $colour-green-pale;
+}
+
+.comment {
+   color: $colour-green-dim;
+}
+
+.blog-title.heading, .post-title a {
+   color: $colour-green;
+}
+
+.post-title a:visited {
+   color: $colour-blue-dim;
+}
+
+hr {
+   width: 50%;
+   border: 1px solid $colour-offwhite-dim-3;
+}
+
+time {
+   color: $colour-blue-dim;
+   font-style: italic;
+}
+
+.li time {
+   float: left;
+}
+
+.hide-box {
+   display: inline-block;
+   overflow: hidden;
+   border: 0;
+}
+
+.hide-box label {
+   cursor: pointer;
+   display: block;
+   background: $colour-yellow-dim;
+   color: $colour-offblack-dark;
+   padding: 0 1rem;
+   margin: -1rem -1rem 0 -1rem;
+}
+
+.hide-box input[type=checkbox] {
+   position: absolute;
+   left: -999px;
+}
+
+.hide-box input ~ * {
+   transition: all ;
+}
+
+.hide-box input:checked ~ * {
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   height: 0;
+   opacity: 0;
+   overflow: hidden;
+}
+
+/* Pygments highlighting */
+
+.highlight {
+
+   .hll {
+      background-color: $colour-offwhite-dim-3;
+   }
+
+   .gr,  .err {
+      color: $colour-red-dim;
+      background-color: $colour-red;
+   }
+
+   .k,  .kc,  .kd,  .kn,  .kp,  .kr {
+      color: $colour-red;
+   }
+
+   .kt {
+      color: $colour-pink;
+   }
+
+   .l,  .x,  .w,  .nl,  .py,  .g,  .gs,  .gp,  .ge,  .gt {
+      color: $colour-offwhite;
+   }
+
+   .nv {
+      color: $colour-pink-dim;
+   }
+
+   .vg {
+      color: $colour-red-dim;
+   }
+
+   .gh,  .gu {
+      color: $colour-offwhite-dim-2;
+   }
+
+   .gh,  .gp,  .gs,  .kn,  .cs,  .ne {
+      font-weight: bold;
+   }
+
+   .ge {
+      font-style: italic;
+   }
+
+   .o,  .ow {
+      color: $colour-offwhite-dim-1;
+   }
+
+   .p {
+      color: $colour-offwhite-dim-3;
+   }
+
+   .c,  .cm,  .cp,  .c1 {
+      color: $colour-green-dim;
+      font-style: italic;
+   }
+
+   .cs {
+      color: $colour-green-pale;
+      font-style: italic;
+   }
+
+   .gd {
+      text-decoration: line-through $colour-red-dim;
+      border: 1px solid $colour-red-dim;
+   }
+
+   .gi {
+      border: 1px solid $colour-green;
+   }
+
+   .go {
+      color: $colour-offwhite;
+   }
+
+   .vc,  .n,  .na,  .nc,  .nd,  .ne,  .nf,  .ni,  .nn,  .no,  .nt,  .nx {
+      color: $colour-yellow;
+   }
+
+   .bp,  .nb {
+      color: $colour-blue-dim;
+   }
+
+   .m,  .mf,  .mh,  .mi,  .mo,  .il {
+      color: $colour-blue;
+   }
+
+   .ld,  .sb,  .sc,  .sd,  .s2,  .se,  .sh,  .si,  .sx,  .sr,  .s1,  .ss,  .s {
+      color: $colour-green;
+   }
+
+   .vi {
+      color: $colour-pink;
+   }
+}
+
+@media screen and (max-width: 959px) {
+   html {
+      font-size: 16px;
+   }
+
+   h2, h3, h4, h5, aside, blockquote, pre {
+      clear: both;
+   }
+
+   audio {
+      width: 22em;
+   }
+
+   footer span {
+      display: block;
+   }
+}
+
+@media screen and (max-width: 719px) {
+   .side {
+      max-width: 100%;
+      margin: 1em 0;
+   }
+
+   img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+   }
+
+   h1 {
+      font-size: 3rem;
+   }
+
+   audio {
+      width: 100%;
+   }
+}
