@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/tags/css/index.xml</link>
+    <description>Recent content in Css on y6nH&#39;s pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <atom:link href="https://y6nh.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mud</title>
+      <link>https://y6nh.github.io/mud/</link>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/mud/</guid>
+      <description>
+
+&lt;p&gt;Introducing &lt;strong&gt;Mud&lt;/strong&gt;, my theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (the static site generator used to create this site). That&amp;rsquo;s what it&amp;rsquo;s called for the moment, at least. Because it&amp;rsquo;s brown and not very clever. Let&amp;rsquo;s see whether it sticks.&lt;/p&gt;
+
+&lt;h2 id=&#34;lightweight&#34;&gt;Lightweight&lt;/h2&gt;
+
+&lt;p&gt;The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like, just by filling in your account details in the configuration). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&amp;rsquo;re somehow stuck in the 90s.&lt;/p&gt;
+
+&lt;h2 id=&#34;modern&#34;&gt;Modern&lt;/h2&gt;
+
+&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;If you want to use Markdown inside shortcodes, the syntax looks like &lt;code&gt;&amp;#123;&amp;#123;%aside%}} &amp;hellip; &amp;#123;&amp;#123;%/aside%}}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to disable Markdown (for code blocks, for example), use angle brackets instead of percent signs: &lt;code&gt;&amp;#123;&amp;#123;&amp;lt;highlight python&amp;gt;}} &amp;hellip; &amp;#123;&amp;#123;&amp;lt;/highlight&amp;gt;}}&lt;/code&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Mud uses HTML5 semantic elements for article, section, header, footer and so on, as you&amp;rsquo;d expect from a Hugo site. It also includes shortcodes for asides and &lt;a href=&#34;#footnotes&#34;&gt;footnotes&lt;/a&gt; in your content, allowing you to use Markdown syntax inside them - without them, you have to write all block elements in plain HTML.&lt;/p&gt;
+
+&lt;p&gt;Hugo shortcodes are templated expansions for Markdown. Hugo includes the &lt;code&gt;highlight&lt;/code&gt; shortcode, and Mud includes shortcodes for &lt;code&gt;aside&lt;/code&gt;, &lt;code&gt;footnote&lt;/code&gt;, and &lt;code&gt;hidebox&lt;/code&gt;.&lt;/p&gt;
+
+&lt;aside class=&#34;hide-box&#34;&gt;
+  &lt;label for=&#34;hb_Click this box&#34;&gt;Click this box&lt;/label&gt;
+  &lt;input id=&#34;hb_Click this box&#34; checked=&#34;&#34; type=&#34;checkbox&#34;/&gt;
+  &lt;div&gt;&lt;p&gt;This is a hidden message, achieved with Mud&amp;rsquo;s &lt;code&gt;hidebox&lt;/code&gt; shortcode. It&amp;rsquo;s fully CSS driven, and so works without JavaScript.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Mud does code highlighting with Pygments, so that no JavaScript is necessary, and you can take advantage of Pygments&amp;rsquo; extensive library of languages.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Here are some of the colours from the scss stylesheet:&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_background&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;190&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_background_under&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;73&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_background_over&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
+&lt;span class=&#34;nv&#34;&gt;$color_text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_dim1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;85&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_dim2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;79&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_dim3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;71&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$color_text_bright&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#fff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Or, because Pygments supports all the cool languages, Hello World in Rust:&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;::&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To get the code highlighting to work, you need &lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;Python&lt;/a&gt; (version 2 or 3). If you have a Mac, it&amp;rsquo;s already there by default. Then it&amp;rsquo;s a quick one-liner to install Pygments:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-tcsh&#34; data-lang=&#34;tcsh&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$ &lt;/span&gt;pip install pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your Hugo site&amp;rsquo;s config, set it to use CSS classes. In YAML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# YAML:
+pygmentsUseClasses: true
+
+# TOML:
+pygmentsUseClasses = true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hugo calls Pygments automatically during page creation, so once it&amp;rsquo;s installed you don&amp;rsquo;t have to think about it ever again.&lt;/p&gt;
+
+&lt;h2 id=&#34;dark&#34;&gt;Dark&lt;/h2&gt;
+
+&lt;p&gt;Minimal doesn&amp;rsquo;t always mean white. White&amp;rsquo;s all very well, but we geeks and night owls appreciate the gloom of a nice dark theme. Nothing&amp;rsquo;s quite black, all the dirty greys and muted pastels are chromatically based on a small, harmonious set of hues.&lt;/p&gt;
+
+&lt;aside id=&#34;footnotes&#34; class=&#34;footnote&#34;&gt;&lt;p&gt;This is a footnote. Notice how it gets highlighted when you click the link in the text?&lt;/p&gt;
+&lt;/aside&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

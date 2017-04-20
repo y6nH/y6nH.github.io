@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a, aside, div, span, a::after {
   transition: all 0.2s; }
 
@@ -71,12 +72,18 @@ a[href^="#"]::after,
 a[href^="#"]:hover::after {
   opacity: 1; }
 
-header, footer, article, hr {
+hr {
+  margin: 2rem auto; }
+
+header, footer, article {
   max-width: 50rem;
   margin: 3rem auto; }
 
+.post-footer {
+  margin: 1rem 0; }
+
 article {
-  padding: 0 1em; }
+  padding: 0 1rem; }
 
 .flex.container {
   flex-direction: row;
@@ -112,13 +119,15 @@ aside pre, aside code, aside kbd, aside samp, blockquote pre, blockquote code, b
 aside:target {
   border-color: #ffcb47; }
 
+small,
 .footnote {
   font-size: 88.24%; }
 
 .footnote h2, .footnote h3, .footnote h4, .footnote h5 {
   margin: 0; }
 
-img, .side {
+img,
+.side {
   float: right;
   font-family: Georgia, serif;
   font-style: italic;
@@ -137,30 +146,25 @@ mark {
   background: #446c74;
   color: #fff; }
 
-.keyword {
-  color: #ffcb47; }
-
-.string {
-  color: #bce52a;
-  fill: #bce52a; }
-
-mark .keyword {
-  color: #ffe5a3; }
-
-mark .string {
-  color: #e9ff99; }
-
-.comment {
-  color: #8e9966; }
-
-.blog-title.heading, .post-title a {
+.blog-title.heading,
+.post-title a {
   color: #bce52a; }
 
 .post-title a:visited {
   color: #669199; }
 
+.tag-list {
+  padding: 0; }
+  .tag-list li {
+    list-style: none;
+    display: inline-block;
+    font-style: italic; }
+    .tag-list li::before {
+      content: " ● ";
+      color: #446c74; }
+
 hr {
-  width: 50%;
+  width: 62%;
   border: 1px solid #c2baa8; }
 
 time {
@@ -203,10 +207,10 @@ time {
 .highlight .hll {
   background-color: #c2baa8; }
 .highlight .gr, .highlight .err {
-  color: #ff857a;
-  background-color: #c74438; }
+  color: #c74438;
+  background-color: #ff857a; }
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr {
-  color: #c74438; }
+  color: #ff857a; }
 .highlight .kt {
   color: #e166b8; }
 .highlight .l, .highlight .x, .highlight .w, .highlight .nl, .highlight .py, .highlight .g, .highlight .gs, .highlight .gp, .highlight .ge, .highlight .gt {
@@ -214,7 +218,7 @@ time {
 .highlight .nv {
   color: #b34d91; }
 .highlight .vg {
-  color: #ff857a; }
+  color: #c74438; }
 .highlight .gh, .highlight .gu {
   color: #d5cebe; }
 .highlight .gh, .highlight .gp, .highlight .gs, .highlight .kn, .highlight .cs, .highlight .ne {
@@ -232,8 +236,8 @@ time {
   color: #e9ff99;
   font-style: italic; }
 .highlight .gd {
-  text-decoration: line-through #ff857a;
-  border: 1px solid #ff857a; }
+  text-decoration: line-through #c74438;
+  border: 1px solid #c74438; }
 .highlight .gi {
   border: 1px solid #bce52a; }
 .highlight .go {
@@ -274,7 +278,8 @@ time {
   h1 {
     font-size: 3rem; }
 
-  audio {
+  audio,
+  video {
     width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

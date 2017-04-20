@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grammar on y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/tags/grammar/index.xml</link>
+    <description>Recent content in Grammar on y6nH&#39;s pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <atom:link href="https://y6nh.github.io/tags/grammar/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Pedantry</title>
+      <link>https://y6nh.github.io/pedantry/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/pedantry/</guid>
+      <description>&lt;p&gt;Naming things is difficult. We know that. But if you get it wrong, it can taint your whole product - at least, for pedants like me.&lt;/p&gt;
+
+&lt;p&gt;Today, I was investigating JavaScript Rest API testing frameworks. There seem to be two big names: &lt;a href=&#34;http://dareid.github.io/chakram/&#34;&gt;Chakram&lt;/a&gt; and &lt;a href=&#34;http://frisbyjs.com/&#34;&gt;Frisby&lt;/a&gt;, or its newer fork &lt;a href=&#34;https://github.com/MarkHerhold/IcedFrisby/&#34;&gt;IcedFrisby&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Chakram has a less silly name. It has a nice logo. Its documentation looks slicker. It appears more mature (IcedFrisby 1.0 is just 5 days old, as I write, and 1.1 is out already). The two frameworks seem to have much the same features, and I can live with the syntax either way.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;expect(response).to.have.status(200);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nice.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;expect(response).not.to.be.encoded.with.gzip;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cute.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;expect(response).to.comprise.of.json({
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;NO. I AM NOT TYPING THAT.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s the sort of thing we get &lt;a href=&#34;https://en.wikipedia.org/wiki/User:Giraffedata/comprised_of&#34;&gt;obsessive&lt;/a&gt; about.&lt;/p&gt;
+
+&lt;p&gt;I know, this stuff &lt;a href=&#34;https://www.theguardian.com/commentisfree/2015/feb/05/why-wikipedias-grammar-vigilante-is-wrong&#34;&gt;isn&amp;rsquo;t important&lt;/a&gt;. It&amp;rsquo;s not really English anyway, it&amp;rsquo;s machine instructions, and the parser doesn&amp;rsquo;t care, and for someone who doesn&amp;rsquo;t speak English the whole of JavaScript is just arbitrary symbols&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;And I&amp;rsquo;m pretty sure the &lt;code&gt;.of&lt;/code&gt; &lt;a href=&#34;http://chaijs.com/api/bdd/#language-chains&#34;&gt;does absolutely nothing&lt;/a&gt;, and could be left out, or replaced with any number of filler words, like &amp;ldquo;.to.be.is.to.have.and.to.have.is.to.be&amp;rdquo;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;But I choose IcedFrisby.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="In which Hugo gets a new theme, dark in colour but light in weight.">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="author" content="y6nH">
+        <meta name="author" content="Hugh">
   
 	
         <meta name="twitter:card" content="summary">
@@ -22,7 +22,7 @@
         <meta property="og:description" content="Creative coding for sound and the web.">
     
         <meta property="og:type" content="article" />
-        <meta property="og:article:author" content="y6nH" />
+        <meta property="og:article:author" content="Hugh" />
         <meta property="og:article:published_time" content="2016-10-10T00:00:00Z" />
     
         <meta name="generator" content="Hugo 0.18.1" />
@@ -44,7 +44,7 @@
     <section class="post-content">
         
 
-<p>Introducing my theme for <a href="https://gohugo.io/">Hugo</a>, the static site generator: <strong>Mud</strong>. That&rsquo;s what it&rsquo;s called for the moment, at least. Because it&rsquo;s brown and not very clever. Let&rsquo;s see whether it sticks.</p>
+<p>Introducing <strong>Mud</strong>, my theme for <a href="https://gohugo.io/">Hugo</a> (the static site generator used to create this site). That&rsquo;s what it&rsquo;s called for the moment, at least. Because it&rsquo;s brown and not very clever. Let&rsquo;s see whether it sticks.</p>
 
 <h2 id="lightweight">Lightweight</h2>
 
@@ -83,16 +83,25 @@
 </code></pre></div>
 
 
-<p><div class="highlight"><pre><code class="language-rust" data-lang="rust"><span></span><span class="c1">// Or, because Pygments supports all the cool languages, Hello World in Rust:</span>
+<div class="highlight"><pre><code class="language-rust" data-lang="rust"><span></span><span class="c1">// Or, because Pygments supports all the cool languages, Hello World in Rust:</span>
 <span class="n">io</span>::<span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
-</p>
+
 
 <p>To get the code highlighting to work, you need <a href="https://www.python.org/downloads/">Python</a> (version 2 or 3). If you have a Mac, it&rsquo;s already there by default. Then it&rsquo;s a quick one-liner to install Pygments:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>pip install pygments
+<div class="highlight"><pre><code class="language-tcsh" data-lang="tcsh"><span></span><span class="nv">$ </span>pip install pygments
 </code></pre></div>
 
+
+<p>Then, in your Hugo site&rsquo;s config, set it to use CSS classes. In YAML:</p>
+
+<pre><code># YAML:
+pygmentsUseClasses: true
+
+# TOML:
+pygmentsUseClasses = true
+</code></pre>
 
 <p>Hugo calls Pygments automatically during page creation, so once it&rsquo;s installed you don&rsquo;t have to think about it ever again.</p>
 
@@ -112,7 +121,7 @@
         <section class="f-1">
             
             <section class="author">
-                <p>By y6nH</p>
+                <p>By Hugh</p>
             </section>
             
             
@@ -120,8 +129,15 @@
         </section>
                         
         <section class="f-2">
-
-            
+			<ul class="tag-list">
+			  
+				<li><a href="/tags/hugo">hugo</a> </li>
+			  
+				<li><a href="/tags/css">css</a> </li>
+			  
+				<li><a href="/tags/html">html</a> </li>
+			  
+			</ul>
         </section>
         
 <section id="comments">
@@ -144,13 +160,11 @@
 </main>
     <footer id="site-footer">
         <div class="container">
-			<section class="footer-credits">Made with <a href="http://gohugo.io/">Hugo</a> by y6nH.</section>
+			<section class="footer-credits">Made with <a href="http://gohugo.io/">Hugo</a> 0.18.1 by Hugh.</section>
             <section class="footer-copyright">&copy; 2016. You are free to reuse this content under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license">Creative Commons BY-SA 4.0</a> licence.</section>
             <section class="footer-rss"><a href="https://y6nh.github.io/index.xml" title="RSS feed">RSS</a></section>
         </div>
     </footer>
-
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-87065815-1','auto');ga('send','pageview');</script>
 
 </body>
 </html>

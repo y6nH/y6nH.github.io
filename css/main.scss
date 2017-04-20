@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 // Colours
 $colour-white:          #fff;
 $colour-offwhite:       #ebe8e0;
@@ -13,8 +15,8 @@ $colour-shadow-blue:    rgba(102,145,153,0.4);
 $colour-shadow-green:   rgba(153,139,102,0.4);
 
 $colour-red-pale:       #ffbeb8;
-$colour-red-dim:        #ff857a;
-$colour-red:            #c74438;
+$colour-red:            #ff857a;
+$colour-red-dim:        #c74438;
 $colour-yellow-pale:    #ffe5a3;
 $colour-yellow:         #ffcb47;
 $colour-yellow-dim:     #998b66;
@@ -125,13 +127,21 @@ a[href^="#"]:hover::after {
    opacity: 1;
 }
 
-header, footer, article, hr {
+hr {
+   margin: 2rem auto;
+}
+
+header, footer, article {
    max-width: 50rem;
    margin: 3rem auto;
 }
 
+.post-footer {
+	margin: 1rem 0;
+}
+
 article {
-   padding: 0 1em;
+   padding: 0 1rem;
 }
 
 .flex.container {
@@ -176,6 +186,7 @@ aside:target {
    border-color: $colour-yellow;
 }
 
+small, 
 .footnote {
    font-size: 88.24%;
 }
@@ -184,7 +195,8 @@ aside:target {
    margin: 0;
 }
 
-img, .side {
+img, 
+.side {
    float: right;
    font-family: Georgia, serif;
    font-style: italic;
@@ -207,28 +219,29 @@ mark {
    color: $colour-white;
 }
 
-.keyword {
-   color: $colour-yellow;
-}
+// .keyword {
+//    color: $colour-yellow;
+// }
+// 
+// .string {
+//    color: $colour-green;
+//    fill: $colour-green;
+// }
+// 
+// mark .keyword {
+//    color: $colour-yellow-pale;
+// }
+// 
+// mark .string {
+//    color: $colour-green-pale;
+// }
+// 
+// .comment {
+//    color: $colour-green-dim;
+// }
 
-.string {
-   color: $colour-green;
-   fill: $colour-green;
-}
-
-mark .keyword {
-   color: $colour-yellow-pale;
-}
-
-mark .string {
-   color: $colour-green-pale;
-}
-
-.comment {
-   color: $colour-green-dim;
-}
-
-.blog-title.heading, .post-title a {
+.blog-title.heading, 
+.post-title a {
    color: $colour-green;
 }
 
@@ -236,8 +249,23 @@ mark .string {
    color: $colour-blue-dim;
 }
 
+.tag-list {
+    padding: 0;
+	
+	li {
+		list-style: none;
+		display: inline-block;
+		font-style: italic;
+		
+		&::before {
+			content: " ● ";
+			color: $colour-blue-dark;
+		}
+	}
+}
+
 hr {
-   width: 50%;
+   width: 62%;
    border: 1px solid $colour-offwhite-dim-3;
 }
 
@@ -415,7 +443,8 @@ time {
       font-size: 3rem;
    }
 
-   audio {
+   audio,
+	video   {
       width: 100%;
    }
 }

@@ -1,83 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>y6nH&#39;s pages</title>
-    <link>https://y6nh.github.io/index.xml</link>
-    <description>Recent content on y6nH&#39;s pages</description>
+    <title>Sound on y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/tags/sound/index.xml</link>
+    <description>Recent content in Sound on y6nH&#39;s pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
-    <lastBuildDate>Thu, 20 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://y6nh.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Pedantry</title>
-      <link>https://y6nh.github.io/pedantry/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://y6nh.github.io/pedantry/</guid>
-      <description>&lt;p&gt;Naming things is difficult. We know that. But if you get it wrong, it can taint your whole product - at least, for pedants like me.&lt;/p&gt;
-
-&lt;p&gt;Today, I was investigating JavaScript Rest API testing frameworks. There seem to be two big names: &lt;a href=&#34;http://dareid.github.io/chakram/&#34;&gt;Chakram&lt;/a&gt; and &lt;a href=&#34;http://frisbyjs.com/&#34;&gt;Frisby&lt;/a&gt;, or its newer fork &lt;a href=&#34;https://github.com/MarkHerhold/IcedFrisby/&#34;&gt;IcedFrisby&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Chakram has a less silly name. It has a nice logo. Its documentation looks slicker. It appears more mature (IcedFrisby 1.0 is just 5 days old, as I write, and 1.1 is out already). The two frameworks seem to have much the same features, and I can live with the syntax either way.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;expect(response).to.have.status(200);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Nice.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;expect(response).not.to.be.encoded.with.gzip;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Cute.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;expect(response).to.comprise.of.json({
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;NO. I AM NOT TYPING THAT.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s the sort of thing we get &lt;a href=&#34;https://en.wikipedia.org/wiki/User:Giraffedata/comprised_of&#34;&gt;obsessive&lt;/a&gt; about.&lt;/p&gt;
-
-&lt;p&gt;I know, this stuff &lt;a href=&#34;https://www.theguardian.com/commentisfree/2015/feb/05/why-wikipedias-grammar-vigilante-is-wrong&#34;&gt;isn&amp;rsquo;t important&lt;/a&gt;. It&amp;rsquo;s not really English anyway, it&amp;rsquo;s machine instructions, and the parser doesn&amp;rsquo;t care, and for someone who doesn&amp;rsquo;t speak English the whole of JavaScript is just arbitrary symbols&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;And I&amp;rsquo;m pretty sure the &lt;code&gt;.of&lt;/code&gt; &lt;a href=&#34;http://chaijs.com/api/bdd/#language-chains&#34;&gt;does absolutely nothing&lt;/a&gt;, and could be left out, or replaced with any number of filler words, like &amp;ldquo;.to.be.is.to.have.and.to.have.is.to.be&amp;rdquo;&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;But I choose IcedFrisby.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>WordArt</title>
-      <link>https://y6nh.github.io/wordart/</link>
-      <pubDate>Mon, 27 Feb 2017 21:00:00 +0000</pubDate>
-      
-      <guid>https://y6nh.github.io/wordart/</guid>
-      <description>&lt;p&gt;&lt;svg viewBox=&#34;0 0 640 180&#34;
-     xmlns=&#34;http://www.w3.org/2000/svg&#34; 
-     xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34;&gt;
-     &lt;style&gt;text {stroke: #ee0; font-family: sans-serif; font-weight: bold; font-size: 3em; filter: drop-shadow(2px 2px 2px #a60);}&lt;/style&gt;
-  &lt;defs&gt;
-    &lt;path id=&#34;wavy&#34;
-          d=&#34;M 10 30 
-             C 200 200 300 0 600 100&#34; /&gt;
-    &lt;linearGradient id=&#34;grad&#34;&gt;
-      &lt;stop stop-color=&#34;#c00&#34;/&gt;
-      &lt;stop stop-color=&#34;#da0&#34; offset=&#34;100%&#34;/&gt;
-    &lt;/linearGradient&gt;
-  &lt;/defs&gt;
-  &lt;text fill=&#34;url(#grad)&#34; textLength=&#34;500&#34; lengthAdjust=&#34;spacingAndGlyphs&#34;&gt;
-    &lt;textPath xlink:href=&#34;#wavy&#34; method=&#34;stretch&#34; spacing=&#34;auto&#34;&gt;
-      Those were the days!
-    &lt;/textPath&gt;
-  &lt;/text&gt;
-&lt;/svg&gt;&lt;/p&gt;
-
-&lt;p&gt;With SVG, we can make all our headings look like this.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://codepen.io/y6nH/pen/JRqQLW&#34;&gt;See it on CodePen&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="https://y6nh.github.io/tags/sound/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>No Man&#39;s Bleep</title>
@@ -492,107 +422,6 @@ function changeIris() {
 document.getElementById(&#39;terminal&#39;).onclick = (() =&gt; {play(); changeIris()});
 
 &lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Csound on Stack Exchange</title>
-      <link>https://y6nh.github.io/csound-on-stack-exchange/</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://y6nh.github.io/csound-on-stack-exchange/</guid>
-      <description>
-
-&lt;h2 id=&#34;wouldn-t-it-be-nice&#34;&gt;Wouldn&amp;rsquo;t it be nice…&lt;/h2&gt;
-
-&lt;p&gt;…if there were an equivalent of Stack Overflow, the popular and tremendously useful programming question-and-answer site, for Csound?&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s what &lt;a href=&#34;http://area51.stackexchange.com/proposals/104202/csound/&#34;&gt;these guys&lt;/a&gt; are proposing. I&amp;rsquo;ve put my name to it (the 7th supporter - never let it be said I&amp;rsquo;m not an early adopter), but I&amp;rsquo;m not convinced it&amp;rsquo;s got the momentum to take off. After all, there is already &lt;a href=&#34;https://stackoverflow.com/questions/tagged/csound&#34;&gt;Stack Overflow&lt;/a&gt; itself, which has all of 19 questions tagged &amp;ldquo;csound&amp;rdquo;. It has over a million questions tagged with each of &amp;ldquo;javascript&amp;rdquo;, &amp;ldquo;java&amp;rdquo; and &amp;ldquo;c#&amp;rdquo;, and nearly a million tagged &amp;ldquo;php&amp;rdquo; &lt;em&gt;(the horror!)&lt;/em&gt;, but they don&amp;rsquo;t get their own sites.&lt;/p&gt;
-
-&lt;p&gt;So good luck; I&amp;rsquo;ll join in if it actually happens. But it&amp;rsquo;s a big &lt;em&gt;if&lt;/em&gt;.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;em&gt;Edit: the proposal has now been scrapped, due to inactivity.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mud</title>
-      <link>https://y6nh.github.io/mud/</link>
-      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://y6nh.github.io/mud/</guid>
-      <description>
-
-&lt;p&gt;Introducing &lt;strong&gt;Mud&lt;/strong&gt;, my theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (the static site generator used to create this site). That&amp;rsquo;s what it&amp;rsquo;s called for the moment, at least. Because it&amp;rsquo;s brown and not very clever. Let&amp;rsquo;s see whether it sticks.&lt;/p&gt;
-
-&lt;h2 id=&#34;lightweight&#34;&gt;Lightweight&lt;/h2&gt;
-
-&lt;p&gt;The best way to make a site load fast, work on every browser, and show up properly in search engines, is to strip out anything unnecessary. So this is a theme without any JavaScript (though you can add Google Analytics and Disqus if you like, just by filling in your account details in the configuration). No images, no web fonts, no plugins, just clean HTML and CSS. It uses modern browser features, but falls back to a usable default if you&amp;rsquo;re somehow stuck in the 90s.&lt;/p&gt;
-
-&lt;h2 id=&#34;modern&#34;&gt;Modern&lt;/h2&gt;
-
-&lt;aside class=&#34;side&#34;&gt;&lt;p&gt;If you want to use Markdown inside shortcodes, the syntax looks like &lt;code&gt;&amp;#123;&amp;#123;%aside%}} &amp;hellip; &amp;#123;&amp;#123;%/aside%}}&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you want to disable Markdown (for code blocks, for example), use angle brackets instead of percent signs: &lt;code&gt;&amp;#123;&amp;#123;&amp;lt;highlight python&amp;gt;}} &amp;hellip; &amp;#123;&amp;#123;&amp;lt;/highlight&amp;gt;}}&lt;/code&gt;&lt;/p&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Mud uses HTML5 semantic elements for article, section, header, footer and so on, as you&amp;rsquo;d expect from a Hugo site. It also includes shortcodes for asides and &lt;a href=&#34;#footnotes&#34;&gt;footnotes&lt;/a&gt; in your content, allowing you to use Markdown syntax inside them - without them, you have to write all block elements in plain HTML.&lt;/p&gt;
-
-&lt;p&gt;Hugo shortcodes are templated expansions for Markdown. Hugo includes the &lt;code&gt;highlight&lt;/code&gt; shortcode, and Mud includes shortcodes for &lt;code&gt;aside&lt;/code&gt;, &lt;code&gt;footnote&lt;/code&gt;, and &lt;code&gt;hidebox&lt;/code&gt;.&lt;/p&gt;
-
-&lt;aside class=&#34;hide-box&#34;&gt;
-  &lt;label for=&#34;hb_Click this box&#34;&gt;Click this box&lt;/label&gt;
-  &lt;input id=&#34;hb_Click this box&#34; checked=&#34;&#34; type=&#34;checkbox&#34;/&gt;
-  &lt;div&gt;&lt;p&gt;This is a hidden message, achieved with Mud&amp;rsquo;s &lt;code&gt;hidebox&lt;/code&gt; shortcode. It&amp;rsquo;s fully CSS driven, and so works without JavaScript.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Mud does code highlighting with Pygments, so that no JavaScript is necessary, and you can take advantage of Pygments&amp;rsquo; extensive library of languages.&lt;/p&gt;
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Here are some of the colours from the scss stylesheet:&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_background&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;190&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_background_under&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;73&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_background_over&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-
-&lt;span class=&#34;nv&#34;&gt;$color_text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_text_dim1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;85&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_text_dim2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;79&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_text_dim3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hsl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;71&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;nv&#34;&gt;$color_text_bright&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#fff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Or, because Pygments supports all the cool languages, Hello World in Rust:&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;::&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;To get the code highlighting to work, you need &lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;Python&lt;/a&gt; (version 2 or 3). If you have a Mac, it&amp;rsquo;s already there by default. Then it&amp;rsquo;s a quick one-liner to install Pygments:&lt;/p&gt;
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-tcsh&#34; data-lang=&#34;tcsh&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$ &lt;/span&gt;pip install pygments
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Then, in your Hugo site&amp;rsquo;s config, set it to use CSS classes. In YAML:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# YAML:
-pygmentsUseClasses: true
-
-# TOML:
-pygmentsUseClasses = true
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Hugo calls Pygments automatically during page creation, so once it&amp;rsquo;s installed you don&amp;rsquo;t have to think about it ever again.&lt;/p&gt;
-
-&lt;h2 id=&#34;dark&#34;&gt;Dark&lt;/h2&gt;
-
-&lt;p&gt;Minimal doesn&amp;rsquo;t always mean white. White&amp;rsquo;s all very well, but we geeks and night owls appreciate the gloom of a nice dark theme. Nothing&amp;rsquo;s quite black, all the dirty greys and muted pastels are chromatically based on a small, harmonious set of hues.&lt;/p&gt;
-
-&lt;aside id=&#34;footnotes&#34; class=&#34;footnote&#34;&gt;&lt;p&gt;This is a footnote. Notice how it gets highlighted when you click the link in the text?&lt;/p&gt;
-&lt;/aside&gt;
-
 </description>
     </item>
     

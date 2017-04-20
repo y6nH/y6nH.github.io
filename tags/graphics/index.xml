@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/tags/graphics/index.xml</link>
+    <description>Recent content in Graphics on y6nH&#39;s pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <atom:link href="https://y6nh.github.io/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WordArt</title>
+      <link>https://y6nh.github.io/wordart/</link>
+      <pubDate>Mon, 27 Feb 2017 21:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/wordart/</guid>
+      <description>&lt;p&gt;&lt;svg viewBox=&#34;0 0 640 180&#34;
+     xmlns=&#34;http://www.w3.org/2000/svg&#34; 
+     xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34;&gt;
+     &lt;style&gt;text {stroke: #ee0; font-family: sans-serif; font-weight: bold; font-size: 3em; filter: drop-shadow(2px 2px 2px #a60);}&lt;/style&gt;
+  &lt;defs&gt;
+    &lt;path id=&#34;wavy&#34;
+          d=&#34;M 10 30 
+             C 200 200 300 0 600 100&#34; /&gt;
+    &lt;linearGradient id=&#34;grad&#34;&gt;
+      &lt;stop stop-color=&#34;#c00&#34;/&gt;
+      &lt;stop stop-color=&#34;#da0&#34; offset=&#34;100%&#34;/&gt;
+    &lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;text fill=&#34;url(#grad)&#34; textLength=&#34;500&#34; lengthAdjust=&#34;spacingAndGlyphs&#34;&gt;
+    &lt;textPath xlink:href=&#34;#wavy&#34; method=&#34;stretch&#34; spacing=&#34;auto&#34;&gt;
+      Those were the days!
+    &lt;/textPath&gt;
+  &lt;/text&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;p&gt;With SVG, we can make all our headings look like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codepen.io/y6nH/pen/JRqQLW&#34;&gt;See it on CodePen&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

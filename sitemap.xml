@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y6nh.github.io/pedantry/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/wordart/</loc>
+    <lastmod>2017-02-27T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://y6nh.github.io/NoMansBleep/</loc>
     <lastmod>2017-02-18T00:00:00+00:00</lastmod>
   </url>
@@ -22,8 +32,79 @@
   </url>
   
   <url>
-    <loc>https://y6nh.github.io/</loc>
+    <loc>https://y6nh.github.io/tags/csound/</loc>
+    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/css/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/gaming/</loc>
     <lastmod>2017-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/grammar/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/graphics/</loc>
+    <lastmod>2017-02-27T21:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/html/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/hugo/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/javascript/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/sound/</loc>
+    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/svg/</loc>
+    <lastmod>2017-02-27T21:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/web-audio/</loc>
+    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

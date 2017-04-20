@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Svg on y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/tags/svg/index.xml</link>
+    <description>Recent content in Svg on y6nH&#39;s pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <atom:link href="https://y6nh.github.io/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WordArt</title>
+      <link>https://y6nh.github.io/wordart/</link>
+      <pubDate>Mon, 27 Feb 2017 21:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/wordart/</guid>
+      <description>&lt;p&gt;&lt;svg viewBox=&#34;0 0 640 180&#34;
+     xmlns=&#34;http://www.w3.org/2000/svg&#34; 
+     xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34;&gt;
+     &lt;style&gt;text {stroke: #ee0; font-family: sans-serif; font-weight: bold; font-size: 3em; filter: drop-shadow(2px 2px 2px #a60);}&lt;/style&gt;
+  &lt;defs&gt;
+    &lt;path id=&#34;wavy&#34;
+          d=&#34;M 10 30 
+             C 200 200 300 0 600 100&#34; /&gt;
+    &lt;linearGradient id=&#34;grad&#34;&gt;
+      &lt;stop stop-color=&#34;#c00&#34;/&gt;
+      &lt;stop stop-color=&#34;#da0&#34; offset=&#34;100%&#34;/&gt;
+    &lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;text fill=&#34;url(#grad)&#34; textLength=&#34;500&#34; lengthAdjust=&#34;spacingAndGlyphs&#34;&gt;
+    &lt;textPath xlink:href=&#34;#wavy&#34; method=&#34;stretch&#34; spacing=&#34;auto&#34;&gt;
+      Those were the days!
+    &lt;/textPath&gt;
+  &lt;/text&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;p&gt;With SVG, we can make all our headings look like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codepen.io/y6nH/pen/JRqQLW&#34;&gt;See it on CodePen&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>No Man&#39;s Bleep</title>
+      <link>https://y6nh.github.io/NoMansBleep/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/NoMansBleep/</guid>
+      <description>
+
+&lt;p&gt;&lt;svg id=&#34;terminal&#34; width=&#34;100%&#34; viewBox=&#34;0 240 1000 580&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34;&gt;
+  &lt;defs&gt;
+     &lt;radialGradient id=&#34;metal&#34; cx=42% cy=30% r=2 &gt;
+        &lt;stop offset=0 stop-color=#fff /&gt;
+        &lt;stop offset=5% stop-color=#eeebe8 /&gt;
+        &lt;stop offset=40% stop-color=#889 /&gt;
+        &lt;stop offset=100% stop-color=#335 /&gt;
+     &lt;/radialGradient&gt;
+     &lt;radialGradient id=&#34;glass&#34; cx=42% cy=30% r=2 &gt;
+        &lt;stop offset=0 stop-color=#fff /&gt;
+        &lt;stop offset=4% stop-color=#fff /&gt;
+        &lt;stop offset=6% stop-color=#000 /&gt;
+        &lt;stop offset=30% stop-color=#335 /&gt;
+        &lt;stop offset=100% stop-color=#558 /&gt;
+     &lt;/radialGradient&gt;
+     &lt;radialGradient id=&#34;reflection&#34; cx=42% cy=30% r=2 &gt;
+        &lt;stop offset=0 stop-color=#fff /&gt;
+        &lt;stop offset=4% stop-color=rgba(255,255,255,0.8) /&gt;
+        &lt;stop offset=6% stop-color=rgba(255,255,100,0) /&gt;
+     &lt;/radialGradient&gt;
+     &lt;path id=iris d=&#34;M500,480q20,0,20,20q0,20,-20,20q-20,0,-20,-20q0,-20,20,-20&#34; /&gt;
+  &lt;/defs&gt;
+  &lt;circle cx=500 cy=500 r=200 fill=url(#metal) style=&#34;filter:drop-shadow(5px 8px 8px #000)&#34; /&gt;
+  &lt;g id=&#34;eye&#34;&gt;
+     &lt;circle cx=500 cy=500 r=100 fill=url(#metal) style=&#34;transform:rotate(180deg);transform-origin:500px 500px;&#34; /&gt;
+     &lt;circle cx=500 cy=500 r=60 fill=url(#glass) /&gt;
+     &lt;text id=&#34;iristext&#34; font-size=&#34;10&#34; stroke=&#34;#8e0&#34;&gt;
+        &lt;textPath xlink:href=&#34;#iris&#34;&gt;
+        ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ∫ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ
+        &lt;/textPath&gt;
+     &lt;/text&gt;
+     &lt;circle cx=500 cy=500 r=60 fill=url(#reflection) /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;p&gt;Just about the most anticipated computer game of last year, &lt;em&gt;No Man&amp;rsquo;s Sky&lt;/em&gt; was notable for the algorithmically-generated galaxy in which it&amp;rsquo;s set - trillions of planets, all unique. It&amp;rsquo;s awe-inspiring. Unique creatures roam among unique plants and rocks on unique landforms, but when you land your nearly-unique starship at a rather familiar-looking trading station, the trading terminal is exactly the same as all the others. (I&amp;rsquo;ve picked one example here; there are many other objects which are exactly the same all over the galaxy, and which could benefit from some randomisation.)&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s the sound I particularly want to write about. Each terminal emits the same bleeps and bloops. It would have been easy to make them all different, right? So that&amp;rsquo;s what I&amp;rsquo;ve mocked up here. I&amp;rsquo;ve taken the opportunity to try out the web audio API, so this demo works in the browser (unless your browser is rubbish, of course). Click the trading terminal (that eye thing) above to hear examples.&lt;/p&gt;
+
+&lt;p&gt;In the game, I assume the parameters used to generate each object are derived from its co-ordinates in space. I&amp;rsquo;m using the standard random number generator, but it would be easy to feed it with a seed value based on the location of the terminal, so that each one had its own unique noise.&lt;/p&gt;
+
+&lt;h2 id=&#34;make-some-noise&#34;&gt;Make some noise&lt;/h2&gt;
+
+&lt;p&gt;The web audio API is pretty basic compared with CSound, but it provides us with the parts we need: oscillators, filters and amplifiers. Here&amp;rsquo;s the plan:&lt;/p&gt;
+
+&lt;p&gt;&lt;svg id=&#34;schematic&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:svg=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;36 0 640 200&#34; width=&#34;100%&#34;&gt;
+ &lt;!-- Created with SVG-edit - http://svg-edit.googlecode.com/ - and hand-tweaked by @y6nH --&gt;
+ &lt;style&gt;
+    #schematic rect,#schematic polyline{stroke:#bce52a;fill:none;stroke-width:3px;}
+    #schematic path{fill:#bce52a;}
+    #schematic text{fill:#ebe8e0;font-family:sans-serif;font-size:23px;}
+    #schematic .medium{font-size:15px;}
+    #schematic .small{font-size:13px;}
+ &lt;/style&gt;
+ &lt;defs&gt;
+  &lt;marker id=&#34;arrowhead&#34; markerUnits=&#34;strokeWidth&#34; orient=&#34;auto&#34; viewBox=&#34;0 0 100 100&#34; markerWidth=&#34;5&#34; markerHeight=&#34;5&#34; refX=&#34;50&#34; refY=&#34;50&#34;&gt;
+   &lt;path d=&#34;m0,50l100,40l-30,-40l30,-40l-100,40z&#34;/&gt;
+  &lt;/marker&gt;
+ &lt;/defs&gt;
+ &lt;g&gt;
+  &lt;title&gt;Bleepy synth schematic&lt;/title&gt;
+  &lt;g id=&#34;osc&#34;&gt;
+   &lt;rect class=&#34;box&#34; x=&#34;102.39999&#34; y=&#34;102.950002&#34; width=&#34;107&#34; height=&#34;50&#34;/&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;135.950002&#34; x=&#34;155.43332&#34;&gt;Oscillator&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g id=&#34;fil&#34;&gt;
+   &lt;rect class=&#34;box&#34; x=&#34;259.69999&#34; y=&#34;102.950008&#34; width=&#34;107&#34; height=&#34;50&#34;/&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;135.950008&#34; x=&#34;312.73333&#34;&gt;Filter&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g id=&#34;amp&#34;&gt;
+   &lt;rect class=&#34;box&#34; x=&#34;418.200021&#34; y=&#34;102.950008&#34; width=&#34;107&#34; height=&#34;50&#34;/&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;135.950008&#34; x=&#34;471.233361&#34;&gt;Amplifier&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g id=&#34;lfo&#34;&gt;
+      &lt;rect x=&#34;418.199995&#34; y=&#34;18.887489&#34; width=&#34;107&#34; height=&#34;34.812501&#34;/&gt;
+      &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; y=&#34;44.39374&#34; x=&#34;471.699948&#34;&gt;LFO&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;polyline points=&#34;471.92401123046875,90.19999694824219 471.70001220703125,73.20000457763672 471.47601318359375,56.20001220703125 &#34; marker-start=&#34;url(#arrowhead)&#34;/&gt;
+  &lt;polyline points=&#34;228.42401123046875,145.51251220703125 228.20001220703125,128.51250457763672 227.97601318359375,111.51250457763672 &#34; marker-start=&#34;url(#arrowhead)&#34; transform=&#34;rotate(-90, 228.2, 128.512)&#34;/&gt;
+  &lt;polyline points=&#34;386.42401123046875,144.95001220703125 386.20001220703125,127.94999694824219 385.97601318359375,110.94999694824219 &#34; marker-start=&#34;url(#arrowhead)&#34; transform=&#34;rotate(-90, 386.2, 127.95)&#34; /&gt;
+  &lt;text x=&#34;493&#34; y=&#34;95&#34; class=&#34;small&#34; text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34; &gt;gain&lt;/text&gt;
+  &lt;text x=&#34;137.399994&#34; y=&#34;31.200012&#34;  text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34;/&gt;
+  &lt;g &gt;
+   &lt;rect x=&#34;102.700025&#34; y=&#34;18.19999&#34; width=&#34;107&#34; height=&#34;34.999999&#34; /&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; class=&#34;medium&#34; y=&#34;42&#34; x=&#34;157&#34;&gt;Random curve&lt;/text&gt;
+   &lt;polyline points=&#34;156.42404174804688,89.70001220703125 156.20004272460938,72.70001220703125 155.97604370117188,55.70001220703125 &#34; marker-start=&#34;url(#arrowhead)&#34; /&gt;
+  &lt;/g&gt;
+  &lt;g &gt;
+   &lt;rect x=&#34;259.699995&#34; y=&#34;18.82499&#34; width=&#34;107&#34; height=&#34;34.999999&#34; /&gt;
+   &lt;text xml:space=&#34;preserve&#34; text-anchor=&#34;middle&#34; class=&#34;medium&#34; y=&#34;42&#34; x=&#34;312&#34;&gt;Random curve&lt;/text&gt;
+   &lt;polyline points=&#34;313.42401123046875,90.32501220703125 313.20001220703125,73.32501220703125 312.97601318359375,56.32501220703125 &#34; marker-start=&#34;url(#arrowhead)&#34;/&gt;
+  &lt;/g&gt;
+  &lt;text x=&#34;192&#34; y=&#34;95&#34; class=&#34;small&#34; text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34; &gt;frequency&lt;/text&gt;
+  &lt;text x=&#34;350&#34; y=&#34;95&#34; class=&#34;small&#34; text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34;&gt;frequency&lt;/text&gt;
+  &lt;polyline points=&#34;544.3989868164062,145.4562530517578 544.1749877929688,128.4562530517578 543.9509887695312,111.45624542236328 &#34; marker-start=&#34;url(#arrowhead)&#34; transform=&#34;rotate(-90, 544.174, 128.456)&#34; /&gt;
+  &lt;text x=&#34;596.262466&#34; y=&#34;136.500015&#34;  text-anchor=&#34;middle&#34; xml:space=&#34;preserve&#34;&gt;Out&lt;/text&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also a random curve going to the LFO rate, and random choices of oscillator waveform and filter type.&lt;/p&gt;
+
+&lt;p&gt;First, we have to create an &lt;code&gt;AudioContext&lt;/code&gt;, which is our way into the API. The AudioContext creates our oscillators and other nodes, co-ordinates timing, handles routing, and sends the sound to the speakers. So it&amp;rsquo;s pretty clever, and it&amp;rsquo;s the central object you&amp;rsquo;ll work with in Web Audio. (In Safari, it&amp;rsquo;s a &lt;code&gt;webkitAudioContext&lt;/code&gt; instead, though it works in the same way.) So this is how we get hold of it:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;AudioContext&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;webkitAudioContext&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And this is how we use it to create audio nodes:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createBiquadFilter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createGain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Connecting them up is easy too. Just use the source audio node&amp;rsquo;s &lt;code&gt;connect&lt;/code&gt; function to plug it into the next one. The final node connects to &lt;code&gt;context.destination&lt;/code&gt;, which is the main output:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;destination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We choose the waveforms for the oscillator and LFO randomly from the four predefined types: sine, square, sawtooth and triangle. Likewise, we choose the filter type from lowpass, highpass, bandpass and allpass. The filter Q is also random, between 10 and 42. I chose thse bounds by trial and error - although the Q can go up to 1000, anything higher leads to self-oscillation, and it drowns out the actual oscillator. Anything lower than 10 just isn&amp;rsquo;t so much fun.&lt;/p&gt;
+
+&lt;p&gt;Here are the random generator functions I used for those:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Random number between min and max&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Returns the name of one of the four standard oscillator waveforms&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomOscType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;sine&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;square&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.75&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;sawtooth&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;triangle&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Returns the name of one of the four standard filter types&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFilterType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;lowpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;highpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.75&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;bandpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;allpass&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There are three &lt;code&gt;Float32Array&lt;/code&gt;s of frequencies: one for the oscillator frequency, one for the filter cutoff, and one for the amplifier LFO frequency. These audio nodes are picky; they won&amp;rsquo;t &lt;a href=&#34;#duck-type&#34;&gt;duck-type&lt;/a&gt; ordinary arrays of numbers into these exotic typed structures. We choose random lengths for the arrays (within appropriate limits), and fill them with random frequencies. For the LFO, the &lt;code&gt;randomBetween&lt;/code&gt; function we used for the array lengths and note length will do just fine for the frequency generation. But for the audio frequencies of the oscillator and filter, we need something extra. Because an octave is a doubling in frequency, each successive semitone interval is a bigger leap in terms of Hz. This means that if we just pick random numbers in the audio range (I chose a comfortable 80 to 3200 Hz), they will tend to be many more high notes than low. To get around that, I raise 2 to the power of the raw random number (which is between 0 and 1). That gives a number between 1 and 2, but tending towards the lower end of the range. Take away 1 and stretch it up to the range we want, and it gives a nice even spread of pitches.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/**&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;Random audio frequency between 80 and 3200&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFrequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;c1&#34;&gt;// Weighted random number for audio taper&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3120&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rnd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;80&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;These Float32Arrays get interpolated into &lt;a href=&#34;#a-rate&#34;&gt;a-rate&lt;/a&gt; curves when we pass them into &lt;code&gt;setValueCurveAtTime&lt;/code&gt; on the frequency property of an oscillator or filter.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the &lt;code&gt;play()&lt;/code&gt; function, which sets up the note and plays it.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;play&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;c1&#34;&gt;// length of sound in seconds&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; 
+	
+	&lt;span class=&#34;c1&#34;&gt;// Set up the audio nodes we need&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createOscillator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createBiquadFilter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createGain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomOscType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomOscType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFilterType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Q is an a-rate param, so to set it to a constant level use Q.value.&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Wire them up&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;destination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// List of 2 to 8 frequencies. An ordinary array won&amp;#39;t work.&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Float32Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFrequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Sweep the oscillator to each frequency in turn&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;frequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setValueCurveAtTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;freqArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Same for the amplitude LFO, but lower&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Float32Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+	
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;frequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setValueCurveAtTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lfArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;connect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;amp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;gain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// And the filter frequency&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Float32Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomBetween&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+	
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomFrequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	
+	&lt;span class=&#34;nx&#34;&gt;fil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;frequency&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setValueCurveAtTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lfArray2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
+	&lt;span class=&#34;c1&#34;&gt;// Start the oscillators&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+	
+	&lt;span class=&#34;c1&#34;&gt;// Set them to stop when we&amp;#39;re finished&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;osc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTime&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;aside class=&#34;side&#34;&gt;&lt;h2 id=&#34;aside-chemical-bothers&#34;&gt;Aside: Chemical bothers&lt;/h2&gt;
+
+&lt;p&gt;What really annoys me most about No Man&amp;rsquo;s Sky is the chemistry. I have no problem with them tweaking the astrophysics so that planets hang around in conveniently tight clusters. I can live with the ubiquitous asteroid fields so dense that space should be effectively opaque in all directions, and with the way the vacuum is cloudy and conducts sound. I can forgive the gravity being the same on all planets and moons, and the lack of gas giants, and the homogeneous climate on each planet, and the abundance of large animals, and the way the intelligent aliens all have a humanoid body shape. They&amp;rsquo;re all gameplay optimisations. But there was absolutely no need to declare that iron, zinc and titanium are all &amp;ldquo;oxide elements&amp;rdquo;. OK, they all form oxides that you might find as ores, but then declaring platinum to be a &amp;ldquo;silicate&amp;rdquo;, plutonium and carbon to be &amp;ldquo;isotopes&amp;rdquo;, and gold and aluminium to be &amp;ldquo;neutral&amp;rdquo; in the same context makes absolutely no sense. All elements are neutral, all elements are isotopes. Many elements form both oxides and silicates. There are tenuous gameplay reasons for classifying elements into four made-up groups, but couldn&amp;rsquo;t they choose names that didn&amp;rsquo;t have a real meaning I&amp;rsquo;d have to grit my teeth and ignore?&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;sound-and-vision&#34;&gt;Sound and vision&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also added some randomisation to the visual, as you probably noticed. It&amp;rsquo;s an SVG image, so JavaScript can manipulate it as a document, just as it can the text on the page. When it&amp;rsquo;s clicked, as well as playing the sound, I change the colour and the text of the &amp;ldquo;iris&amp;rdquo; part of the terminal. To get an equally saturated colour each time, I use the &lt;code&gt;hsla()&lt;/code&gt; notation, rather than the more familiar &lt;code&gt;#BADA55&lt;/code&gt; RGB type. Keeping the &lt;abbr title=&#34;saturation&#34;&gt;s&lt;/abbr&gt;, &lt;abbr title=&#34;lightness&#34;&gt;l&lt;/abbr&gt; and &lt;abbr title=&#34;alpha (opacity)&#34;&gt;a&lt;/abbr&gt; the same, I insert a random hue, like &lt;code&gt;&#39;hsla(&#39; + hue + &#39;,99%,50%,1)&#39;&lt;/code&gt;. The text is picked from a collection of alien-looking but not-too-rare characters, which I hope show up on most systems. If the game designers did this, they&amp;rsquo;d be able to use some properly canon alien writing.&lt;/p&gt;
+
+&lt;p&gt;Just view the source of this page to see the whole script, with the sound and the visual tweaks together.&lt;/p&gt;
+
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;aside id=&#34;duck-type&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;duck-type&#34;&gt;Duck-type&lt;/h3&gt;
+
+&lt;p&gt;What&amp;rsquo;s your favourite duck type? A fancy Mandarin, a sporty Indian Runner, or a plain vanilla Mallard? I like them all. If it looks like a duck and quacks like a duck, it&amp;rsquo;s as good as any other duck. That&amp;rsquo;s one of the principles of JavaScript: that if you want a duck, and you get something that&amp;rsquo;s kind of like a duck, it&amp;rsquo;s good enough. So &lt;code&gt;2 * &#39;2&#39;&lt;/code&gt; is 4, because &lt;code&gt;*&lt;/code&gt; expects numbers, but &lt;code&gt;2 + &#39;2&#39;&lt;/code&gt; is 22, because &lt;code&gt;+&lt;/code&gt; prefers strings. In strongly-typed languages, where a number is just a number and a string is just a string, the right answer to those expressions would be an error message.&lt;/p&gt;
+
+&lt;p&gt;(If you said &amp;ldquo;crispy&amp;rdquo;, you&amp;rsquo;re a heartless bounder.)&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;aside id=&#34;a-rate&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;a-rate-and-k-rate&#34;&gt;A-rate and K-rate&lt;/h3&gt;
+
+&lt;p&gt;These two types of audio parameters are distinguished by the speed at which they change. A-rate is audio-rate, i.e. fast enough to carry a high-quality sound. K-rate is slower, but fast enough to control an audio generator or effect smoothly. The Web Audio API borrows these terms from Csound. See &lt;a href=&#34;https://y6nh.github.io/first-synth-with-csound-cabbage/#variables&#34;&gt;my Csound tutorial&lt;/a&gt; for a fuller explanation of variable types.&lt;/p&gt;
+&lt;/aside&gt;
+
+
+&lt;p&gt;&lt;small&gt;Image credit: my own screenshot of No Man&amp;rsquo;s Sky.&lt;/small&gt;&lt;/p&gt;
+
+&lt;style&gt;
+    main {background: url(/img/nms-planet.jpg) no-repeat 0 2em; background-size: contain;}
+    article.page { background: hsla(195, 4.9%, 16.1%, 0.5) }
+&lt;/style&gt;
+
+&lt;script&gt;
+/*
+ * HERE IS THE SCRIPT YOU ARE LOOKING FOR.
+*/
+
+var context = new (window.AudioContext || window.webkitAudioContext)();
+
+/**
+Random number between min and max
+*/
+function randomBetween(min, max) {
+    min = min || 0;
+    max = max || 1;
+    return Math.random() * (max - min) + min;
+}
+
+/**
+Returns the name of one of the four standard oscillator waveforms
+*/
+function randomOscType() {
+    var rnd = Math.random();
+    if (rnd &lt; 0.25) return &#39;sine&#39;;
+    if (rnd &lt; 0.5) return &#39;square&#39;;
+    if (rnd &lt; 0.75) return &#39;sawtooth&#39;;
+    return &#39;triangle&#39;;
+}
+
+/**
+Returns the name of one of the four standard filter types
+*/
+function randomFilterType() {
+    var rnd = Math.random();
+    if (rnd &lt; 0.25) return &#39;lowpass&#39;;
+    if (rnd &lt; 0.5) return &#39;highpass&#39;;
+    if (rnd &lt; 0.75) return &#39;bandpass&#39;;
+    return &#39;allpass&#39;;
+}
+
+/**
+Random audio frequency between 80 and 3200
+*/
+function randomFrequency() {
+    // Weighted random number for audio taper
+    var rnd = Math.pow(2, Math.random())-1;
+    return 3120 * rnd + 80;
+}
+
+function play() {
+    // length of sound in seconds
+    var length = randomBetween(0.5, 1.5); 
+    
+    // Set up the audio nodes we need
+    var osc = context.createOscillator();
+    var lfo = context.createOscillator();
+    var fil = context.createBiquadFilter();
+    var amp = context.createGain();
+    
+    osc.type = randomOscType();
+    lfo.type = randomOscType();
+    fil.type = randomFilterType();
+    
+    // Q is an a-rate param, so to set it to a constant level use Q.value.
+    // The range is 0.0001 to 1000, but values over 42 are prone to self-oscillation.
+    fil.Q.value = randomBetween(10, 42);
+    
+    // Wire them up
+    osc.connect(fil);
+    fil.connect(amp);
+    amp.connect(context.destination);
+    
+    // List of 2 to 8 frequencies. An ordinary array won&#39;t work.
+    var freqArray = new Float32Array(Math.floor(randomBetween(2, 9)));
+
+    for (var i = 0; i &lt; freqArray.length; i++) {
+        freqArray[i] = randomFrequency();
+    }
+    
+    // Sweep the oscillator to each frequency in turn
+    osc.frequency.setValueCurveAtTime(freqArray, context.currentTime, length);
+    
+    // Same for the amplitude LFO, but lower
+    var lfArray = new Float32Array(Math.floor(randomBetween(1, 4)));
+    
+    for (var i = 0; i &lt; lfArray.length; i++) {
+        lfArray[i] = randomBetween(0, 20);
+    }
+    
+    lfo.frequency.setValueCurveAtTime(lfArray, context.currentTime, length);
+    lfo.connect(amp.gain);
+    
+    // And the filter frequency
+    var lfArray2 = new Float32Array(Math.floor(randomBetween(1, 8)));
+    
+    for (var i = 0; i &lt; lfArray2.length; i++) {
+        lfArray2[i] = randomFrequency();
+    }
+    
+    fil.frequency.setValueCurveAtTime(lfArray2, context.currentTime, length);
+
+    // Start the oscillators
+    osc.start();
+    lfo.start();
+    
+    // Set them to stop when we&#39;re finished
+    osc.stop(context.currentTime + length);
+    lfo.stop(context.currentTime + length);
+}
+
+function writeAlien(length) {
+    length = length || 24;
+    // This is definitely the Gek alphabet. Any resemblance to the basic multilingual plane is coincidental.
+    let chars = &#39;ѰҴϑŁ¶¤ЖӚӠℓ‡Ԓ∫ƢʊʬʯȶϿϡϞӶՃ₰-////&#39;;
+    let result = &#39;&#39;;
+    for (let i = 0; i &lt; length; i++) {
+        let c = Math.floor(randomBetween(0, chars.length));
+        result += chars[c];
+    }
+    return result;
+}
+   
+function changeIris() {
+    let iris = document.getElementById(&#39;iristext&#39;);
+    let hue = Math.floor(Math.random() * 360);
+    iris.style.stroke = &#39;hsla(&#39; + hue + &#39;,99%,50%,1)&#39;;
+    iris.children[0].innerHTML = writeAlien();
+}
+
+
+document.getElementById(&#39;terminal&#39;).onclick = (() =&gt; {play(); changeIris()});
+
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
