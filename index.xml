@@ -16,7 +16,7 @@
       <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://y6nh.github.io/NoMansScience/</guid>
-      <description>&lt;p&gt;In &lt;a href=&#34;https://y6nh.github.io/NoMansBleep/#aside-chemical-bothers&#34;&gt;an aside to a previous post&lt;/a&gt;, I complained about the arbitrary chemistry, physics and biology of No Man&amp;rsquo;s Sky. Recently, I received an answer of sorts from the game itself.&lt;/p&gt;
+      <description>&lt;p&gt;In &lt;a href=&#34;https://y6nh.github.io/NoMansBleep/#aside-chemical-bothers&#34;&gt;an aside to a previous post&lt;/a&gt;, I complained about the arbitrary chemistry of No Man&amp;rsquo;s Sky. Recently, I received an answer of sorts from the game itself.&lt;/p&gt;
 
 &lt;aside class=&#34;hide-box&#34;&gt;
   &lt;label for=&#34;hb_SPOILERS&#34;&gt;SPOILERS&lt;/label&gt;
@@ -32,62 +32,6 @@
 &lt;/aside&gt;
 
 &lt;p&gt;In other words, &lt;em&gt;It&amp;rsquo;s only a game.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mastodon</title>
-      <link>https://y6nh.github.io/mastodon/</link>
-      <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://y6nh.github.io/mastodon/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve joined more social networks than I can remember. Every couple of months, a &amp;ldquo;Facebook killer&amp;rdquo; or &amp;ldquo;New Twitter&amp;rdquo; comes along; I join up, maybe post a couple of messages, then have no particular reason to go back, because all my friends are still on the very-much-alive Facebook, and all the interesting people are still on the old Twitter. The people who join new social networks are mostly boring web techies like me, and we just want to go along and kick the tyres, and see whether anyone interesting turns up.&lt;/p&gt;
-
-&lt;p&gt;But with Mastodon, it&amp;rsquo;s different. I joined last October, didn&amp;rsquo;t post anything, had a quick look around and forgot about it, as usual. But then, two weeks ago, something happened. I&amp;rsquo;m not sure what, really - but there was a buzz. I saw an article mentioning Mastodon, then another - and this time, it was really taking off.&lt;/p&gt;
-
-&lt;p&gt;Yesterday, Mastodon passed 400,000 users. A week before that, it passed 200,000, and a week before that, 100,000. Twitter has over 300 million, so there&amp;rsquo;s a long way for it to go before it becomes a real &amp;ldquo;public utility&amp;rdquo; contender on that scale, but that&amp;rsquo;s seriously impressive growth.&lt;/p&gt;
-
-&lt;p&gt;When &lt;a href=&#34;#birdsite&#34;&gt;Twitter&lt;/a&gt; started, limiting messages to 140 characters seemed like an inconvenient restriction that would hamper the platform&amp;rsquo;s uptake. Of course, that limitation turned out to be one of Twitter&amp;rsquo;s great strengths, forcing people to use it for quick, easily-digestible updates. You couldn&amp;rsquo;t write a blog there, and so, as a reader, you can take in hundreds of tweets in a few minutes.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;#unique&#34;&gt;unique&lt;/a&gt; selling point of Mastodon also seems like a disadvantage. It&amp;rsquo;s decentralised, so there is no one URL where everyone goes to access it. You have to choose an instance (from the hundreds in existence) to be your home, and which one you choose affects which other instances you can see. It makes the joining process that much more complicated, and you&amp;rsquo;re likely to join a few before you find the one where you fit in.&lt;/p&gt;
-
-&lt;p&gt;But there is an instance for you. There are the big general-interest servers like mastodon.social, mastodon.cloud, mastodon.xyz, toot.cafe and octodon.social. There&amp;rsquo;s toot.cat if you love cats, tootmusic.com if you make music, creativity.cafe, icosahedron.website or mastodon.art for artists. If you&amp;rsquo;re a furry, investigate awoo.space; if you&amp;rsquo;re a cyberpunk, you might like cybre.space; or if you&amp;rsquo;re a witch, witches.town. Or try anticapitalist.party, shitposter.club, a.weirder.earth, social.tagaryen.house or glitch.social, according to taste.&lt;/p&gt;
-
-&lt;p&gt;Because the software is open-source, the owner of the instance can modify it to enforce certain rules. On oulipo.social, the letter E is banned. On ephemeral.glitch.social, each &lt;a href=&#34;#toot&#34;&gt;toot&lt;/a&gt; disappears after a certain amount of time, depending on the phase of the moon.&lt;/p&gt;
-
-&lt;p&gt;There are location-based instances, too. The UK has mastodon.org.uk, but the really big regional servers are the Japanese ones. Two instances, mstdn.jp and pawoo.net, took off from nothing a couple of weeks ago to become the biggest in the federation. Mastodon is bewilderingly big in Japan.&lt;/p&gt;
-
-&lt;p&gt;So not having the same experience as everyone else becomes an advantage. You associate most closely with people on your instance, who have similar interests, and also with people on other friendly instances. If someone becomes abusive, they can be thrown off the server. If an instance starts to attract a lot of abusive people (and it will happen), then it will be blocked by mainstream servers. Free speech is protected, because anyone can set up a new instance with its own moderation rules, or none. But freedom from harassment is also protected - you can mute or block individual users, and your instance administrators can block entire servers.&lt;/p&gt;
-
-&lt;p&gt;Twitter&amp;rsquo;s monolithic structure looks less attractive if you&amp;rsquo;re a victim of online abuse, and there are no walls to separate you from the bullies. At this confrontational time in world politics, with the far right on the rise, Mastodon provided the shelter a lot of people needed. So many of the first 100,000 are LGBTQI+, or have a mental illness, or have spoken out against injustice and been threatened in return, or otherwise just don&amp;rsquo;t feel welcome in the Twitter mainstream. My theory is that this influx of refugees was a big part of Mastodon&amp;rsquo;s sudden growth. The big instances are all diversity-friendly and promise to evict abusive members.&lt;/p&gt;
-
-&lt;p&gt;The federation of small servers has other advantages. While Twitter devalues its service with adverts in an attempt to become profitable, Mastodon keeps a healthy distance from commerce. It can do this because each instance is a manageable hobby project. It doesn&amp;rsquo;t need to monetize itself, because anyone can set up a server cheaply. It has no venture capital to pay back, no offices, no salaries, no server farms. Instances may go down (and we still have to see what would happen in that case), but the system will stick around as long as people want it.&lt;/p&gt;
-
-&lt;p&gt;This is the kind of post which will be out of date before it&amp;rsquo;s published. Mastodon moves so quickly - new features, new instances, new people, new jokes and memes.&lt;/p&gt;
-
-&lt;p&gt;I have to get back there.&lt;/p&gt;
-
-&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
-
-&lt;aside id=&#34;birdsite&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
-
-&lt;p&gt;Twitter is known as Birdsite or Birbsite on Mastodon.&lt;/p&gt;
-&lt;/aside&gt;
-
-
-&lt;aside id=&#34;unique&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;unique&#34;&gt;Unique&lt;/h3&gt;
-
-&lt;p&gt;I say unique. Mastodon is not really unique, because it&amp;rsquo;s based on &lt;a href=&#34;https://gnu.io/social/&#34;&gt;GnuSocial&lt;/a&gt;, which was started in 2010. GnuSocial, like many Gnu projects, is a great idea, implemented in a way only hackers could love, and kept more-or-less secret. Richard Stallman uses it, but, sadly, that&amp;rsquo;s only a draw for a relatively small number of people.&lt;/p&gt;
-&lt;/aside&gt;
-
-
-&lt;aside id=&#34;toot&#34; class=&#34;footnote&#34;&gt;&lt;h3 id=&#34;toot&#34;&gt;Toot&lt;/h3&gt;
-
-&lt;p&gt;A toot is Mastodon&amp;rsquo;s equivalent of a tweet. It&amp;rsquo;s up to 500 characters, hence the deeper tone.&lt;/p&gt;
-&lt;/aside&gt;
-
 </description>
     </item>
     
