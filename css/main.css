@@ -112,6 +112,8 @@ aside, blockquote, .hide-box {
   box-shadow: 0 1px 4px 1px rgba(8, 16, 18, 0.5);
   border-left: 0.5rem solid #998b66;
   background: #3e3c38; }
+  aside img, blockquote img, .hide-box img {
+    margin: 0 0 0.5em; }
 
 aside pre, aside code, aside kbd, aside samp, blockquote pre, blockquote code, blockquote kbd, blockquote samp, .hide-box pre, .hide-box code, .hide-box kbd, .hide-box samp {
   background: #272a2b; }

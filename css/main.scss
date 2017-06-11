@@ -176,6 +176,10 @@ aside, blockquote, .hide-box {
    box-shadow: 0 1px 4px 1px $colour-shadow;
    border-left: 0.5rem solid $colour-yellow-dim;
    background: $colour-offblack-yellow;
+   
+   img {
+	margin: 0 0 0.5em;
+   }
 }
 
 aside pre, aside code, aside kbd, aside samp, blockquote pre, blockquote code, blockquote kbd, blockquote samp, .hide-box pre, .hide-box code, .hide-box kbd, .hide-box samp {
