@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on y6nH&#39;s pages</title>
+    <link>https://y6nh.github.io/tags/rant/index.xml</link>
+    <description>Recent content in Rant on y6nH&#39;s pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>You are free to reuse this content under the &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;license&#34;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; licence.</copyright>
+    <atom:link href="https://y6nh.github.io/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agile (how not to)</title>
+      <link>https://y6nh.github.io/Agile/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://y6nh.github.io/Agile/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;The following tirade is the result of years working in badly-implemented Agile environments, and the sneaking suspicion that there is no other kind.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;childskeletonfactory&#34;&gt;ChildSkeletonFactory&lt;/h2&gt;
+
+&lt;p&gt;In software, we like to be agile. Not literally, not in any way that involves physical movement beyond the coffee machine, but metaphorically. We like metaphors, preferably more than one at a time, and so code is full of picturesque objects like factories, dictionaries, trees, bootstraps, threads, skeletons, children, containers, watchdogs and so on. At best, they&amp;rsquo;re combined into monstrosities like ThreadDictionaryContainer and ChildSkeletonFactory. Anyway, Agile, in software terms, is a way for us developers to feel like ninjas without all the tedious fitness and discipline. It is, to be perfectly frank, a way of organising software projects.&lt;/p&gt;
+
+&lt;p&gt;Before there was Agile, there was the universally derided Waterfall. Waterfall meant trying to finish stuff before selling it. Of course, this never worked; every piece of software there has ever been is, to varying degrees, incomplete and broken. So Agile embraces this fact, making a virtue of deliberately releasing stuff while it&amp;rsquo;s still full of bugs and missing features. Then you see whether anybody notices. Since you didn&amp;rsquo;t document what it was supposed to do in the first place, they might not.&lt;/p&gt;
+
+&lt;p&gt;Managers love Agile. It sounds progressive, doesn&amp;rsquo;t it? Who wouldn&amp;rsquo;t want to synergistically leverage an Agile methodology? Buzzwords aside, they love it because it reduces admin. It reduces admin by getting the developers to do it, while giving managers some slick charts to show to &lt;em&gt;their&lt;/em&gt; managers. Agile means that the managers don&amp;rsquo;t have to write a specification. The developers talk to the customers and hammer it out that way. Or actually, since there probably aren&amp;rsquo;t any customers yet, they make it up themselves. Still, probably better than whatever the managers would have come up with. Meanwhile, the managers keep themselves busy writing blogs about how effectively they manage their Agile projects, and eventually quit and start lucrative careers as consultants, explaining to other companies how to synergistically leverage Agile methodologies in turn.&lt;/p&gt;
+
+&lt;h2 id=&#34;i-d-be-committed&#34;&gt;I&amp;rsquo;d Be Committed&lt;/h2&gt;
+
+&lt;p&gt;Naturally, the lack of any plan to speak of can cause tensions between the developers and their (potentially imaginary) customers. In the Agile world, we refer to the customers as &amp;lsquo;chickens&amp;rsquo; and the developers as &amp;lsquo;pigs&amp;rsquo;. Well, &lt;em&gt;I&lt;/em&gt; don&amp;rsquo;t, I&amp;rsquo;m not a consultant. More formally, like if you ever get to meet one, the chickens are known as stakeholders, because they&amp;rsquo;ll come after you with a pointèd stick if you don&amp;rsquo;t produce enough code-bacon. As a developer, you can fight back using a &amp;lsquo;spike&amp;rsquo; to keep them at bay. A spike is a metaphor, of course, so you don&amp;rsquo;t get a real one. Instead, it&amp;rsquo;s a kind of universal excuse for not getting any code written, while you try to work out what the hell the project is supposed to be about, or whether the latest hot technology the management insist that you use (Mycoservices or Spork or Recat or whatever) is actually relevant in any way.&lt;/p&gt;
+
+&lt;p&gt;To mitigate the chaos, one of the developers takes on the role of Scrum Master, which is like a manager but on a developer&amp;rsquo;s salary. The Scrum Master has to keep the chickens away from the pigs, so that the pigs can keep their noses in the trough, i.e. coding. Why Scrum Master, not cow or goat or another barnyard animal? Because, perhaps realising that it never ends well for a pig or a chicken, the metaphors here take a turn away from farming and into sport.&lt;/p&gt;
+
+&lt;h2 id=&#34;hangman-s-cricket&#34;&gt;Hangman&amp;rsquo;s Cricket&lt;/h2&gt;
+
+&lt;p&gt;The most common way to do Agile is called Scrum. Nobody really explained rugby to me at school, we were just expected, as boys, for it to come naturally. So my memories of the actual scrum are of wearing little shorts in a cold muddy field, while the scrum master (i.e. the geography master in a tracksuit) told us which boy&amp;rsquo;s head went between which boy&amp;rsquo;s thighs, then engage and push! Then something happens with the ball, you run around for a bit, somebody falls in the mud and you start all over again. The metaphor is far from transparent.&lt;/p&gt;
+
+&lt;p&gt;But then, it&amp;rsquo;s not really rugby, it&amp;rsquo;s running. Remember &amp;ldquo;It&amp;rsquo;s a marathon, not a sprint&amp;rdquo;? That&amp;rsquo;s out of date, Daddio. Totally Waterfall. With Agile, it&amp;rsquo;s always a sprint. You sprint and sprint and iterate and reiterate pretty much forever. A sprint is an allotted time, after which you (pigs) should have hacked together (gorged) something (pork) functional (fat) enough to release (slaughter). There isn&amp;rsquo;t a standard length for a sprint, but the consensus is that three weeks is too short and two weeks is too long.&lt;/p&gt;
+
+&lt;h2 id=&#34;horsicle&#34;&gt;Horsicle&lt;/h2&gt;
+
+&lt;p&gt;But then, it&amp;rsquo;s not really running, it&amp;rsquo;s darts. It&amp;rsquo;s all about the board. The board is where you organise what passes for a specification this week. Except that it&amp;rsquo;s not darts, there are swim lanes on the board because you&amp;rsquo;re doing Scrumban and&amp;hellip; let&amp;rsquo;s back up a bit. Relieved of any actual managing to do, the manager&amp;rsquo;s role becomes one of defining the process. And they like to keep their hand in, so that will happen constantly. Every sprint, there&amp;rsquo;ll be something slightly different: a new report to fill in, a different arrangement of the board, another level of work items, something like that. At some point, they&amp;rsquo;ll try Kanban. Kanban means you stop doing sprints and start just producing stuff that somebody needs, just when they need it. Sadly, it won&amp;rsquo;t work either, because nobody knows what they need until it&amp;rsquo;s too late, and the managers will get worried because the charts and reports stop flowing. So they&amp;rsquo;ll take the best features of these two super-efficient Agile systems, Scrum and Kanban, and combine them into one. Think of a bicycle and a horse, two ways of getting somewhere faster. Now combine them: a horse on a bicycle! A horsicle! That&amp;rsquo;s Scrumban.&lt;/p&gt;
+
+&lt;p&gt;Assuming your team has a board, you&amp;rsquo;re going to need to put some points on it. What do points mean? Prizes! No, actually, nobody knows what points mean, that would spoil the fun. They&amp;rsquo;re called &lt;em&gt;story points&lt;/em&gt;, because everyone makes up their own story about what they&amp;rsquo;re worth. They&amp;rsquo;re used to measure effort, so naturally they&amp;rsquo;re worth a certain number of hours of work. Except that you&amp;rsquo;re not allowed to say that. Beings so transcendentally Agile that they have no need of time units are able to measure the &lt;em&gt;bigness&lt;/em&gt; of a task in abstract, unitless numbers. The rest of us, constantly striving for that Agile-nature, have to play poker until we get it. The poker is not another sharp implement, it&amp;rsquo;s an actual card game; it&amp;rsquo;s only slightly metaphorical this time. It&amp;rsquo;s a version of poker where everyone has the same hand, the deck is nonsense and nobody wins. Planning Poker cards are numbered &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;, 1, 2, 3, 5, 8, 13, 20 and 40 - a demonstration of what happens when an agile team writes a Fibonacci sequence function (&amp;ldquo;The customer says 21 isn&amp;rsquo;t round enough, can we make it 20 instead?&amp;rdquo;). These numbered cards are for bluffing. There are also some truthful cards, for emergencies: one marked &lt;strong&gt;∞&lt;/strong&gt;, for &amp;ldquo;this will take forever&amp;rdquo;, one marked &lt;strong&gt;?&lt;/strong&gt;, for &amp;ldquo;I have no idea&amp;rdquo;, one marked &lt;strong&gt;0&lt;/strong&gt;, for &amp;ldquo;We&amp;rsquo;ve already done it without telling you&amp;rdquo;, and one marked &lt;strong&gt;⛾&lt;/strong&gt;, for &amp;ldquo;We&amp;rsquo;re going to need more coffee&amp;rdquo;. But mostly, you try to second-guess which number the scrum master is going to play, and copy them, because if you choose something different you&amp;rsquo;ll be asked to justify your maverick opinions.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-sizzle&#34;&gt;The Sizzle&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;(Reader&amp;rsquo;s voice:) But this is just Agile done badly. What if it&amp;rsquo;s done well? Isn&amp;rsquo;t there a good system under all the mixed metaphors?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know. I hope so. And it may exist: that airy and well-lit office, where a diverse but universally good-looking team of rockstar ninja developers, powered by artisanal coffee, spike and sprint and swim together to synergistic success, under the admiring gaze of their visionary and enabling management. I&amp;rsquo;ve never seen it, but I can&amp;rsquo;t prove a negative. We all hope it&amp;rsquo;s somewhere out there. This hope, this Utopia, this perfect workplace, is the sizzle the consultants will sell you. You&amp;rsquo;ve just got to ask this question: &lt;em&gt;what&amp;rsquo;s in the sausage?&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

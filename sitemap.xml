@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y6nh.github.io/Agile/</loc>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://y6nh.github.io/NoMansScience/</loc>
     <lastmod>2017-06-11T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +39,12 @@
   <url>
     <loc>https://y6nh.github.io/first-synth-with-csound-cabbage/</loc>
     <lastmod>2016-08-10T00:07:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/agile/</loc>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -79,8 +90,20 @@
   </url>
   
   <url>
+    <loc>https://y6nh.github.io/tags/humour/</loc>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://y6nh.github.io/tags/javascript/</loc>
     <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://y6nh.github.io/tags/rant/</loc>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,7 +138,7 @@
   
   <url>
     <loc>https://y6nh.github.io/</loc>
-    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
